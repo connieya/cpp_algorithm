@@ -13,7 +13,7 @@ int main()
         bool flag = true;
         for (int i=0; i<len-1; i++){
             alpha[str[i]-'a']++;
-            if(str[i] != str[i+1] && str[i+1] > 0){
+            if(str[i] != str[i+1] && alpha[str[i+1]-'a'] > 0){
                 flag = false;
                 break;
             }
