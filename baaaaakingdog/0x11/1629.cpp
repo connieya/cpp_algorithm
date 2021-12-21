@@ -15,7 +15,9 @@ int main(void) {
     ll ans = 1;
     scanf("%d %d %d", &a, &b, &c);
     while (b--) {
+        printf("%d  ",ans*a);
         ans = (ans * a) % c;
+        printf("%d\n",ans);
     }
     printf("%lld", ans);
 }
