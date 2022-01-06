@@ -18,7 +18,13 @@
 - [전보](./ch09/telegram.cpp)
 
 ## chapter 10 그래프 이론
-
+- [서로소 집합 알고리즘](./ch10/union_find.cpp)
+- [서로소 집합을 활용한 사이클 판별](./ch10/cycle.cpp)
+- [크루스칼 알고리즘](./ch10/kruskal.cpp)
+- [위상 정렬](./ch10/tp.cpp)
+- [팀결성](./ch10/team.cpp)
+- [도시 분활 계획](./ch10/1647.cpp)
+- [커리큘럼](./ch10/curri.cpp)
 ## chapter 13 DFS/BFS 문제
 - [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)
 - [연구소](https://www.acmicpc.net/problem/14502)
@@ -32,3 +38,8 @@
   - [STL 사용](./ch15/sort_array_count_stl.cpp)
 - [고정점 찾기](./ch15/fix_point.cpp)
 - [공유기 설치]()
+
+## chapter 17 최단 경로 문제
+- [플로이드](./ch17/11404.cpp)
+- [화성탐사](./ch17/mars.cpp)
+- [숨바꼭질](./ch17/hide_and_seek.cpp)
