@@ -43,3 +43,17 @@
 - [플로이드](./ch17/11404.cpp)
 - [화성탐사](./ch17/mars.cpp)
 - [숨바꼭질](./ch17/hide_and_seek.cpp)
+
+## chapter 18 그래프 이론 문제
+
+- [여행 계획](./ch18/plan.cpp)
+- [탑승구]()
+- [행성 터널](./ch18/planet.cpp)
+
+## 기타 알고리즘
+
+- [특정한 합을 가지는 부분 연속 수열 찾기](./etc/twopointer1.cpp)
+- [정렬되어 있는 두 리스트 합치기](./etc/towpointer2.cpp)
+- 구간 합
+  - [1.me](./etc/prefix_sum.cpp)
+  - [2.ndb](./etc/prefix_sum2.cpp)
