@@ -19,8 +19,8 @@ int main(void) {
     for (int i = 1; i < n; ++i) {
         d[i] =1;
         for (int j = 0; j < i; ++j) {
-            if (a[i] > a[j] && d[j]+1 > d[i]) {
-                    d[i] = d[j]+1;
+            if (a[i] < a[j] && d[j]+1 > d[i]) {
+                d[i] = d[j]+1;
             }
         }
         ans = max(ans, d[i]);

@@ -1,21 +1,33 @@
-﻿#include "stdio.h"
-#include "algorithm"
+﻿#include "bits/stdc++.h"
 
 using namespace std;
 
-int main(void) {
-    int n;
-    scanf("%d", &n);
-    int dp[n + 1];
-    dp[1] = 0;
-    for (int i = 2; i <= n; ++i) {
-        dp[i] = dp[i - 1] + 1;
-        if (i % 3 == 0) {
-            dp[i] = min(dp[i / 3] + 1, dp[i]);
-        }
-        if (i % 2 == 0) {
-            dp[i] = min(dp[i / 2] + 1, dp[i]);
+int d[1000000];
+
+int fn(int n) {
+    if (n == 1) {
+        return 0;
+    }
+    if (d[n] > 0) return d[n];
+    d[n] = fn(n-1) + 1;
+
+    if (n % 3 == 0) {
+        int tmp = fn(n / 3) +1;
+        if (d[n] > tmp) {
+            d[n] = tmp;
         }
     }
-    printf("%d", dp[n]);
+    if (n % 2 == 0) {
+        int tmp = fn(n / 2) +1;
+        if (d[n] > tmp) {
+            d[n] = tmp;
+        }
+    }
+    return d[n];
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << fn(n);
 }
