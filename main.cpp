@@ -4,11 +4,14 @@ using namespace std;
 
 int main()
 {
-    map<int,int> m;
-    m[15] =23;
-    m[13]++;
-    cout << m[15] << '\n';
-    cout << m[13] << '\n';
-    cout << m[11] << '\n';
-
+    vector<int> v;
+    vector<int> a;
+    a.push_back(2);
+    a.push_back(12);
+    a.push_back(22);
+    v = a;
+    cout << v.size() << '\n';
+    for (int j: v) {
+        cout << j << '\n';
+    }
 }

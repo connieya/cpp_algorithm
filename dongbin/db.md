@@ -1,5 +1,11 @@
 ﻿# 동빈북
 
+## chapter 04 구현
+- [상하좌우](./ch04/updown.cpp)
+- [시각](./ch04/clock.cpp)
+- [왕실의나이트](./ch04/knite.cpp)
+- [게임 개발](./ch04/game.cpp)
+
 ## chapter 07 이진 탐색
 
 - [재귀로 구현한 이진 탐색](./ch07/recursive.cpp)
@@ -25,6 +31,12 @@
 - [팀결성](./ch10/team.cpp)
 - [도시 분활 계획](./ch10/1647.cpp)
 - [커리큘럼](./ch10/curri.cpp)
+
+## chapter 12 구현 문제
+- [럭키 스트레이트](./ch12/lucky.cpp)
+- [문자열 재정렬](./ch12/str_sort.cpp)
+- [자물쇠와 열쇠](./ch12)
+
 ## chapter 13 DFS/BFS 문제
 - [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)
 - [연구소](https://www.acmicpc.net/problem/14502)
@@ -47,7 +59,7 @@
 ## chapter 18 그래프 이론 문제
 
 - [여행 계획](./ch18/plan.cpp)
-- [탑승구]()
+- [탑승구](./ch18/airport.cpp)
 - [행성 터널](./ch18/planet.cpp)
 
 ## 기타 알고리즘
