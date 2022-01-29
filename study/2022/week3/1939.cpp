@@ -2,39 +2,54 @@
 
 using namespace std;
 
-int d[10000];
+vector<pair<int,int>> graph[10001];
+bool visited[10001];
+int x,y;
+
+bool bfs(int cost) {
+    visited[x] = true;
+    queue<int> Q;
+    Q.push(x);
+    while (!Q.empty()){
+        int now = Q.front();
+        Q.pop();
+        if(now == y) return true;
+        for (auto nxt : graph[now]) {
+            int next = nxt.first;
+            int next_cost = nxt.second;
+            if(!visited[next] && cost <= next_cost) {
+                visited[next] = true;
+                Q.push({next});
+            }
+
+        }
+    }
+    return false;
+}
 
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n, m, x, y;
+    int n, m, start = 0, end = 0;
     cin >> n >> m;
-    cout << n << m;
-    vector<pair<int, int>> bridge[10001];
     for (int i = 0; i < m; ++i) {
-        int a, b, c;
-        cin >> a >> b >> c;
-        bridge[a].emplace_back(b, c);
-    }
+        int a, b, cost;
+        cin >> a >> b >> cost;
+        graph[a].push_back({b, cost});
+        graph[b].push_back({a, cost});
+        end = max(end, cost);
+     }
     cin >> x >> y;
-    fill(d,d+10000,-1);
-    priority_queue<pair<int ,int>> pq;
-    pq.push({0,x});
-    while (!pq.empty()) {
-        auto cur = pq.top();
-        pq.pop();
-        int now = cur.second;
-        int weight =cur.first;
-        if (d[now] > weight ) continue;
-        for (auto next : bridge[now]) {
-            int next_bridge = next.first;
-            int next_weight = next.second;
-            if (d[next_bridge] < next_weight+weight) {
-                d[next_bridge] = next_weight + weight;
-                pq.push({next_weight+weight , next_bridge});
-            }
+    while (start <= end) {
+        int mid = (start + end) /2;
+        fill(visited,visited+10001,false);
+        if(bfs(mid)){
+            start = mid+1;
+        }else {
+            end = mid-1;
         }
     }
-    cout << d[y];
+    cout << end;
+
 }
