@@ -10,11 +10,13 @@ int main()
     int N,L ,x = -1,len = -1;
     cin >> N >> L;
     for (int i = L; i <= 100; ++i) {
-        int tmp =  i*(i+1)/2;
+        int tmp =  i*(i-1)/2;
+        if(tmp > N){
+            break;
+        }
         if((N-tmp ) %  i == 0 && (N-tmp)/i >= 0){
             x = (N-tmp)/i;
             len = i;
-            cout << tmp << ' ' << x << ' ' << len << '\n';
             break;
         }
     }
