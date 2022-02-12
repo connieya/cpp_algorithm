@@ -3,20 +3,8 @@
 using namespace std;
 
 int n,s,m;
-int arr[51];
-int ans = 0;
-void dfs(int L , int sum){
-    if(L == n){
-        ans = max(ans ,sum);
-        return;
-    }
-    if (sum + arr[L] <= m){
-        dfs(L+1,sum+arr[L]);
-    }
-    if (sum - arr[L] >= 0) {
-        dfs(L+1, sum-arr[L]);
-    }
-}
+int arr[52];
+bool check[52][1001];
 
 int main()
 {
@@ -24,13 +12,27 @@ int main()
     cin.tie(0);
     cout.tie(0);
     cin >> n >> s >> m;
-    for (int i = 0; i < n; ++i) {
+    for (int i = 1; i <= n; ++i) {
         cin >> arr[i];
     }
-    dfs(0,s);
-    if (ans == 0) {
-        cout << -1;
-    } else {
-        cout << ans;
+        check[0][s] = true;
+    for (int i = 1; i <= n; ++i) {
+        for (int j = 0; j <= m; ++j) {
+            if (check[i-1][j]) {
+                if (j+arr[i] <= m){
+                    check[i][j+arr[i]] = true;
+                }
+                if (j-arr[i] >= 0){
+                    check[i][j-arr[i]] = true;
+                }
+            }
+        }
     }
+    int ans = -1;
+    for (int i = 0; i <=m; ++i) {
+        if(check[n][i]){
+            ans = max(ans,i);
+        }
+    }
+    cout << ans;
 }
