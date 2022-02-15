@@ -159,11 +159,11 @@ CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 // during RELWITHDEBINFO builds.
 CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
-//If set, runtime paths are not added when installing shared libraries,
+//If rotate_gear, runtime paths are not added when installing shared libraries,
 // but are added when building.
 CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 
-//If set, runtime paths are not added when using shared libraries.
+//If rotate_gear, runtime paths are not added when using shared libraries.
 CMAKE_SKIP_RPATH:BOOL=NO
 
 //Flags used by the linker during the creation of static libraries
