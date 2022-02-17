@@ -1,0 +1,12 @@
+﻿Definition of brute-force
+: relying on or achieved through the application of force, effort, or power in usually large amounts instead of more efficient, carefully planned, or precisely directed methods
+… in fighting cancer they will substitute precisely targeted “magic bullets” for the present brute-force and often risky techniques of radiation and chemical therapy.
+— Gene Bylinsky, Fortune, 27 Apr. 1987
+Until now, the only way to gain faster performance has been to spin the disk faster. This brute-force approach, however, is limited.
+— S. Jae Yang et al., PC Magazine, 1 Sept. 1998
+What's a Brute Force Attack?
+A brute force attack uses trial-and-error to guess login info, encryption keys, or find a hidden web page. Hackers work through all possible combinations hoping to guess correctly.
+
+These attacks are done by ‘brute force’ meaning they use excessive forceful attempts to try and ‘force’ their way into your private account(s).
+
+This is an old attack method, but it's still effective and popular with hackers. Because depending on the length and complexity of the password, cracking it can take anywhere from a few seconds to many years.
