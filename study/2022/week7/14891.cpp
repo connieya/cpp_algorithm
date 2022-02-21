@@ -3,69 +3,81 @@
 using namespace std;
 
 int gear[5][10];
-bool check[5];
+bool checked[5];
+bool visited[5];
 int direction[5];
 
-void rotate_gear(int num, int r) {
-    check[num] = true;
-    direction[num] = r;
-    if (num - 1 > 0 && gear[num][6] != gear[num - 1][2] && !check[num-1]) {
-        r *= -1;
-        rotate_gear(num - 1, r);
+void dfs(int num, int dir) {
+
+    if (num - 1 >= 0 && gear[num][6] != gear[num - 1][2] && !checked[num - 1]) {
+        checked[num - 1] = true;
+        visited[num - 1] = true;
+        direction[num - 1] = dir * -1;
+        dfs(num - 1, dir * -1);
     }
 
-    if (num + 1 < 5 && gear[num][2] != gear[num + 1][6] && !check[num+1]) {
-        r *= -1;
-        rotate_gear(num + 1, r);
+    if (num + 1 < 4 && gear[num][2] != gear[num + 1][6] && !checked[num + 1]) {
+        checked[num + 1] = true;
+        visited[num + 1] = true;
+        direction[num + 1] = dir * -1;
+        dfs(num + 1, dir * -1);
     }
 }
 
-void rotate_s(int num) { // 시계 방향
-    int tmp =gear[num][7];
+void rotate(int num) {
+    int temp = gear[num][7];
     for (int i = 7; i > 0; --i) {
-        gear[num][i] = gear[num][i-1];
+        gear[num][i] = gear[num][i - 1];
     }
-    gear[num][0] = tmp;
+    gear[num][0] = temp;
 }
-void rotate_rev(int num) { // 반시계 방향
-    int tmp = gear[num][0];
+
+void rotate_rev(int num) {
+    int temp = gear[num][0];
     for (int i = 0; i < 7; ++i) {
-        gear[num][i] = gear[num][i+1];
+        gear[num][i] = gear[num][i + 1];
     }
-    gear[num][7] = tmp;
-
+    gear[num][7] = temp;
 }
 
-int main(void) {
+
+int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
     string input;
-    int t, num, r, ans = 0;
-    for (int i = 1; i <= 4; ++i) {
+    for (int i = 0; i < 4; ++i) {
         cin >> input;
-        for (int j = 0; j < input.size(); ++j) {
+        for (int j = 0; j < 8; ++j) {
             gear[i][j] = input[j] - '0';
         }
     }
-    cin >> t;
-    while (t--) {
-        cin >> num >> r;
-        fill(check, check + 5, false);
-        rotate_gear(num, r);
-        for (int i = 1; i <= 4; ++i) {
-            if (check[i]) {
+    int k;
+    cin >> k;
+    while (k--) {
+        int num, dir;
+        cin >> num >> dir;
+        fill(visited, visited + 5, false);
+        fill(direction, direction + 5, -1);
+        fill(checked, checked + 5, false);
+        checked[num - 1] = true;
+        visited[num - 1] = true;
+        direction[num - 1] = dir;
+        dfs(num - 1, dir);
+        for (int i = 0; i < 4; ++i) {
+            if (visited[i]) {
                 if (direction[i] == 1) {
-                    rotate_s(i);
+                    rotate(i);
                 } else if (direction[i] == -1) {
                     rotate_rev(i);
                 }
             }
         }
     }
-    ans += (gear[1][0] == 1) ? 1 : 0;
-    ans += (gear[2][0] == 1) ? 2 : 0;
-    ans += (gear[3][0] == 1) ? 4 : 0;
-    ans += (gear[4][0] == 1) ? 8 : 0;
+    int ans = 0;
+    ans += (gear[0][0] == 1) ? 1 : 0;
+    ans += (gear[1][0] == 1) ? 2 : 0;
+    ans += (gear[2][0] == 1) ? 4 : 0;
+    ans += (gear[3][0] == 1) ? 8 : 0;
     cout << ans;
 }

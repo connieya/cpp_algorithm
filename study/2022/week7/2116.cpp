@@ -4,42 +4,31 @@ using namespace std;
 
 int dice[10001][7];
 int n;
-void solve(int index) {
-    // index 는 1번 주사위에 윗면의 값
-    int top = 0;
-    int bottom = 0;
-    int ans = 0;
-    if (index == 1){
-        top = 1;
-        bottom = 6;
-    } else if (index == 2) {
-        top = 2;
-        bottom = 4;
-    }else if (index == 3) {
-        top = 3;
-        bottom = 5;
-    }else if (index == 4) {
-        top = 4;
-        bottom = 2;
-    }else if (index == 5) {
-        top = 5;
-        bottom = 3;
-    }else {
-        top = 6;
-        bottom =1;
-    }
-    // index 의 값은 1~6번 으로  index의 값은 1번 주사위의 윗면의 값을 가리키는 index
-    for (int j = 1; j <=n; ++j) {
-        for (int k = 1; k <= 6; ++k) {
-             top = dice[j][top]; // j번째 윗면의 값
-             bottom = dice[j][bottom]; // j번째 아랫면 값
+int front[7];
+
+int solve(int sum , int top,int bottom){
+    int std = top;
+    for (int i = 2; i <=n; ++i) {
+        int MAX = 0;
+        for (int j = 1; j <= 6; ++j) {
+            if (dice[i][j] == std){
+                bottom = top;
+                top = dice[i][front[j]];
+                break;
+            }
         }
+        for (int j = 1; j <= 6; ++j) {
+            if (dice[i][j] != bottom && dice[i][j] != top){
+                MAX = max(MAX , dice[i][j]);
+            }
+        }
+        sum += MAX;
+        std = top;
     }
+    return sum;
 }
 
-
-int main()
-{
+int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
@@ -49,7 +38,21 @@ int main()
             cin >> dice[i][j];
         }
     }
-    for (int index = 1; index <= 6; ++index) {
-
+    front[1] = 6, front[2] = 4, front[3] = 5;
+    front[4] = 2, front[5] = 3, front[6] = 1;
+    int ans = 0;
+    for (int i = 1; i <= 6; ++i) {
+        int top = dice[1][i];
+        int bottom = dice[1][front[i]];
+        int sum = 0;
+        int MAX = 0;
+        for (int j = 1; j <= 6; ++j) {
+            if (dice[1][j] != top && dice[1][j] != bottom) {
+                MAX = max(MAX, dice[1][j]);
+            }
+        }
+        sum += MAX;
+        ans = max(solve(sum,top,bottom),ans);
     }
+    cout << ans;
 }
