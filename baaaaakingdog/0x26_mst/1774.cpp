@@ -23,7 +23,7 @@ int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    vector<pair<int, pair<int, int>>> graph;
+    vector<pair<double, pair<int, int>>> graph;
     int n, m;
     cin >> n >> m;
     for (int i = 1; i <= n; ++i) {
