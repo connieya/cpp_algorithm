@@ -2,16 +2,30 @@
 
 using namespace std;
 
+int n,m;
+int arr[21];
+
+int dfs(int L , int sum) {
+    if (L == n){
+        if (sum == m) return 1;
+        return 0;
+    }
+    return dfs(L+1,sum+arr[L]) + dfs(L+1,sum);
+}
+
 int main()
 {
-    vector<int> v;
-    vector<int> a;
-    a.push_back(2);
-    a.push_back(12);
-    a.push_back(22);
-    v = a;
-    cout << v.size() << '\n';
-    for (int j: v) {
-        cout << j << '\n';
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> n >> m;
+    for (int i = 0; i < n; ++i) {
+        cin >> arr[i];
+    }
+    dfs(0,0);
+    if (m == 0) {
+        cout << dfs(0,0)-1;
+    }else {
+        cout << dfs(0,0);
     }
 }
