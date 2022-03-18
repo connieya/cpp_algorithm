@@ -1,15 +1,21 @@
-﻿#include "stdio.h"
+﻿#include "bits/stdc++.h"
 
-int gcd(int a, int b){
-    return b==0 ?a : gcd(b,a%b);
+using namespace std;
+
+int gcb(int a, int b){
+    if (b==0) return a;
+    return gcb(b,a%b);
 }
 
 int main()
 {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
     int t,a,b;
-    scanf("%d",&t);
+    cin >> t;
     while (t--) {
-        scanf("%d %d",&a,&b);
-        printf("%d\n",a*b/ gcd(a,b));
+        cin >> a >> b;
+        cout << a*b/ gcb(a,b) << '\n';
     }
 }
