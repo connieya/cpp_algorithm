@@ -1,30 +1,36 @@
-﻿#include "stdio.h"
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int a[100][100];
+int b[100][100];
 
 int main()
 {
-    int n ,m, k;
-    int a[100][100];
-    int b[100][100];
-    scanf("%d %d",&n,&m);
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int n,m,k;
+    cin >> n >> m;
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
-            scanf("%d",&a[i][j]);
+            cin >> a[i][j];
         }
     }
-    scanf("%d %d",&m,&k);
+    cin >> m >> k;
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < k; ++j) {
-            scanf("%d",&b[i][j]);
+            cin >> b[i][j];
         }
     }
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < k; ++j) {
             int sum = 0;
             for (int l = 0; l < m; ++l) {
-               sum += a[i][l]*b[l][j];
+                sum += a[i][l]*b[l][j];
             }
-            printf("%d ",sum);
+            cout << sum << ' ';
         }
-        printf("\n");
+        cout << '\n';
     }
 }

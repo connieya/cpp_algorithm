@@ -1,59 +1,42 @@
 ﻿#include "bits/stdc++.h"
+
 #define INF 1000000007
+typedef long long ll;
 using namespace std;
 
-typedef unsigned long ULONG;
+vector<vector<ll>> a = {{1, 1},
+                        {1, 0}};
 
-typedef struct tagMatrix2x2 {
-    ULONG Data[2][2];
-
-} Matrix2x2;
-
-Matrix2x2 multiply(Matrix2x2 a, Matrix2x2 b) {
-    Matrix2x2 c;
-
-    c.Data[0][0] = a.Data[0][0] * b.Data[0][0] + a.Data[0][1] * b.Data[1][0];
-    c.Data[0][1] = a.Data[0][0] * b.Data[1][0] + a.Data[0][1] * b.Data[1][1];
-
-    c.Data[1][0] = a.Data[1][0] * b.Data[0][0] + a.Data[1][1] * b.Data[1][0];
-    c.Data[1][1] = a.Data[1][0] * b.Data[1][0] + a.Data[1][1] * b.Data[1][1];
-    return c;
-}
-
-Matrix2x2 power(Matrix2x2 a, int n) {
-    if (n > 1) {
-        a = power(a, n / 2);
-        a = multiply(a, a);
-
-        if (n & 1) {
-            Matrix2x2 b;
-            b.Data[0][0] = 1;
-            b.Data[0][1] = 1;
-            b.Data[1][0] = 1;
-            b.Data[1][1] = 0;
-
-            a = multiply(a, b);
+vector<vector<ll>> matrix(vector<vector<ll>> b, vector<vector<ll>> c) {
+    vector<vector<ll>> res(2, vector<ll>(2));
+    for (int i = 0; i < 2; ++i) {
+        for (int j = 0; j < 2; ++j) {
+            for (int k = 0; k < 2; ++k) {
+                res[i][j] += (b[i][k] * c[k][j]) % INF;
+            }
+            res[i][j] %= INF;
         }
     }
-    return a;
+    return res;
 }
 
-ULONG fibo(int n) {
-    Matrix2x2 a;
-    a.Data[0][0] = 1;
-    a.Data[0][1] = 1;
-    a.Data[1][0] = 1;
-    a.Data[1][1] = 0;
-
-    a = power(a, n);
-    return a.Data[0][1];
+vector<vector<ll>> fibo(ll n) {
+    if (n == 1 || n == 0) return a;
+    vector<vector<ll>> ans = fibo(n / 2);
+    ans = matrix(ans, ans);
+    if (n % 2) {
+        return matrix(a, ans);
+    } else {
+        return ans;
+    }
 }
 
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    ULONG n;
+    ll n;
     cin >> n;
-    cout << fibo(n) % INF;
+    vector<vector<ll>> r = fibo(n);
+    cout << r[1][0] % INF;
 }
