@@ -1,6 +1,9 @@
-#include "bits/stdc++.h"
+﻿#include "bits/stdc++.h"
 
 using namespace std;
+
+int arr[11];
+int op[4];
 
 int main()
 {
@@ -9,9 +12,7 @@ int main()
     cout.tie(0);
     int n;
     cin >> n;
-    if (n%2){
-        cout << "SK";
-    }else {
-        cout << "CY";
+    for (int i = 0; i < n; ++i) {
+        cin >> arr[i];
     }
 }
