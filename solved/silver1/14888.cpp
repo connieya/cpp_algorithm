@@ -2,28 +2,45 @@
 
 using namespace std;
 
-int perm[11];
-int arr[12];
+int arr[11];
 int op[4];
-int n,a = INT_MAX , b = INT_MIN;
-void dfs(int L , int sum) {
+int n,MX =INT_MIN ,MN = INT_MAX;
+
+void dfs(int L,int sum) {
     if (L == n) {
-        if (sum < a){
-            a = sum;
-        }
-        if (sum > b) {
-            b = sum;
-        }
+        MX = max(sum,MX);
+        MN = min(sum,MN);
         return;
     }
-    if (perm[L-1] == 0){
-        dfs(L+1,sum+arr[L]);
-    } else if (perm[L-1] == 1){
-        dfs(L+1,sum-arr[L]);
-    }else if(perm[L-1] == 2) {
-        dfs(L+1,sum*arr[L]);
-    }else {
-        dfs(L+1,sum/arr[L]);
+    for (int i = 0; i < 4; ++i) {
+        if (op[i] > 0){
+            if (i==0){
+                op[i]--;
+                dfs(L+1,sum+arr[L]);
+                op[i]++;
+                continue;
+            }
+            if (i==1){
+                op[i]--;
+                dfs(L+1,sum-arr[L]);
+                op[i]++;
+                continue;
+            }
+            if (i==2){
+                op[i]--;
+                dfs(L+1,sum*arr[L]);
+                op[i]++;
+                continue;
+            }
+            if (i==3){
+                op[i]--;
+                dfs(L+1,sum/arr[L]);
+                op[i]++;
+                continue;
+            }
+
+
+        }
     }
 }
 
@@ -36,18 +53,9 @@ int main()
     for (int i = 0; i < n; ++i) {
         cin >> arr[i];
     }
-    int j =0;
     for (int i = 0; i < 4; ++i) {
         cin >> op[i];
-        while (op[i] > 0) {
-            perm[j++] = i;
-            op[i]--;
-        }
     }
-    do {
-        dfs(1,arr[0]);
-    } while (next_permutation(perm,perm+n-1));
-    cout << b << '\n' << a;
-
-
+    dfs(1,arr[0]);
+    cout << MX << '\n' << MN;
 }

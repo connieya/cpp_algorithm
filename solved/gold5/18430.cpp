@@ -16,24 +16,22 @@ void dfs(int n, int m, int sum) {
         m = 0;
         n++;
     }
-    if (sum > ans) {
-        ans = sum;
+    if (n == x) {
+        ans = max(ans,sum);
+        return;
     }
-    if (n==x) return;
-    for (int i = n; i < x; ++i) {
-        for (int j = m; j < y; ++j) {
-            for (int k = 0; k < 4; ++k) {
-                int nx = boomerang[k].first + i;
-                int ny = boomerang[k].second + j;
-                if (nx < 0 || nx >= x || ny < 0 || ny >= y) continue;
-                if (!visited[i][j] && !visited[nx][j] && !visited[i][ny]) {
-                    visited[i][j] = visited[nx][j] = visited[i][ny] = true;
-                    dfs(i, j + 1, sum + (arr[i][j] * 2) + arr[nx][j] + arr[i][ny]);
-                    visited[i][j] = visited[nx][j] = visited[i][ny] = false;
-                }
-            }
+
+    for (int k = 0; k < 4; ++k) {
+        int nx = boomerang[k].first + n;
+        int ny = boomerang[k].second + m;
+        if (nx < 0 || nx >= x || ny < 0 || ny >= y) continue;
+        if (!visited[n][m] && !visited[nx][m] && !visited[n][ny]) {
+            visited[n][m] = visited[nx][m] = visited[n][ny] = true;
+            dfs(n, m + 1, sum + (arr[n][m] * 2) + arr[nx][m] + arr[n][ny]);
+            visited[n][m] = visited[nx][m] = visited[n][ny] = false;
         }
     }
+    dfs(n, m+1, sum);
 }
 
 
@@ -48,6 +46,11 @@ int main() {
             cin >> arr[i][j];
         }
     }
-    dfs(0, 0, 0);
+    for (int i = 0; i < x; ++i) {
+        for (int j = 0; j < y; ++j) {
+            dfs(i, j, 0);
+        }
+    }
+
     cout << ans;
 }
