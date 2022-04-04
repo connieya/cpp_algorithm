@@ -16,7 +16,7 @@ int main() {
     }
 
     // 구간 합 계산(세 번째 수부터 네 번째 수까지)
-    int left = 3;
+    int left = 2;
     int right = 4;
     cout << prefixSum[right] - prefixSum[left - 1] << '\n';
 }
