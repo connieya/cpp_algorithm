@@ -16,8 +16,7 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n = 40;
+    int n = 0b0101010110;
+    n &= ~(1<<4);
     toBinary(n);
-    cout << '\n';
-    cout << (n & -n) << '\n';
 }

@@ -2,16 +2,14 @@
 
 using namespace std;
 
+int recursive(int n ,int r  , int c) {
+    if (n==0) return 0;
+    int half = 1 << (n-1);
+    if (r < half  && c < half) return recursive(n-1,r,c); // 1구역
+    if (r < half && c >= half) return half*half + recursive(n-1,r,c-half); // 2구역
+    if (r >= half && c < half) return half*half*2 + recursive(n-1,r-half,c);  // 3구역
+    return 3*half*half+recursive(n-1,r-half,c-half); // 4구역
 
-int cnt;
-
-void recursive(int n) {
-    if (n==1) return;
-    recursive(n/2);
-    for (int i = 0; i < ; ++i) {
-        
-    }
-    cout << n << '\n';
 }
 int main()
 {
@@ -20,11 +18,6 @@ int main()
     cout.tie(0);
     int n,r,c;
     cin >> n >> r >> c;
-    int g = 1;
-    for (int i = 0; i < n; ++i) {
-        g *= 2;
-    }
-    cout << g << '\n';
-    recursive(g);
+    cout <<  recursive(n,r,c);
 
 }

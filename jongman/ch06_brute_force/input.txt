@@ -1,0 +1,12 @@
+﻿U R L P M
+X P R E T
+G I A E T
+X T N Z Y
+X O Q R S
+6
+PRETTY 1 1
+YES 3 4
+PINT 0 1
+GIRL 2 0
+TEA 3 1
+REPEAT 1 2
