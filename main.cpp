@@ -2,24 +2,12 @@
 
 using namespace std;
 
-void toBinary(int num) {
-    if (!num) {
-        cout << '\n';
-        return;
-    }
-    toBinary(num/2);
-    cout <<(num & 1);
-}
 
-
-int main()
-{
+int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n = 0;
-    n |= 1<<1;
-    toBinary(n);
-    cout << '\n';
-    cout << 'z'-'a';
+    cout << (1 << 3) << " " << (2 << 3) << '\n';
+    cout << (1 << 4) << " " << (2 << 4) << '\n';
+    cout << (1 << 5) << " " << (2 << 5) << '\n';
 }
