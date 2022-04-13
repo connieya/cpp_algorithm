@@ -25,6 +25,8 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
+    int test;
+    cin >> test;
     for (int i = 0; i < 5; ++i) {
         for (int j = 0; j < 5; ++j) {
             cin >> board[i][j];
@@ -36,9 +38,13 @@ int main() {
     while (t--) {
         cin >> word >> x >> y;
         if (word[0] =! board[x][y]) {
-            cout << 0 << '\n';
+            cout << "NO" << '\n';
         }else {
-            cout << dfs(1,word.length(),word,x,y) << '\n';
+            if (dfs(1,word.length(),word,x,y)){
+                cout << "YES" << '\n';
+            }else {
+                cout << "NO" << '\n';
+            }
         }
     }
 }
