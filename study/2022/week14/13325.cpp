@@ -4,14 +4,18 @@
 using namespace std;
 
 int arr[MAX];
+int tree, result;
 
-int dfs(int L, int k, int sum) {
-    if (L >= k) {
-        return 0;
+int dfs(int L) {
+    if (L * 2 >= tree) {
+        result += arr[L];
+        return arr[L];
     }
 
-    int lsum = dfs(L * 2, k, sum)+arr[L*2];
-    int rsum = dfs(L * 2 + 1, k, sum)+arr[L*2+1];
+    int leftNode = dfs(L * 2 + 1);
+    int rightNode = dfs(L * 2 + 2);
+    result += arr[L] + abs(leftNode - rightNode);
+    return arr[L] + max(leftNode, rightNode);
 }
 
 int main() {
@@ -20,9 +24,10 @@ int main() {
     cout.tie(0);
     int k;
     cin >> k;
-    int tree = 1 << (k + 1);
-    for (int i = 2; i < tree; ++i) {
+    tree = 1 << (k + 1);
+    for (int i = 1; i < tree - 1; ++i) {
         cin >> arr[i];
     }
-    dfs(1, tree, 0);
+    dfs(0);
+    cout << result;
 }
