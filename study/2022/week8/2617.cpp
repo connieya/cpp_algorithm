@@ -28,7 +28,8 @@ int main() {
     for (int k = 1; k <= n; ++k) {
         for (int i = 1; i <= n; ++i) {
             for (int j = 1; j <= n; ++j) {
-                heavy[i][j] = min(heavy[i][j], heavy[i][k] + heavy[k][j]);
+                heavy[i][j] =
+                        min(heavy[i][j], heavy[i][k] + heavy[k][j]);
                 light[i][j] = min(light[i][j], light[i][k] + light[k][j]);
             }
         }
