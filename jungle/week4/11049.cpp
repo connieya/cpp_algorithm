@@ -9,25 +9,26 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n;
-    cin >> n;
-    for (int i = 1; i <= n; ++i) {
+    int end;
+    cin >> end;
+    for (int i = 0; i < end; ++i) {
+        for (int j = 0; j < end; ++j) {
+            dp[i][j]  = 1e9;
+        }
+    }
+    for (int i = 0; i < end; ++i) {
         cin >> arr[i][0] >> arr[i][1];
+        dp[i][i] = 0;
     }
-    for (int i = 1; i < n; ++i) {
-        dp[i][i + 1] = arr[i][0] * arr[i][1] * arr[i + 1][1];
-    }
-    for (int m = 2; m <= n; ++m) {
-        for (int i = 1; i <= n - m; ++i) {
-            int j = i + m;
-            for (int k = i; k < j; ++k) {
-                int res = dp[i][k] + dp[k + 1][j] + arr[i][0] * arr[k][1] * arr[j][1];
-                if (!dp[i][j] || dp[i][j] > res){
-                    dp[i][j]  = res;
-                }
+
+
+    for (int len = 1; len < end; ++len ) {
+        for (int start = 0; start < end - len; ++start) {
+            for (int sep = 0; sep < len; ++sep) {
+                dp[start][start+len] = min(dp[start][start+len],dp[start][sep]+dp[sep+1][start+len]+ arr[start][0]*arr[sep+1][0]*arr[start+len][1]);
+                cout << dp[start][start+len] << '\n';
             }
         }
     }
-    cout << dp[1][n];
-
+    cout << dp[0][end - 1];
 }
