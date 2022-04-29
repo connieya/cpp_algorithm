@@ -13,10 +13,8 @@ int main() {
         cin >> arr[i];
     }
     sort(arr.begin(), arr.end());
-    for (int i = 0; i < n - 1; ++i) {
-        if (arr[i] != arr[i + 1]) {
-            cout << arr[i] << ' ';
-        }
+    arr.erase(unique(arr.begin(),arr.end()), arr.end());
+    for (int a: arr) {
+        cout << a << ' ';
     }
-    cout << arr[n - 1];
 }

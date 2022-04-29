@@ -2,15 +2,17 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    map<string,int> mp;
-    mp["dd"] =2;
-    mp["dd"] =4;
-    cout << mp.count("dd") << '\n';
-    cout << mp.count("11") << '\n';
+    string str = "problem";
+    cout << (str.find("ro") != string::npos) << '\n';
+    cout << (str.find("pro") != string::npos) << '\n';
+    cout << (str.find("ob") == string::npos) << '\n';
+    cout << (str.find("proble") == string::npos) << '\n';
+    cout << (str.find("blem") == string::npos) << '\n';
+    cout << (str.find("prosle") == string::npos) << '\n';
+    cout << (str.find("roblem") == string::npos) << '\n';
 
 }
