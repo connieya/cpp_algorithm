@@ -12,22 +12,22 @@ void bfs(string first) {
         string target = Q.front();
         ans = target;
         Q.pop();
-        for (int i = 0; i<words.size(); i++) {
-            if (words[i].length() != target.length() + 1) continue;
-            if (words[i].find(target) != string::npos) {
-                Q.push(words[i]);
+        for (auto word: words) {
+            if (word.length() != target.length() + 1) continue;
+            if (word.find(target) != string::npos) {
+                Q.push(word);
                 continue;
             }
             int idx = 0;
             int t_idx = 0;
-            while (idx < words[i].length()){
-                if (words[i][idx] == target[t_idx]){
+            while (idx < word.length()){
+                if (word[idx] == target[t_idx]){
                     t_idx++;
                 }
                 idx++;
             }
             if (t_idx == target.length()) {
-                Q.push(words[i]);
+                Q.push(word);
             }
         }
     }
