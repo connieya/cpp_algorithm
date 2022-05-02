@@ -169,10 +169,14 @@ int main(void) {
     BST_InorderPrintTree(Tree);
     printf("\n");
 
+    BSTNode * target =BST_SearchNode(Tree,98);
+    printf("%p %d \n" ,target ,target->Data);
     /* 특정 노드 삭제 */
     printf("Removing 98... \n");
     Node = BST_RemoveNode(Tree , NULL, 98);
     BST_DestroyNode(Node);
+    target =BST_SearchNode(Tree,98);
+//    printf("%p %d \n" ,target ,target->Data);
 
     BST_InorderPrintTree(Tree);
     printf("\n");
