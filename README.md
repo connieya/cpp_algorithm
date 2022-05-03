@@ -15,6 +15,7 @@
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) | 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
 |5710|[ 전기 요금 ](https://www.acmicpc.net/problem/5710) | 골드 5 | 수학,이분탐색|[코드](study/2022/week16/5710.cpp)
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) | 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
+|9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) | 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
 |10867|[ 중복 빼고 정렬하기  ](https://www.acmicpc.net/problem/10867) | 실버 5 | 계수정렬 , unique 사용|[코드](boj/silver5/10867.md)
 |11478|[ 서로 다른 부분 문자열의 개수  ](https://www.acmicpc.net/problem/11478) | 실버 3 | set , unique & erase |[코드](boj/silver3/11478.md)
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
