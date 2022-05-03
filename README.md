@@ -9,6 +9,7 @@
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
+|2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
 |2870|[ 수학 숙제 ](https://www.acmicpc.net/problem/2870) | 실버 4 | 문자열 파싱 ,예외 처리 ,범위 신경 쓰기|[코드](boj/silver4/2870.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) | 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) | 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
