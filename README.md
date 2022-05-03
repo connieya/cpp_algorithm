@@ -38,6 +38,7 @@
 |레벨 | 문제 | 코멘트 |코드|
 |:-----|:----|:----|:-----
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 카카오 기출 | [코드](programmers/level01/실패율.md) |
+|Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 
 
 
