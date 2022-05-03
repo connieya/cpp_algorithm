@@ -16,9 +16,11 @@
 |5710|[ 전기 요금 ](https://www.acmicpc.net/problem/5710) | 골드 5 | 수학,이분탐색|[코드](study/2022/week16/5710.cpp)
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) | 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
 |9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) | 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
+|10546|[ 배부른 마라토너 ](https://www.acmicpc.net/problem/10546) | 실버 4 |unordered_set |[코드](boj/silver4/10546.md)
 |10867|[ 중복 빼고 정렬하기  ](https://www.acmicpc.net/problem/10867) | 실버 5 | 계수정렬 , unique 사용|[코드](boj/silver5/10867.md)
 |11478|[ 서로 다른 부분 문자열의 개수  ](https://www.acmicpc.net/problem/11478) | 실버 3 | set , unique & erase |[코드](boj/silver3/11478.md)
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
+|17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) | 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
 
@@ -27,6 +29,7 @@
 
 | # | &nbsp; &nbsp; &nbsp; &nbsp; Title &nbsp; &nbsp; &nbsp; &nbsp;| Difficulty &nbsp; | Comment| Solution |
 |:---|:---------------------:|:-----:|:-----:|:----|
+|1|[ Two Sum ](https://leetcode.com/problems/two-sum/) | Easy | 해시 사용해서 O(n)에 해결 |[Solution](leetcode/easy/1.md)
 |5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |정렬 |[Solution](leetcode/medium/5.md)
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
