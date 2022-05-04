@@ -1,0 +1,37 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int n;
+string s;
+
+bool check(const string &s){
+    const int sz = s.size();
+    for (int i = 1; i <= sz/2; ++i) {
+        if (s.substr(sz-2*i ,i) == s.substr(sz-i ,i))
+            return 0;
+    }
+    return 1;
+}
+
+void dfs(int L) {
+    if (L == n) {
+        cout << s;
+        exit(0);
+    }
+
+    for (int i = 1; i <= 3; ++i) {
+        s.push_back('0'+i);
+        if (check(s))dfs(L+1);
+        s.pop_back();
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> n;
+    dfs(0);
+
+}

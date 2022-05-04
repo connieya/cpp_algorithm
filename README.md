@@ -4,19 +4,24 @@
 
 | 번호 |  문제 이름 | 난이도  | 코멘트|  코드 |
 |:---|:---------------------:|:-----:|:-----:|:------|
+|1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) | 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) | 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
+|2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) | 골드 5 |  |[코드](boj/gold5/2436.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
+|2661|[ 좋은 수열 ](https://www.acmicpc.net/problem/2661) | 골드 4 | 백 트래킹 |[코드](boj/gold4/2661.md)
 |2870|[ 수학 숙제 ](https://www.acmicpc.net/problem/2870) | 실버 4 | 문자열 파싱 ,예외 처리 ,범위 신경 쓰기|[코드](boj/silver4/2870.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) | 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) | 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
 |5710|[ 전기 요금 ](https://www.acmicpc.net/problem/5710) | 골드 5 | 수학,이분탐색|[코드](study/2022/week16/5710.cpp)
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) | 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
 |9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) | 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
+|9663|[ N-Queen  ](https://www.acmicpc.net/problem/9663) | 골드 5 |백트래킹|[코드](boj/gold5/9663.md)
 |10546|[ 배부른 마라토너 ](https://www.acmicpc.net/problem/10546) | 실버 4 |unordered_set |[코드](boj/silver4/10546.md)
+|10597|[ 순열장난 ](https://www.acmicpc.net/problem/10597) | 실버 1 |   |[코드](boj/silver1/10597.md)
 |10867|[ 중복 빼고 정렬하기  ](https://www.acmicpc.net/problem/10867) | 실버 5 | 계수정렬 , unique 사용|[코드](boj/silver5/10867.md)
 |11478|[ 서로 다른 부분 문자열의 개수  ](https://www.acmicpc.net/problem/11478) | 실버 3 | set , unique & erase |[코드](boj/silver3/11478.md)
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
@@ -44,6 +49,7 @@
 |:-----|:----|:----|:-----
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 카카오 기출 | [코드](programmers/level01/실패율.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
+|Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 
 
 
