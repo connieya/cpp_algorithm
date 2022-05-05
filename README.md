@@ -16,6 +16,7 @@
 |2870|[ 수학 숙제 ](https://www.acmicpc.net/problem/2870) | 실버 4 | 문자열 파싱 ,예외 처리 ,범위 신경 쓰기|[코드](boj/silver4/2870.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) | 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) | 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
+|5557|[ 1학년 ](https://www.acmicpc.net/problem/5557) | 골드 5 | dp |[코드](boj/gold5/5557.md)
 |5710|[ 전기 요금 ](https://www.acmicpc.net/problem/5710) | 골드 5 | 수학,이분탐색|[코드](study/2022/week16/5710.cpp)
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) | 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
 |9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) | 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
