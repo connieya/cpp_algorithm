@@ -8,6 +8,7 @@
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) | 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
+|1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | |[코드](boj/silver1/1932.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) | 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
