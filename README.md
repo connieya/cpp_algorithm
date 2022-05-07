@@ -8,7 +8,7 @@
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) | 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
-|1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | |[코드](boj/silver1/1932.md)
+|1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | DP |[코드](boj/silver1/1932.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) | 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
@@ -26,10 +26,10 @@
 |10597|[ 순열장난 ](https://www.acmicpc.net/problem/10597) | 실버 1 |   |[코드](boj/silver1/10597.md)
 |10867|[ 중복 빼고 정렬하기  ](https://www.acmicpc.net/problem/10867) | 실버 5 | 계수정렬 , unique 사용|[코드](boj/silver5/10867.md)
 |11478|[ 서로 다른 부분 문자열의 개수  ](https://www.acmicpc.net/problem/11478) | 실버 3 | set , unique & erase |[코드](boj/silver3/11478.md)
-|11660|[ 구간 합 구하기 5  ](https://www.acmicpc.net/problem/11660) | 실버 1 |  |[코드](boj/silver1/11660.md)
+|11660|[ 구간 합 구하기 5  ](https://www.acmicpc.net/problem/11660) | 실버 1 | 누적합    |[코드](boj/silver1/11660.md)
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) | 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
-|15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) | 골드 5 |  |[코드](boj/gold5/15723.md)
+|15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) | 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) | 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
@@ -58,7 +58,7 @@
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
-|Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) | | [코드](programmers/level03/건물.md) |
+|Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
 
 
 
