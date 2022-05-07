@@ -39,6 +39,7 @@
 | # | &nbsp; &nbsp; &nbsp; &nbsp; Title &nbsp; &nbsp; &nbsp; &nbsp;| Difficulty &nbsp; | Comment| Solution |
 |:---|:---------------------:|:-----:|:-----:|:----|
 |1|[ Two Sum ](https://leetcode.com/problems/two-sum/) | Easy | 해시 사용해서 O(n)에 해결 |[Solution](leetcode/easy/1.md)
+|3|[ Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 구현 |[Solution](leetcode/medium/1.md)
 |5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |정렬 |[Solution](leetcode/medium/5.md)
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
@@ -54,6 +55,7 @@
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 카카오 기출 | [코드](programmers/level01/실패율.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
+|Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 
 
 
