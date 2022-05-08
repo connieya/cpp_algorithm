@@ -1,46 +1,28 @@
-#include <bits/stdc++.h>
-
-#define INF 1002
-
+#include "bits/stdc++.h"
+#define INF 50001
 using namespace std;
 
-int dp[INF][INF];
 
+int dx[] = {-1,0,1,0};
+int dy[] = {0,1,0,-1};
 
-int solution(vector<vector<int>> board, vector<vector<int>> skill) {
-    int n = board.size();
-    int m = board[0].size();
+vector<pair<int,int>> graph[INF];
 
-    for (auto &s: skill) {
-        int type = s[0], r1 = s[1], c1 = s[2], r2 = s[3], c2 = s[4], degree = s[5];
-        if (type == 1) degree = -degree;
-        dp[r1][c1] += degree;
-        dp[r1][c2 + 1] -= degree;
-        dp[r2 + 1][c1] -= degree;
-        dp[r2 + 1][c2 + 1] += degree;
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+
+    vector<int> q;
+    q.push_back(1);
+    q.push_back(2);
+    q.push_back(23);
+    vector<int> t = q;
+    for (int s: t ) {
+        cout << s << ' ';
     }
-
-    //누적합 처리 , 아래 방향
-    for (int i = 1; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            dp[i][j] += dp[i - 1][j];
-        }
-    }
-
-    //누적합 처리, 오른쪽 방향
-    for (int i = 0; i < n; i++) {
-        for (int j = 1; j < m; j++) {
-            dp[i][j] += dp[i][j - 1];
-        }
-    }
-    int answer = 0;
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            if (dp[i][j] + board[i][j] > 0) {
-                answer++;
-            }
-        }
-    }
-
-    return answer;
+    stack<int> s;
+    s.push(2);
+    s.top();
 }

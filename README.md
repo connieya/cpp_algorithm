@@ -6,6 +6,7 @@
 |:---|:---------------------:|:-----:|:-----:|:------|
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) | 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
+|1406|[에디터](https://www.acmicpc.net/problem/1406) | 실버 2 |연결리스트|[코드](boj/silver2/1406.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) | 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | DP |[코드](boj/silver1/1932.md)
@@ -59,6 +60,8 @@
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
+|Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) | | [코드](programmers/level03/발판.md) |
+|Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
 
 
 

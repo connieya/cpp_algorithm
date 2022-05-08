@@ -2,49 +2,30 @@
 
 using namespace std;
 
-int main(void)
+int main()
 {
-    ios::sync_with_stdio(0);
+    ios_base::sync_with_stdio(0);
     cin.tie(0);
-    string init;
-    cin >> init;
-    list<char> L;
-    for (auto c : init) {
-        L.push_back(c);
-    }
-    auto cursor = L.end();
-    int q;
-    cin >> q;
-    while (q--) {
-        char op;
-        cin >> op;
-        if(op == 'P'){
-            char add;
-            cin >> add;
-            L.insert(cursor,add);
-            continue;
-        }
-        if(op == 'L'){
-            if(cursor != L.begin()){
-                cursor--;
-            }
-            continue;
-        }
-        if(op == 'D'){
-            if(cursor != L.end()){
-                cursor++;
-            }
-            continue;
-        }
-        if (op == 'B') {
-            if (cursor != L.begin()){
-                cursor--;
-                cursor = L.erase(cursor);
-            }
-            continue;
+    cout.tie(0);
+    string str;
+    int n;
+    cin >> str >> n;
+    list<char> editor(str.begin() , str.end());
+    auto it = editor.end();
+    while (n--){
+        char cmd , x;
+        cin >> cmd;
+        if (cmd == 'L' && it != editor.begin()){
+            it--;
+        }else if (cmd == 'D' && it != editor.end()){
+            it++;
+        }else if (cmd == 'B' && it != editor.begin()){
+            it = editor.erase(prev(it));
+        }else if (cmd == 'P'){
+            cin >> x;
+            editor.insert(it,x);
         }
     }
-    for (auto c : L){
-        cout << c;
-    }
+
+    cout << string(editor.begin() , editor.end());
 }
