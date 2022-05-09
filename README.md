@@ -8,6 +8,7 @@
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
 |1406|[에디터](https://www.acmicpc.net/problem/1406) | 실버 2 |연결리스트|[코드](boj/silver2/1406.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) | 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
+|1793|[ 타일링 ](https://www.acmicpc.net/problem/1793) | 타일링 |매우 큰 숫자 연산 / EOF 처리|[코드](boj/silver1/1793.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | DP |[코드](boj/silver1/1932.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
@@ -31,6 +32,7 @@
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) | 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
 |15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) | 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
+|15954|[ 인형들 ](https://www.acmicpc.net/problem/15954) | 실버 1 | 수학 , 완탐  |[코드](study/2022/week18/15954.cpp)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |20126|[ 교수님의 기맑고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
@@ -58,10 +60,11 @@
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 카카오 기출 | [코드](programmers/level01/실패율.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
+|Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) |  | [코드](programmers/level02/순위검색.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
-|Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) | | [코드](programmers/level03/발판.md) |
+|Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) |이분탐색 | [코드](programmers/level03/발판.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
 
 
