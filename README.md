@@ -33,6 +33,7 @@
 |15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) | 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
+|20126|[ 교수님의 기맑고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) | 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
 
 
