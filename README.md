@@ -50,9 +50,10 @@
 |3|[ Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 구현 |[Solution](leetcode/medium/1.md)
 |5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |정렬 |[Solution](leetcode/medium/5.md)
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
+|92|[ Reverse Linked List 2 ](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | 연결 리스트 |[Solution](leetcode/medium/92.md)
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
 |344|[ Reverse String ](https://leetcode.com/problems/reverse-string/) | Easy | swap  활용|[Solution](leetcode/easy/344.md)
-|739|[ Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/) | Medium | d |[Solution](leetcode/medium/739.md)
+|739|[ Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/) | Medium | Monotonic Stack |[Solution](leetcode/medium/739.md)
 |819|[ Most Common Word ](https://leetcode.com/problems/most-common-word/) | Easy | transform , unordered_map 활용 , 클린 코드| [Solution](leetcode/easy/819.md)
 |937|[ Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/) | Easy | 문자열 정렬시 참고하기 (sort 사용자 정의)|[Solution](leetcode/easy/937.md)
 
