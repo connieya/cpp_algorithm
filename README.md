@@ -4,6 +4,7 @@
 
 | 번호 |  문제 이름 | 난이도  | 코멘트|  코드 |
 |:---|:---------------------:|:-----:|:-----:|:------|
+|1013|[Contact](https://www.acmicpc.net/problem/1013) | 골드 5 |  ㅇ|[코드](boj/gold5/1013.md)
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) | 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
 |1406|[에디터](https://www.acmicpc.net/problem/1406) | 실버 2 |연결리스트|[코드](boj/silver2/1406.md)
@@ -12,6 +13,7 @@
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | DP |[코드](boj/silver1/1932.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
+|2022|[ 사다리 ](https://www.acmicpc.net/problem/2022) | 실버 1 |  |[코드](boj/silver1/2022.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) | 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
@@ -33,6 +35,7 @@
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) | 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
 |15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) | 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
 |15954|[ 인형들 ](https://www.acmicpc.net/problem/15954) | 실버 1 | 수학 , 완탐  |[코드](study/2022/week18/15954.cpp)
+|16174|[ 점프왕 쩰리(Large) ](https://www.acmicpc.net/problem/16174) | 실버 1 | DP or DFS & BFS  |[코드](boj/silver1/16174.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |20126|[ 교수님의 기맑고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
@@ -49,6 +52,7 @@
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
 |344|[ Reverse String ](https://leetcode.com/problems/reverse-string/) | Easy | swap  활용|[Solution](leetcode/easy/344.md)
+|739|[ Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/) | Medium | d |[Solution](leetcode/medium/739.md)
 |819|[ Most Common Word ](https://leetcode.com/problems/most-common-word/) | Easy | transform , unordered_map 활용 , 클린 코드| [Solution](leetcode/easy/819.md)
 |937|[ Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/) | Easy | 문자열 정렬시 참고하기 (sort 사용자 정의)|[Solution](leetcode/easy/937.md)
 
@@ -60,7 +64,7 @@
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 카카오 기출 | [코드](programmers/level01/실패율.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
-|Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) |  | [코드](programmers/level02/순위검색.md) |
+|Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
