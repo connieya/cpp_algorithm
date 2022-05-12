@@ -2,11 +2,17 @@
 #define INF 50001
 using namespace std;
 
+string get_compiler_info() {
+    stringstream  str;
 
-int dx[] = {-1,0,1,0};
-int dy[] = {0,1,0,-1};
+#if defined(__clang__)
+    str << "clang" << __clang_major__ << '.' << __clang_major__ << '.' << __clang_patchlevel__;
+#elif defined(__GNUC__) && !defined(__ICC)
+    str << "gcc " << __GNUC__ << '.' << __GNUC_MINOR__ << '.' << __GNUC__PATCHLEVEL__;
+#elif definded(_MSC_VER)
+    str << "msvc " << _MSC_VER;
+}
 
-vector<pair<int,int>> graph[INF];
 
 int main()
 {
@@ -14,15 +20,5 @@ int main()
     cin.tie(0);
     cout.tie(0);
 
-    vector<int> q;
-    q.push_back(1);
-    q.push_back(2);
-    q.push_back(23);
-    vector<int> t = q;
-    for (int s: t ) {
-        cout << s << ' ';
-    }
-    stack<int> s;
-    s.push(2);
-    s.top();
+    cout << getcom
 }

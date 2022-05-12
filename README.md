@@ -9,11 +9,12 @@
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
 |1406|[에디터](https://www.acmicpc.net/problem/1406) | 실버 2 |연결리스트|[코드](boj/silver2/1406.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) | 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
-|1793|[ 타일링 ](https://www.acmicpc.net/problem/1793) | 타일링 |매우 큰 숫자 연산 / EOF 처리|[코드](boj/silver1/1793.md)
+|1764|[ 듣보잡 ](https://www.acmicpc.net/problem/1764) | 실버 4 |  ㅇㅇ|[코드](boj/silver4/1764.md)
+|1793|[ 타일링 ](https://www.acmicpc.net/problem/1793) | 실버 1 |매우 큰 숫자 연산 / EOF 처리|[코드](boj/silver1/1793.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | DP |[코드](boj/silver1/1932.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
-|2022|[ 사다리 ](https://www.acmicpc.net/problem/2022) | 실버 1 |  |[코드](boj/silver1/2022.md)
+|2022|[ 사다리 ](https://www.acmicpc.net/problem/2022) | 실버 1 | 이분탐색 , 기하학 |[코드](boj/silver1/2022.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) | 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
@@ -63,7 +64,8 @@
 
 |레벨 | 문제 | 코멘트 |코드|
 |:-----|:----|:----|:-----
-|Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 카카오 기출 | [코드](programmers/level01/실패율.md) |
+|Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
+|Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
 |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
