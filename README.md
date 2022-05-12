@@ -39,7 +39,8 @@
 |16174|[ 점프왕 쩰리(Large) ](https://www.acmicpc.net/problem/16174) | 실버 1 | DP or DFS & BFS  |[코드](boj/silver1/16174.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
-|20126|[ 교수님의 기맑고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
+|20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
+|21278|[ 호석이 두 마리 치킨 ](https://www.acmicpc.net/problem/21278) | 골드 5 | 진짜 좋은 그래프 문제 👍 |[코드](boj/gold5/21278.md)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) | 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
 
 
