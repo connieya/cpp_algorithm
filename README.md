@@ -9,7 +9,8 @@
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
 |1406|[에디터](https://www.acmicpc.net/problem/1406) | 실버 2 |연결리스트|[코드](boj/silver2/1406.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) | 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
-|1764|[ 듣보잡 ](https://www.acmicpc.net/problem/1764) | 실버 4 |  ㅇㅇ|[코드](boj/silver4/1764.md)
+|1707|[ 이분 그래프 ](https://www.acmicpc.net/problem/1707) | 골드 4 | 그래프 |[코드](boj/gold4/1707.md)
+|1764|[ 듣보잡 ](https://www.acmicpc.net/problem/1764) | 실버 4 | map |[코드](boj/silver4/1764.md)
 |1793|[ 타일링 ](https://www.acmicpc.net/problem/1793) | 실버 1 |매우 큰 숫자 연산 / EOF 처리|[코드](boj/silver1/1793.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | DP |[코드](boj/silver1/1932.md)
@@ -40,6 +41,7 @@
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
+|20440|[ 니가 싫어~ .. ](https://www.acmicpc.net/problem/20440) | 골드 4 |  |[코드](boj/gold4/20440.md)
 |21278|[ 호석이 두 마리 치킨 ](https://www.acmicpc.net/problem/21278) | 골드 5 | 진짜 좋은 그래프 문제 👍 |[코드](boj/gold5/21278.md)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) | 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
 
@@ -75,6 +77,7 @@
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
 |Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) |이분탐색 | [코드](programmers/level03/발판.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
+|Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum | [코드](programmers/level03/광고삽입.md) |
 
 
 
