@@ -35,6 +35,7 @@
 |11478|[ 서로 다른 부분 문자열의 개수  ](https://www.acmicpc.net/problem/11478) | 실버 3 | set , unique & erase |[코드](boj/silver3/11478.md)
 |11660|[ 구간 합 구하기 5  ](https://www.acmicpc.net/problem/11660) | 실버 1 | 누적합    |[코드](boj/silver1/11660.md)
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
+|14503|[ 로봇 청소기 ](https://www.acmicpc.net/problem/14503) | 골드 5 | 구현 |[코드](boj/gold5/14503.md)
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) | 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
 |15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) | 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
 |15954|[ 인형들 ](https://www.acmicpc.net/problem/15954) | 실버 1 | 수학 , 완탐  |[코드](study/2022/week18/15954.cpp)
@@ -78,7 +79,7 @@
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
 |Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) |이분탐색 | [코드](programmers/level03/발판.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
-|Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum | [코드](programmers/level03/광고삽입.md) |
+|Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 
 
 

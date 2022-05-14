@@ -2,59 +2,54 @@
 
 using namespace std;
 
-int n, m, dir, r, c, ans = 1;
 int room[51][51];
-int board[51][51];
+bool checked[51][51];
+int dx[] = {-1,0,1,0};
+int dy[] = {0,1,0,-1};
+int r, c, x, y, dir;
 
-int dx[] = {-1, 0, 1, 0}; // 북 , 동 , 남 ,서
-int dy[] = {0, 1, 0, -1};
-
-void rotate() {
-    dir--;
-    if (dir == -1) {
-        dir = 3;
-    }
+void rotate(){
+    dir = (dir+3)%4;
 }
 
-int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
-    cout.tie(0);
-    cin >> n >> m;
-    cin >> r >> c >> dir;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            cin >> room[i][j];
-        }
-    }
-    queue<pair<int, int>> q;
-    q.push({r, c});
-    board[r][c] = 1;
-    int turn = 0;
-    while (true) {
-        rotate();
-        int nx = r + dx[dir];
-        int ny = c + dy[dir];
-        turn++;
-        if (room[nx][ny] == 0 && board[nx][ny] == 0) {
-            board[nx][ny] = 1;
-            ans++;
-            turn = 0;
-            r = nx;
-            c = ny;
-            continue;
-        }
-        if (turn == 4) {
-            nx = r - dx[dir];
-            ny = c - dy[dir];
-            if (room[nx][ny] == 0) {
-                r = nx;
-                c = ny;
-                turn = 0;
-            } else {
+int solve(){
+    int cnt = 1;
+    checked[x][y] = 1;
+    while (1) {
+        int i;
+        bool flag = true;
+        for(i=0; i<4; i++){
+            rotate();
+            int nx = x + dx[dir];
+            int ny = y + dy[dir];
+            if(room[nx][ny] == 0 && !checked[nx][ny]) {
+                flag = false;
+                checked[nx][ny] = 1;
+                cnt++;
+                x = nx;
+                y = ny;
                 break;
             }
         }
+        if(flag) {
+            if(room[x-dx[dir]][y-dy[dir]] == 1) break;
+            x = x-dx[dir];
+            y = y-dy[dir];
+        }
     }
-    cout << ans;
+    return cnt;
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> r >> c;
+    cin >> x >> y >> dir;
+    for (int i = 0; i < r; ++i) {
+        for (int j = 0; j < c; ++j) {
+            cin >> room[i][j];
+        }
+    }
+    cout << solve();
 }
