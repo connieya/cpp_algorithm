@@ -17,7 +17,7 @@
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2022|[ 사다리 ](https://www.acmicpc.net/problem/2022) | 실버 1 | 이분탐색 , 기하학 |[코드](boj/silver1/2022.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) | 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
-|2437|[ 저울 ](https://www.acmicpc.net/problem/2437) | 골드 3 |   |[코드](boj/gold3/2437.md)
+|2437|[ 저울 ](https://www.acmicpc.net/problem/2437) | 골드 3 | 그리디, 정렬|[코드](boj/gold3/2437.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
 |2661|[ 좋은 수열 ](https://www.acmicpc.net/problem/2661) | 골드 4 | 백 트래킹 |[코드](boj/gold4/2661.md)
