@@ -2,15 +2,16 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    stack<int> s;
     int t;
     cin >> t;
+    regex r(R"((100+1+|01)+)");
     while (t--) {
-
+        string str;
+        cin >> str;
+        regex_match(str, r) ? cout << "YES\n" : cout << "NO\n";
     }
 }

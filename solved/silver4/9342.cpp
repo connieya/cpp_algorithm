@@ -1,0 +1,42 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+const string SEQ = "AFC";
+
+bool isValid(string s) {
+    int len = s.length();
+    int idx = 0;
+    if(s[0] > 'F') return false;
+    int i;
+    s[0] = 'A';
+    for(i=0; i< len;){
+        if(idx <= 2  && SEQ[idx] != s[i]) return false;
+        while (i < len && s[i] == SEQ[idx]) {
+            i++;
+        }
+        idx++;
+        if(idx == 3 || i >= len){
+            break;
+        }
+    }
+    if (i < len){
+        if(s[i] <= 'F' && i+1 == len) return true;
+        return false;
+    }
+    return true;
+}
+
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int n;
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        string str;
+        cin >> str;
+        isValid(str) ? cout << "Infected!\n" : cout << "Good\n";
+    }
+}

@@ -4,7 +4,7 @@
 
 | 번호 |  문제 이름 | 난이도  | 코멘트|  코드 |
 |:---|:---------------------:|:-----:|:-----:|:------|
-|1013|[Contact](https://www.acmicpc.net/problem/1013) | 골드 5 |  ㅇ|[코드](boj/gold5/1013.md)
+|1013|[Contact](https://www.acmicpc.net/problem/1013) | 골드 5 | 정규표현식 && DFA(따로 공부하기) |[코드](boj/gold5/1013.md)
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) | 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) | 실버 4 |map|[코드](boj/silver4/1302.md)
 |1406|[에디터](https://www.acmicpc.net/problem/1406) | 실버 2 |연결리스트|[코드](boj/silver2/1406.md)
@@ -17,16 +17,21 @@
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2022|[ 사다리 ](https://www.acmicpc.net/problem/2022) | 실버 1 | 이분탐색 , 기하학 |[코드](boj/silver1/2022.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) | 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
+|2437|[ 저울 ](https://www.acmicpc.net/problem/2437) | 골드 3 |   |[코드](boj/gold3/2437.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
 |2661|[ 좋은 수열 ](https://www.acmicpc.net/problem/2661) | 골드 4 | 백 트래킹 |[코드](boj/gold4/2661.md)
+|2671|[ 잠수함식별 ](https://www.acmicpc.net/problem/2671) | 골드 5 | 정규식 |[코드](boj/gold5/2671.md)
 |2870|[ 수학 숙제 ](https://www.acmicpc.net/problem/2870) | 실버 4 | 문자열 파싱 ,예외 처리 ,범위 신경 쓰기|[코드](boj/silver4/2870.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) | 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) | 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
+|5177|[ 출력 형식이 잘못되었습니다. ](https://www.acmicpc.net/problem/5177) | 실버 2 | 정규식 |[코드](boj/silver2/5177.md)
 |5557|[ 1학년 ](https://www.acmicpc.net/problem/5557) | 골드 5 | dp |[코드](boj/gold5/5557.md)
 |5710|[ 전기 요금 ](https://www.acmicpc.net/problem/5710) | 골드 5 | 수학,이분탐색|[코드](study/2022/week16/5710.cpp)
+|6324|[ URLs ](https://www.acmicpc.net/problem/6324) | 실버 1 | 문자열 파싱 , 정규표현식 |[코드](boj/silver1/6324.md)
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) | 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
 |9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) | 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
+|9342|[ 염색체  ](https://www.acmicpc.net/problem/9342) | 실버 4 | 정규 표현식|[코드](boj/silver4/9342.md)
 |9663|[ N-Queen  ](https://www.acmicpc.net/problem/9663) | 골드 5 |백트래킹|[코드](boj/gold5/9663.md)
 |10546|[ 배부른 마라토너 ](https://www.acmicpc.net/problem/10546) | 실버 4 |unordered_set |[코드](boj/silver4/10546.md)
 |10597|[ 순열장난 ](https://www.acmicpc.net/problem/10597) | 실버 1 |   |[코드](boj/silver1/10597.md)
@@ -43,7 +48,7 @@
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
-|20440|[ 니가 싫어~ .. ](https://www.acmicpc.net/problem/20440) | 골드 4 |  |[코드](boj/gold4/20440.md)
+|20440|[ 니가 싫어~ .. ](https://www.acmicpc.net/problem/20440) | 골드 4 | prefix_sum  |[코드](boj/gold4/20440.md)
 |21278|[ 호석이 두 마리 치킨 ](https://www.acmicpc.net/problem/21278) | 골드 5 | 진짜 좋은 그래프 문제 👍 |[코드](boj/gold5/21278.md)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) | 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
 
@@ -53,7 +58,7 @@
 | # | &nbsp; &nbsp; &nbsp; &nbsp; Title &nbsp; &nbsp; &nbsp; &nbsp;| Difficulty &nbsp; | Comment| Solution |
 |:---|:---------------------:|:-----:|:-----:|:----|
 |1|[ Two Sum ](https://leetcode.com/problems/two-sum/) | Easy | 해시 사용해서 O(n)에 해결 |[Solution](leetcode/easy/1.md)
-|3|[ Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 구현 |[Solution](leetcode/medium/1.md)
+|3|[ Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 구현 |[Solution](leetcode/medium/3.md)
 |5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |정렬 |[Solution](leetcode/medium/5.md)
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
 |92|[ Reverse Linked List 2 ](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | 연결 리스트 |[Solution](leetcode/medium/92.md)
