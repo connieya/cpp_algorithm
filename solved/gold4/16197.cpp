@@ -5,32 +5,55 @@ using namespace std;
 int n, m;
 int dx[] = {-1, 0, 1, 0};
 int dy[] = {0, 1, 0, -1};
+vector<pair<int, int>> coin;
 char board[21][21];
-bool visited[21][21];
-int checked[21][21];
+int ans = INT_MAX;
 
-void init(){
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            visited[i][j] = false;
+bool OOP(pair<int,int> &p) {
+    return p.first < 0 || p.first >= n || p.second < 0 || p.second >= m;
+}
+
+void dfs(pair<int, int> a, pair<int, int> b, int cnt) {
+    if(ans < cnt) return;
+    if (cnt > 10) {
+        return;
+    }
+    if (OOP(a) && OOP(b)) return;
+    if (OOP(a) && !OOP(b)) {
+        ans = min(ans, cnt);
+        return;
+    }
+    if (!OOP(a) && OOP(b)) {
+        ans = min(ans, cnt);
+        return;
+    }
+    for (int i = 0; i < 4; ++i) {
+        int ax = a.first+dx[i];
+        int ay = a.second + dy[i];
+        int bx = b.first + dx[i];
+        int by = b.second + dy[i];
+        pair<int,int> an = a;
+        pair<int,int> bn = b;
+        if(board[ax][ay] != '#'){
+            an.first = ax;
+            an.second = ay;
         }
+        if(board[bx][by] != '#'){
+           bn.first = bx;
+           bn.second = by;
+        }
+        dfs(an, bn, cnt + 1);
     }
 }
 
-int dfs(int x, int y, int cnt) {
-    if (x < 0 || x > n || y < 0 || y > m) {
-        return cnt;
-    }
-    cout << x << ' ' << y <<  ' ' << cnt <<'\n';
-    for (int i = 0; i < 4; ++i) {
-        int nx = x + dx[i];
-        int ny = y + dy[i];
-        if (!visited[nx][ny] && board[nx][ny] != '#') {
-            visited[nx][ny] = true;
-            checked[nx][ny]++;
-            dfs(nx, ny, cnt + 1);
+void input() {
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            cin >> board[i][j];
+            if (board[i][j] == 'o') {
+                coin.push_back({i, j});
+            }
         }
-
     }
 }
 
@@ -39,22 +62,7 @@ int main() {
     cin.tie(0);
     cout.tie(0);
     cin >> n >> m;
-    for (int i = 0; i < n; ++i) {
-        cin >> board[i];
-    }
-    int ans = INT_MAX;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            if(board[i][j] == 'o'){
-                checked[i][j]++;
-                visited[i][j] = true;
-                ans = min(ans ,dfs(i,j,0));
-                cout << '\n';
-                init();
-            }
-        }
-    }
-    cout << ans;
-
-
+    input();
+    dfs(coin[0], coin[1], 0);
+    ans == INT_MAX ? cout << "-1" : cout << ans;
 }
