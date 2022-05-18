@@ -52,6 +52,8 @@
 |16174|[ 점프왕 쩰리(Large) ](https://www.acmicpc.net/problem/16174) | 실버 1 | DP or DFS & BFS  |[코드](boj/silver1/16174.md)
 |16197|[ 두 동전 ](https://www.acmicpc.net/problem/16197) | 골드 4 | 백트래킹 & pair 사용 시 주의(call by reference)  |[코드](boj/gold4/16197.md)
 |16235|[ 나무 재테크 ](https://www.acmicpc.net/problem/16235) | 골드 4 | 구현  |[코드](boj/gold4/16235.md)
+|16562|[ 친구비 ](https://www.acmicpc.net/problem/16562) | 골드 4 | 여러가지 풀이 가능 !!!  |[코드](boj/gold4/16562.md)
+|16987|[ 계란으로 계란치기 ](https://www.acmicpc.net/problem/16987) | 실버 1 | 백트래킹  |[코드](boj/silver1/16987.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
@@ -89,7 +91,7 @@
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
-|Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) |이분탐색 | [코드](programmers/level03/발판.md) |
+|Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) | minimax 게임 이론 & 재귀 (많이 어려움) | [코드](programmers/level03/발판.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 
