@@ -53,6 +53,7 @@
 |16197|[ 두 동전 ](https://www.acmicpc.net/problem/16197) | 골드 4 | 백트래킹 & pair 사용 시 주의(call by reference)  |[코드](boj/gold4/16197.md)
 |16235|[ 나무 재테크 ](https://www.acmicpc.net/problem/16235) | 골드 4 | 구현  |[코드](boj/gold4/16235.md)
 |16562|[ 친구비 ](https://www.acmicpc.net/problem/16562) | 골드 4 | 여러가지 풀이 가능 !!!  |[코드](boj/gold4/16562.md)
+|16929|[ Two Dots ](https://www.acmicpc.net/problem/16929) | 골드 4 | 그래프 탐색  |[코드](boj/gold4/16929.md)
 |16987|[ 계란으로 계란치기 ](https://www.acmicpc.net/problem/16987) | 실버 1 | 백트래킹  |[코드](boj/silver1/16987.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
