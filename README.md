@@ -22,6 +22,8 @@
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
 |2502|[ 떡 먹는 호랑이 ](https://www.acmicpc.net/problem/2502) | 실버 1 | 브루트포스 , 수학  |[코드](boj/silver1/2502.md)
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
+|2617|[ 구슬 찾기 ](https://www.acmicpc.net/problem/2617) | 골드 5 | 플로이드 와샬  |[코드](jungle/week3/2617_1.cpp)
+|2623|[ 음악프로그램 ](https://www.acmicpc.net/problem/2623) | 골드 2 | 위상정렬  |[코드](boj/gold2/2623.md)
 |2661|[ 좋은 수열 ](https://www.acmicpc.net/problem/2661) | 골드 4 | 백 트래킹 |[코드](boj/gold4/2661.md)
 |2659|[ 십자카드 문제 ](https://www.acmicpc.net/problem/2659) | 실버 3 | 구현, 브루트 포스 |[코드](boj/silver3/2659.md)
 |2671|[ 잠수함식별 ](https://www.acmicpc.net/problem/2671) | 골드 5 | 정규식 |[코드](boj/gold5/2671.md)
@@ -91,6 +93,7 @@
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
 |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
+|Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
