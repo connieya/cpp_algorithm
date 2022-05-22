@@ -74,6 +74,7 @@
 |1|[ Two Sum ](https://leetcode.com/problems/two-sum/) | Easy | 해시 사용해서 O(n)에 해결 |[Solution](leetcode/easy/1.md)
 |3|[ Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 구현 |[Solution](leetcode/medium/3.md)
 |5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |정렬 |[Solution](leetcode/medium/5.md)
+|46|[ Permutations ](https://leetcode.com/problems/permutations/) | Medium |순열을 출력하는 여러가지 풀이 |[Solution](leetcode/medium/46.md)
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
 |92|[ Reverse Linked List 2 ](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | 연결 리스트 |[Solution](leetcode/medium/92.md)
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
@@ -103,6 +104,7 @@
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 |Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 | [코드](programmers/level03/순위.md) |
+|Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 플로이드 와샬 | [코드](programmers/level03/보석쇼핑.md) |
 
 
 
