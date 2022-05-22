@@ -44,6 +44,7 @@
 |10867|[ 중복 빼고 정렬하기  ](https://www.acmicpc.net/problem/10867) | 실버 5 | 계수정렬 , unique 사용|[코드](boj/silver5/10867.md)
 |11000|[ 강의실 배정  ](https://www.acmicpc.net/problem/11000) | 골드 5 | 그리디 & 정렬 & 우선순위 큐|[코드](study/2022/week19/11000.cpp)
 |11024|[ 더하기 4  ](https://www.acmicpc.net/problem/11024) | 브론즈 3 | 공백 있는 문자열 , stringstream|[코드](boj/bronze3/11024.md)
+|11279|[ 최대 힙  ](https://www.acmicpc.net/problem/11279) | 실버 2 | priority queue|[코드](boj/silver1/11279.md)
 |11478|[ 서로 다른 부분 문자열의 개수  ](https://www.acmicpc.net/problem/11478) | 실버 3 | set , unique & erase |[코드](boj/silver3/11478.md)
 |11660|[ 구간 합 구하기 5  ](https://www.acmicpc.net/problem/11660) | 실버 1 | 누적합    |[코드](boj/silver1/11660.md)
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
