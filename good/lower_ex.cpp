@@ -19,5 +19,5 @@ int main() {
     cout << lower_bound(arr, arr + 6, 11) - arr << '\n'; // 3번째
     cout << lower_bound(arr, arr + 6, 12) - arr << '\n'; // 4번째
     cout << lower_bound(arr, arr + 6, 13) - arr << '\n'; // 5번째
-    cout << lower_bound(arr, arr + 6, 22) - arr << '\n'; // 5번째
+    cout << lower_bound(arr, arr + 6, 22) - arr << '\n'; // 6번째
 }

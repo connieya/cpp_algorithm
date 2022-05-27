@@ -13,6 +13,7 @@
 |1707|[ 이분 그래프 ](https://www.acmicpc.net/problem/1707) | 골드 4 | 그래프 |[코드](boj/gold4/1707.md)
 |1764|[ 듣보잡 ](https://www.acmicpc.net/problem/1764) | 실버 4 | map |[코드](boj/silver4/1764.md)
 |1793|[ 타일링 ](https://www.acmicpc.net/problem/1793) | 실버 1 |매우 큰 숫자 연산 / EOF 처리|[코드](boj/silver1/1793.md)
+|1806|[ 부분합 ](https://www.acmicpc.net/problem/1897) | 골드 4 | 투 포인터 |[코드](boj/gold4/1806.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) | 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) | 실버 1 | DP |[코드](boj/silver1/1932.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) | 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
@@ -59,7 +60,8 @@
 |16929|[ Two Dots ](https://www.acmicpc.net/problem/16929) | 골드 4 | 그래프 탐색 (cycle 판별 코드 참고 👍)  |[코드](boj/gold4/16929.md)
 |16947|[ 서울 지하철 2호선 ](https://www.acmicpc.net/problem/16947) | 골드 3 | 그래프 - cycle , 최단거리 , good  ⭐⭐⭐ |[코드](boj/gold3/16947.md)
 |16987|[ 계란으로 계란치기 ](https://www.acmicpc.net/problem/16987) | 실버 1 | 백트래킹  |[코드](boj/silver1/16987.md)
-|17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | 사용|[코드](boj/silver4/17219.md)
+|17124|[ 두 개의 배열 ](https://www.acmicpc.net/problem/17124) | 실버  3 | 이분탐색 , lower_bound 👍👍|[코드](boj/silver3/17124.md)
+|17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | hash map 사용|[코드](boj/silver4/17219.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) | 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
 |20440|[ 니가 싫어~ .. ](https://www.acmicpc.net/problem/20440) | 골드 4 | prefix_sum  |[코드](boj/gold4/20440.md)
@@ -97,6 +99,7 @@
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
 |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
+|Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
