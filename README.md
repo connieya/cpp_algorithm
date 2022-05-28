@@ -94,6 +94,7 @@
 |레벨 | 문제 | 코멘트 |코드|
 |:-----|:----|:----|:-----
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
+|Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
 |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
