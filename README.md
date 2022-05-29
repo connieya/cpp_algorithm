@@ -25,6 +25,7 @@
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) | 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
 |2502|[ 떡 먹는 호랑이 ](https://www.acmicpc.net/problem/2502) | 실버 1 | 브루트포스 , 수학  |[코드](boj/silver1/2502.md)
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
+|2602|[ 돌다리 건너기 ](https://www.acmicpc.net/problem/2602) | 골드 4 |  0 과 1 toggle & DP |[코드](boj/gold4/2602.md)
 |2617|[ 구슬 찾기 ](https://www.acmicpc.net/problem/2617) | 골드 5 | 플로이드 와샬  |[코드](jungle/week3/2617_1.cpp)
 |2623|[ 음악프로그램 ](https://www.acmicpc.net/problem/2623) | 골드 2 | 위상정렬  |[코드](boj/gold2/2623.md)
 |2661|[ 좋은 수열 ](https://www.acmicpc.net/problem/2661) | 골드 4 | 백 트래킹 |[코드](boj/gold4/2661.md)
