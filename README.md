@@ -52,6 +52,7 @@
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
 |14503|[ 로봇 청소기 ](https://www.acmicpc.net/problem/14503) | 골드 5 | 구현 |[코드](boj/gold5/14503.md)
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) | 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
+|15558|[ 점프 게임 ](https://www.acmicpc.net/problem/15558) | 실버 1 | 재밌는  BFS()  |[코드](study/2022/week20/15558.cpp)
 |15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) | 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
 |15954|[ 인형들 ](https://www.acmicpc.net/problem/15954) | 실버 1 | 수학 , 완탐  |[코드](study/2022/week18/15954.cpp)
 |16174|[ 점프왕 쩰리(Large) ](https://www.acmicpc.net/problem/16174) | 실버 1 | DP or DFS & BFS  |[코드](boj/silver1/16174.md)
