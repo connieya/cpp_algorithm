@@ -51,10 +51,10 @@
 |11279|[ 최대 힙  ](https://www.acmicpc.net/problem/11279) | 실버 2 | priority queue|[코드](boj/silver1/11279.md)
 |11478|[ 서로 다른 부분 문자열의 개수  ](https://www.acmicpc.net/problem/11478) | 실버 3 | set , unique & erase |[코드](boj/silver3/11478.md)
 |11660|[ 구간 합 구하기 5  ](https://www.acmicpc.net/problem/11660) | 실버 1 | 누적합    |[코드](boj/silver1/11660.md)
-|12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 &  stringstream 사용|[코드](boj/bronze1/12605.md)
+|12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) | 브론즈 1 | 공백 있는 문자열 입력 받기 & stringstream 사용|[코드](boj/bronze1/12605.md)
 |14503|[ 로봇 청소기 ](https://www.acmicpc.net/problem/14503) | 골드 5 | 구현 |[코드](boj/gold5/14503.md)
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) | 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
-|15558|[ 점프 게임 ](https://www.acmicpc.net/problem/15558) | 실버 1 | 재밌는  BFS()  |[코드](study/2022/week20/15558.cpp)
+|15558|[ 점프 게임 ](https://www.acmicpc.net/problem/15558) | 실버 1 | 재밌는 BFS()  |[코드](study/2022/week20/15558.cpp)
 |15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) | 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
 |15954|[ 인형들 ](https://www.acmicpc.net/problem/15954) | 실버 1 | 수학 , 완탐  |[코드](study/2022/week18/15954.cpp)
 |16174|[ 점프왕 쩰리(Large) ](https://www.acmicpc.net/problem/16174) | 실버 1 | DP or DFS & BFS  |[코드](boj/silver1/16174.md)
@@ -63,9 +63,9 @@
 |16562|[ 친구비 ](https://www.acmicpc.net/problem/16562) | 골드 4 | 여러가지 풀이 가능 !!!  |[코드](boj/gold4/16562.md)
 |16924|[ 십자가 찾기 ](https://www.acmicpc.net/problem/16924) | 실버 2 | 괜찮은 구현 문제  |[코드](boj/silver2/16924.md)
 |16929|[ Two Dots ](https://www.acmicpc.net/problem/16929) | 골드 4 | 그래프 탐색 (cycle 판별 코드 참고 👍)  |[코드](boj/gold4/16929.md)
-|16947|[ 서울 지하철 2호선 ](https://www.acmicpc.net/problem/16947) | 골드 3 | 그래프 - cycle , 최단거리 , good  ⭐⭐⭐ |[코드](boj/gold3/16947.md)
+|16947|[ 서울 지하철 2호선 ](https://www.acmicpc.net/problem/16947) | 골드 3 | 그래프 - cycle , 최단거리 , good ⭐⭐⭐ |[코드](boj/gold3/16947.md)
 |16987|[ 계란으로 계란치기 ](https://www.acmicpc.net/problem/16987) | 실버 1 | 백트래킹  |[코드](boj/silver1/16987.md)
-|17124|[ 두 개의 배열 ](https://www.acmicpc.net/problem/17124) | 실버  3 | 이분탐색 , lower_bound 👍👍|[코드](boj/silver3/17124.md)
+|17124|[ 두 개의 배열 ](https://www.acmicpc.net/problem/17124) | 실버 3 | 이분탐색 , lower_bound 👍👍|[코드](boj/silver3/17124.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) | 실버 4 | hash map 사용|[코드](boj/silver4/17219.md)
 |17471|[ 게리맨더링 ](https://www.acmicpc.net/problem/17471) | 골드 4 | 비트마스킹 && 완탐 && 그래프이론 👍👍👍👍 |[코드](boj/gold4/17471.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) | 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
@@ -74,7 +74,6 @@
 |20530|[ 양분 ](https://www.acmicpc.net/problem/20530) | 골드 1 | cycle이 있는 정점 구하기 & 분리 집합 ⭐⭐⭐⭐  |[코드](boj/gold1/20530.md)
 |21278|[ 호석이 두 마리 치킨 ](https://www.acmicpc.net/problem/21278) | 골드 5 | 진짜 좋은 그래프 문제 👍 |[코드](boj/gold5/21278.md)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) | 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
-
 
 ## 🎃 LeetCode
 
@@ -89,34 +88,34 @@
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
 |208|[ Implement Trie (Prefix tree) ](https://leetcode.com/problems/implement-trie-prefix-tree/) |Medium | 트라이 |[Solution](leetcode/medium/208.md)
 |316|[ Remove Duplicate Letters ](https://leetcode.com/problems/remove-duplicate-letters/) | Medium | Stack & 구현 |[Solution](leetcode/medium/316.md)
-|344|[ Reverse String ](https://leetcode.com/problems/reverse-string/) | Easy | swap  활용|[Solution](leetcode/easy/344.md)
+|344|[ Reverse String ](https://leetcode.com/problems/reverse-string/) | Easy | swap 활용|[Solution](leetcode/easy/344.md)
 |739|[ Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/) | Medium | Monotonic Stack |[Solution](leetcode/medium/739.md)
 |819|[ Most Common Word ](https://leetcode.com/problems/most-common-word/) | Easy | transform , unordered_map 활용 , 클린 코드| [Solution](leetcode/easy/819.md)
 |937|[ Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/) | Easy | 문자열 정렬시 참고하기 (sort 사용자 정의)|[Solution](leetcode/easy/937.md)
 
 ## 👻 프로그래머스
 
-  |레벨 | 문제 | 코멘트 |코드|
+|레벨 | 문제 | 코멘트 |코드|
   |:-----|:----|:----|:-----
-  |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
-  |Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
-  |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
-  |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
-  |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
-  |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
-  |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
-  |Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
-  |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
-  |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
-  |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
-  |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
-  |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
-  |Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) | minimax 게임 이론 & 재귀 (많이 어려움) | [코드](programmers/level03/발판.md) |
-  |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
-  |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
-  |Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 | [코드](programmers/level03/순위.md) |
-  |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 플로이드 와샬 | [코드](programmers/level03/보석쇼핑.md) |
-
+|Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
+|Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
+|Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
+|Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
+|Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
+|Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
+|Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
+|Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
+|Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
+|Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
+|Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
+|Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
+|Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
+|Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) | minimax 게임 이론 & 재귀 (많이 어려움) | [코드](programmers/level03/발판.md) |
+|Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
+|Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
+|Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 | [코드](programmers/level03/순위.md) |
+|Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
+|Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 플로이드 와샬 | [코드](programmers/level03/보석쇼핑.md) |
 
 ## 📃 Document
 
