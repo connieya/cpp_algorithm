@@ -1,0 +1,28 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    vector<pair<int, int>> v;
+    int n, l, s, e , ans = 0;
+    cin >> n >> l;
+    for (int i = 0; i < n; ++i) {
+        cin >> s >> e;
+        v.push_back({s, e});
+    }
+    sort(v.begin(), v.end());
+    int prev = 0;
+    for (int i = 0; i < n; ++i) {
+        s = v[i].first;
+        e = v[i].second;
+        if(prev >= v[i].second) continue;
+        prev = max(prev , v[i].first);
+        int add = (v[i].second - (prev+1)) / l+1;
+        ans += add;
+        prev += add*l;
+    }
+    cout << ans;
+}
