@@ -9,6 +9,7 @@
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) |🥈 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) |🥈 실버 4 |map|[코드](boj/silver4/1302.md)
 |1406|[에디터](https://www.acmicpc.net/problem/1406) |🥈 실버 2 |연결리스트|[코드](boj/silver2/1406.md)
+|1461|[도서관](https://www.acmicpc.net/problem/1461) |🥇 골드 5 |그리디|[코드](boj/gold5/1461.md)
 |1490|[자리수로 나누기](https://www.acmicpc.net/problem/1490) |🥇 골드 5 |수학,완탐 (코드 다시 보기) |[코드](study/2022/week19/1490.cpp)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) |🥇 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
 |1707|[ 이분 그래프 ](https://www.acmicpc.net/problem/1707) |🥇 골드 4 | 그래프 |[코드](boj/gold4/1707.md)
