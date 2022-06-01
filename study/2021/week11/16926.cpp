@@ -1,43 +1,60 @@
-﻿#include "stdio.h"
+﻿#include "bits/stdc++.h"
 
-int dx[] = {0, 1, 0, -1};
-int dy[] = {1, 0, -1, 0};
+using namespace std;
 
-int main(void) {
-    int n, m, r;
-    scanf("%d %d %d", &n, &m, &r);
-    int arr[300][300] = {0};
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            scanf("%d", &arr[i][j]);
+int arr[301][301];
+int n, m, r;
+
+void Rotate(int x1, int y1, int x2, int y2) {
+    int tmp = arr[x1][y1];
+    for (int i = y1; i < y2; ++i) {
+        arr[x1][i] = arr[x1][i + 1];
+    }
+    for (int i = x1; i < x2; ++i) {
+        arr[i][y2] = arr[i + 1][y2];
+    }
+    for (int i = y2; i > y1; --i) {
+        arr[x2][i] = arr[x2][i - 1];
+    }
+    for (int i = x2; i > x1; --i) {
+        arr[i][y1] = arr[i - 1][y1];
+    }
+    arr[x1 + 1][y1] = tmp;
+}
+
+
+void Rotate() {
+    int x1 = 0;
+    int y1 = 0;
+    int x2 = n - 1;
+    int y2 = m - 1;
+    while (x1 < x2 && y1 < y2) {
+        Rotate(x1, y1, x2, y2);
+        x1++;
+        y1++;
+        x2--;
+        y2--;
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+
+    cin >> n >> m >> r;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            cin >> arr[i][j];
         }
     }
-    int group = n > m ? m / 2 : n / 2;
     while (r--) {
-        for (int i = 0; i < group; ++i) {
-            int x = i;
-            int y = i;
-            int value = arr[x][y];
-            int dir = 0;
-            while (dir < 4){
-                int nx = x +dx[dir];
-                int ny = y + dy[dir];
-                if(nx>=i && nx < n-i && ny >= i && ny<m-i){
-                    arr[x][y] = arr[nx][ny];
-                    x = nx;
-                    y= ny;
-                }else {
-                    dir++;
-                }
-            }
-            arr[x+1][y] = value;
-        }
+        Rotate();
     }
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
-            printf("%d ",arr[i][j]);
+            cout << arr[i][j] << ' ';
         }
-        printf("\n");
+        cout << '\n';
     }
-
 }

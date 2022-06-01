@@ -67,6 +67,7 @@
 |16235|[ 나무 재테크 ](https://www.acmicpc.net/problem/16235) |🥇 골드 4 | 구현  |[코드](boj/gold4/16235.md)
 |16562|[ 친구비 ](https://www.acmicpc.net/problem/16562) |🥇 골드 4 | 여러가지 풀이 가능 !!!  |[코드](boj/gold4/16562.md)
 |16924|[ 십자가 찾기 ](https://www.acmicpc.net/problem/16924) |🥈 실버 2 | 괜찮은 구현 문제  |[코드](boj/silver2/16924.md)
+|16926|[ 배열 돌리기 1 ](https://www.acmicpc.net/problem/16926) |🥈 실버 1 |  구현 문제  |[코드](boj/silver1/16926.md)
 |16929|[ Two Dots ](https://www.acmicpc.net/problem/16929) |🥇 골드 4 | 그래프 탐색 (cycle 판별 코드 참고 👍)  |[코드](boj/gold4/16929.md)
 |16943|[ 숫자 재배치 ](https://www.acmicpc.net/problem/16943) |🥈 실버 1 | 완전 탐색 👍👍  |[코드](boj/silver1/16943.md)
 |16947|[ 서울 지하철 2호선 ](https://www.acmicpc.net/problem/16947) |🥇 골드 3 | 그래프 - cycle , 최단거리 , good ⭐⭐⭐ |[코드](boj/gold3/16947.md)

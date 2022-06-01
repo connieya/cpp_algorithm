@@ -1,27 +1,29 @@
 ﻿#include "bits/stdc++.h"
 
+#define g(v) (v.size() ? v.back() : 0)
+
 using namespace std;
 
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n, m, t = 0, ans = 0;
+    vector<int> v;
+    vector<int> w;
+    int n, m, t, ans = 0;
     cin >> n >> m;
-    vector<int> v(n);
     for (int i = 0; i < n; ++i) {
-        cin >> v[i];
-        if (v[i] < 0) {
-            t++;
-        }
+        cin >> t;
+        (t < 0 ? v : w).push_back(abs(t));
     }
     sort(v.begin(), v.end());
-    for (int i = n - 1; i >= t; i -= m) {
+    sort(w.begin(), w.end());
+    for (int i = v.size() - 1; i >= 0; i += m) {
         ans += v[i];
     }
-    for (int i = 0; i < t; i += m) {
-        ans += abs(v[i]);
+    for (int i = w.size() - 1; i >= 0; i -= m) {
+        ans += w[i];
     }
     ans <<= 1;
-    cout << ans - max(abs(v[0]), abs(v[n - 1]));
+    cout << ans - max(g(w), g(v));
 }
