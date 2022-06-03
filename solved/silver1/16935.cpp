@@ -4,7 +4,6 @@ using namespace std;
 
 int arr[105][105];
 int tmp[105][105];
-int split_tmp[105][105];
 int n, m, t;
 
 void init() {
@@ -18,15 +17,15 @@ void init() {
 void rotate_one() {
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
-           arr[i][j] = tmp[n-1-i][j];
+            arr[i][j] = tmp[n - 1 - i][j];
         }
     }
 }
 
 void rotate_two() {
-    for (int i = 0; i < m; ++i) {
+    for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
-            arr[i][j] = tmp[i][m-1-j];
+            arr[i][j] = tmp[i][m - 1 - j];
         }
     }
 }
@@ -34,7 +33,7 @@ void rotate_two() {
 void rotate_three() {
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
-           arr[i][j] = tmp[n-1-j][i];
+            arr[i][j] = tmp[n - 1 - j][i];
         }
     }
     swap(n, m);
@@ -52,31 +51,26 @@ void rotate_four() {
 }
 
 void rotate_five() {
-    for (int i = n / 2; i < n; ++i) {
-        for (int j = 0; j < m/2; ++j) {
-            split_tmp[i][j] = arr[i][j];
-        }
-    }
-    for (int i = n / 2; i < n; ++i) {
-        for (int j = 0; j < m / 2; ++j) {
-            arr[i][j] = arr[i][j + m / 2]; // 4  <- 3
-        }
-    }
-
     for (int i = 0; i < n / 2; ++i) {
-        for (int j = m / 2; j < m; ++j) {
-            arr[n / 2 + i][j] = arr[i][j]; // 3  <- 2
+        for (int j = 0; j < m / 2; ++j) {
+            arr[i][j] = tmp[i + n / 2][j];
+        }
+    }
+    for (int i = 0; i < n / 2; ++i) {
+        for (int j = 0; j < m / 2; ++j) {
+            arr[i][j + m / 2] = tmp[i][j];
         }
     }
 
     for (int i = 0; i < n / 2; ++i) {
         for (int j = 0; j < m / 2; ++j) {
-            arr[i][j + m / 2] = arr[i][j];// 2 <- 1
+            arr[i + n / 2][j + m / 2] = tmp[i][j + m / 2];
         }
     }
+
     for (int i = 0; i < n / 2; ++i) {
         for (int j = 0; j < m / 2; ++j) {
-            arr[i][j] = split_tmp[i + n / 2][j]; //1 <- 4
+            arr[i + n / 2][j] = tmp[i + n / 2][j + m / 2];
         }
     }
 }
@@ -84,33 +78,26 @@ void rotate_five() {
 void rotate_six() {
     for (int i = 0; i < n / 2; ++i) {
         for (int j = 0; j < m / 2; ++j) {
-            split_tmp[i][j] = arr[i][j];
+            arr[i][j] = tmp[i][j + m / 2];
         }
     }
 
     for (int i = 0; i < n / 2; ++i) {
         for (int j = 0; j < m / 2; ++j) {
-            arr[i][j] = arr[i][j+m/2]; // 1 <- 2
+            arr[i][j + m / 2] = tmp[i + n / 2][j + m / 2];
         }
     }
 
-    for (int i = 0; i < n/2; ++i) {
-        for (int j = m/2; j < m; ++j) {
-            arr[i][j] = arr[i+n/2][j]; // 2 <- 3
-        }
-    }
-
-    for (int i =n/2; i < n; ++i) {
-        for (int j = 0; j < m/2; ++j) {
-            arr[i][j+m/2] = arr[i][j]; // 3 <- 4;
-        }
-    }
-
-    for (int i = 0; i < n/2; ++i) {
+    for (int i = 0; i < n / 2; ++i) {
         for (int j = 0; j < m / 2; ++j) {
-            arr[i+n/2][j] = split_tmp[i][j];
+            arr[i + n / 2][j + m / 2] = tmp[i + n / 2][j];
         }
+    }
 
+    for (int i = 0; i < n / 2; ++i) {
+        for (int j = 0; j < m / 2; ++j) {
+            arr[i + n / 2][j] = tmp[i][j];
+        }
     }
 }
 
@@ -157,5 +144,4 @@ int main() {
         rotate(num);
     }
     output();
-
 }
