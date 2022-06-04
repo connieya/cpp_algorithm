@@ -1,0 +1,35 @@
+﻿#include "bits/stdc++.h"
+
+const int MOD = int(1e9) + 7;
+
+using namespace std;
+
+typedef long long ll;
+int arr[300000];
+
+ll _pow_(ll x, ll n) {
+    int ret = 1;
+    while (n) {
+        if (n % 2) ret = ret * x % MOD;
+        x = x * x % MOD;
+        n /= 2;
+    }
+    return ret;
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    ll n ,ans = 0;
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        cin >> arr[i];
+    }
+    sort(arr, arr + n);
+    for (int i = 0; i < n; ++i) {
+        ans += arr[i] * (_pow_(2, i) - _pow_(2, n - i - 1));
+        ans %= MOD;
+    }
+    cout << ans;
+}
