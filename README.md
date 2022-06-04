@@ -57,6 +57,7 @@
 |11660|[ 구간 합 구하기 5  ](https://www.acmicpc.net/problem/11660) |🥈 실버 1 | 누적합    |[코드](boj/silver1/11660.md)
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) |🥉 브론즈 1 | 공백 있는 문자열 입력 받기 & stringstream 사용|[코드](boj/bronze1/12605.md)
 |13417|[ 카드 문자열 ](https://www.acmicpc.net/problem/13417) |🥈 실버 3 | deque & |[코드](boj/silver3/13417.md)
+|14226|[ 이모티콘 ](https://www.acmicpc.net/problem/14226) |🥇 골드 5 | BFS |[코드](boj/gold5/14226.md)
 |14503|[ 로봇 청소기 ](https://www.acmicpc.net/problem/14503) |🥇 골드 5 | 구현 |[코드](boj/gold5/14503.md)
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) |🥈 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
 |14676|[ 영우는 사기꾼? ](https://www.acmicpc.net/problem/14676) |🥇 골드 3 |위상 정렬 응용|[코드](boj/gold3/14676.md)
@@ -128,7 +129,8 @@
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 |Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 | [코드](programmers/level03/순위.md) |
 |Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
-|Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 플로이드 와샬 | [코드](programmers/level03/보석쇼핑.md) |
+|Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
+|Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) |  | [코드](programmers/level03/보석쇼핑.md) |
 
 ## 📃 Document
 
