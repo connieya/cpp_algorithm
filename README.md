@@ -136,14 +136,17 @@
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
 |Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
 |Lv.3| [N으로 표현 ](https://programmers.co.kr/learn/courses/30/lessons/42895) | DP , unordered_set , find() | [코드](programmers/level03/N으로표현.md) |
+|Lv.4| [징검다리 ](https://programmers.co.kr/learn/courses/30/lessons/43326) | 이분탐색 | [코드](programmers/level04/징검다리.md) |
 
 
 ## 🤡 SQL
+
 |레벨 | 문제 | 코멘트 |코드|
 |:-----|:----|:----|:-----
 |Lv.2| [ 루시와 엘라 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59046) |in | [코드](SQL/lv_2/루시와엘라찾기.md) |
 |Lv.3| [ 없어진 기록 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59042) |outer join| [코드](SQL/lv_3/없어진기록.md) |
-|Lv.4| [ 우유와 요거트가 담긴 장바구니 ](https://programmers.co.kr/learn/courses/30/lessons/62284) |self join , intersect| [코드](SQL/lv_4/우유.md) |
+|Lv.3| [ 있었는데요 없었습니다. ](https://programmers.co.kr/learn/courses/30/lessons/59043) |inner join| [코드](SQL/lv_3/있었는데요.md) |
+|Lv.4| [ 우유와 요거트가 담긴 장바구니 ](https://programmers.co.kr/learn/courses/30/lessons/62284) |self join , intersect ,inner join , 서브쿼리| [코드](SQL/lv_4/우유.md) |
 
 
 ## 📃 Document
