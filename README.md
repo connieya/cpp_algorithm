@@ -132,10 +132,11 @@
 |Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
 |Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
-
+|Lv.3| [N으로 표현 ](https://programmers.co.kr/learn/courses/30/lessons/42895) | DP , unordered_set , find() | [코드](programmers/level03/N으로표현.md) |
 ## 🤡 SQL
 |레벨 | 문제 | 코멘트 |코드|
 |:-----|:----|:----|:-----
+|Lv.2| [ 루시와 엘라 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59046) |in | [코드](SQL/lv_2/루시와엘라찾기.md) |
 |Lv.3| [ 없어진 기록 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59042) |outer join| [코드](SQL/lv_3/없어진기록.md) |
 
 
