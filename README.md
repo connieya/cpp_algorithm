@@ -48,7 +48,7 @@
 |9342|[ 염색체  ](https://www.acmicpc.net/problem/9342) |🥈 실버 4 | 정규 표현식|[코드](boj/silver4/9342.md)
 |9663|[ N-Queen  ](https://www.acmicpc.net/problem/9663) |🥇 골드 5 |백트래킹|[코드](boj/gold5/9663.md)
 |10546|[ 배부른 마라토너 ](https://www.acmicpc.net/problem/10546) |🥈 실버 4 |unordered_set |[코드](boj/silver4/10546.md)
-|10597|[ 순열장난 ](https://www.acmicpc.net/problem/10597) |🥈 실버 1 |   |[코드](boj/silver1/10597.md)
+|10597|[ 순열장난 ](https://www.acmicpc.net/problem/10597) |🥈 실버 1 | 백트래킹 정석! 👍👍👍👍  |[코드](boj/silver1/10597.md)
 |10867|[ 중복 빼고 정렬하기  ](https://www.acmicpc.net/problem/10867) | 🥈 실버 5 | 계수정렬 , unique 사용|[코드](boj/silver5/10867.md)
 |11000|[ 강의실 배정  ](https://www.acmicpc.net/problem/11000) |🥇 골드 5 | 그리디 & 정렬 & 우선순위 큐|[코드](study/2022/week19/11000.cpp)
 |11024|[ 더하기 4  ](https://www.acmicpc.net/problem/11024) |🥉 브론즈 3 | 공백 있는 문자열 , stringstream|[코드](boj/bronze3/11024.md)
@@ -132,6 +132,12 @@
 |Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
 |Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
+
+## 🤡 SQL
+|레벨 | 문제 | 코멘트 |코드|
+|:-----|:----|:----|:-----
+|Lv.3| [ 없어진 기록 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59042) |outer join| [코드](SQL/lv_3/없어진기록.md) |
+
 
 ## 📃 Document
 
