@@ -136,6 +136,7 @@
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
 |Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
 |Lv.3| [N으로 표현 ](https://programmers.co.kr/learn/courses/30/lessons/42895) | DP , unordered_set , find() | [코드](programmers/level03/N으로표현.md) |
+|Lv.3| [1차 셔틀버스 ](https://programmers.co.kr/learn/courses/30/lessons/17678) | 구현 (시간 관련 ) & 그리디 | [코드](programmers/level03/셔틀버스.md) |
 |Lv.4| [징검다리 ](https://programmers.co.kr/learn/courses/30/lessons/43326) | 이분탐색 | [코드](programmers/level04/징검다리.md) |
 
 
