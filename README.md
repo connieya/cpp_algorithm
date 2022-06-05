@@ -23,6 +23,7 @@
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) |🥈 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2022|[ 사다리 ](https://www.acmicpc.net/problem/2022) |🥈 실버 1 | 이분탐색 , 기하학 |[코드](boj/silver1/2022.md)
 |2072|[ 오목 ](https://www.acmicpc.net/problem/2072) | 🥈 실버 2 | 구현👍👍 |[코드](boj/silver2/2072.md)
+|2110|[공유기 설치](https://www.acmicpc.net/problem/2110) | 🥇 골드 5 | 이분 탐색 |[코드](boj/gold5/2110.md)
 |2290|[ LCD Test ](https://www.acmicpc.net/problem/2290) |🥈 실버 2 | 구현 |[코드](boj/silver2/2290.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) |🥇 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
 |2437|[ 저울 ](https://www.acmicpc.net/problem/2437) |🥇 골드 3 | 그리디, 정렬|[코드](boj/gold3/2437.md)
@@ -142,6 +143,7 @@
 |:-----|:----|:----|:-----
 |Lv.2| [ 루시와 엘라 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59046) |in | [코드](SQL/lv_2/루시와엘라찾기.md) |
 |Lv.3| [ 없어진 기록 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59042) |outer join| [코드](SQL/lv_3/없어진기록.md) |
+|Lv.4| [ 우유와 요거트가 담긴 장바구니 ](https://programmers.co.kr/learn/courses/30/lessons/62284) |self join , intersect| [코드](SQL/lv_4/우유.md) |
 
 
 ## 📃 Document

@@ -2,41 +2,43 @@
 
 using namespace std;
 
-int arr[200001];
+int n, c;
 
-int countWifi(int num , int n) {
+int countWifi(int dist, vector<int> &v) {
+    int len = v.size();
     int cnt = 1;
-    int locate  = arr[0];
-    for (int i = 1; i < n; ++i) {
-        if (arr[i]-locate >= num) {
-            locate = arr[i];
+    int prev = v[0];
+    for (int i = 1; i < len; ++i) {
+        if (v[i] - prev >= dist) {
+            prev = v[i];
             cnt++;
         }
     }
     return cnt;
 }
 
-int main()
-{
+int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n,k , ans;
-    cin >> n >> k;
+    cin >> n >> c;
+    vector<int> v(n);
     for (int i = 0; i < n; ++i) {
-        cin >> arr[i];
+        cin >> v[i];
     }
-    sort(arr,arr+n);
-    int lt = 1;
-    int rt = arr[n-1]-arr[0];
+    sort(v.begin(), v.end());
+    int lt = 0, rt = v[n - 1];
+    int ans;
     while (lt <= rt) {
-        int mid_distance = (lt+rt) /2;
-        if (countWifi(mid_distance, n) >= k){ // 공유기 설치 가 많다 최소거리 늘림
-            lt = mid_distance+1;
-            ans = mid_distance;
-        }else { // 공유기 설치하는 개수가 적다 , 기준이 되는 최소 거리가 줄여라
-            rt = mid_distance-1;
+        int mid = (lt + rt) / 2;
+        int res = countWifi(mid, v);
+        if (res >= c) { // 공유기를 많이 설치한다는 말 -> mid값이 작다는 말
+            lt = mid + 1;
+            ans = mid;
+        } else {
+            rt = mid - 1;
         }
     }
     cout << ans;
+
 }

@@ -6,3 +6,4 @@ set(CMAKE_C_FLAGS "-fexec-charset=CP949 -g -Wall")
 
 
 add_executable(solved_silver1_10597 solved/silver1/10597.cpp)
+add_executable(solved_gold5_2110 solved/gold5/2110.cpp)
