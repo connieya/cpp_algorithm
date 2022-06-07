@@ -63,6 +63,7 @@
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) |🥈 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
 |14676|[ 영우는 사기꾼? ](https://www.acmicpc.net/problem/14676) |🥇 골드 3 |위상 정렬 응용|[코드](boj/gold3/14676.md)
 |15558|[ 점프 게임 ](https://www.acmicpc.net/problem/15558) |🥈 실버 1 | 재밌는 BFS()  |[코드](study/2022/week20/15558.cpp)
+|15649|[ N과M (1) ](https://www.acmicpc.net/problem/15649) |🥈 실버 1 | 백트래킹  |[코드](study/2022/week20/15558.cpp)
 |15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) |🥇 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
 |15729|[ 방탈출 ](https://www.acmicpc.net/problem/15729) | 🥈 실버 2 | 그리디  |[코드](boj/silver2/15729.md)
 |15824|[ 너 봄에는 캡사이신이 ](https://www.acmicpc.net/problem/15824) | 🥇 골드 1 | 거듭제곱 , 수학 ,조합론  |[코드](boj/gold1/15824.md)
@@ -96,7 +97,8 @@
 |:---|:---------------------:|:-----:|:-----:|:----|
 |1|[ Two Sum ](https://leetcode.com/problems/two-sum/) | Easy | 해시 사용해서 O(n)에 해결 |[Solution](leetcode/easy/1.md)
 |3|[ Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 구현 |[Solution](leetcode/medium/3.md)
-|5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |정렬 |[Solution](leetcode/medium/5.md)
+|5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |  |[Solution](leetcode/medium/5.md)
+|42|[Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/) | Hard | 여러가지 풀이 |[Solution](leetcode/hard/42.md)
 |46|[ Permutations ](https://leetcode.com/problems/permutations/) | Medium |순열을 출력하는 여러가지 풀이 |[Solution](leetcode/medium/46.md)
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
 |92|[ Reverse Linked List 2 ](https://leetcode.com/problems/reverse-linked-list-ii/) | Medium | 연결 리스트 |[Solution](leetcode/medium/92.md)
@@ -124,6 +126,7 @@
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
 |Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
+|Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
