@@ -39,6 +39,7 @@
 |2659|[ 십자카드 문제 ](https://www.acmicpc.net/problem/2659) |🥈 실버 3 | 구현, 브루트 포스 |[코드](boj/silver3/2659.md)
 |2671|[ 잠수함식별 ](https://www.acmicpc.net/problem/2671) |🥇 골드 5 | 정규식 |[코드](boj/gold5/2671.md)
 |2870|[ 수학 숙제 ](https://www.acmicpc.net/problem/2870) |🥈 실버 4 | 문자열 파싱 ,예외 처리 ,범위 신경 쓰기|[코드](boj/silver4/2870.md)
+|2942|[ 퍼거슨과 사과 ](https://www.acmicpc.net/problem/2942) |🥈 실버 2| 최대 공약수 & 약수 출력하기|[코드](boj/silver2/2942.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) |🥇 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) |🥈 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
 |5177|[ 출력 형식이 잘못되었습니다. ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 정규식 |[코드](boj/silver2/5177.md)
