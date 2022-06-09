@@ -39,6 +39,7 @@
 |2659|[ 십자카드 문제 ](https://www.acmicpc.net/problem/2659) |🥈 실버 3 | 구현, 브루트 포스 |[코드](boj/silver3/2659.md)
 |2671|[ 잠수함식별 ](https://www.acmicpc.net/problem/2671) |🥇 골드 5 | 정규식 |[코드](boj/gold5/2671.md)
 |2870|[ 수학 숙제 ](https://www.acmicpc.net/problem/2870) |🥈 실버 4 | 문자열 파싱 ,예외 처리 ,범위 신경 쓰기|[코드](boj/silver4/2870.md)
+|2872|[ 우리집에엔 도서관이 있어 ](https://www.acmicpc.net/problem/2872) |🥈 실버 2 |그리디 👍👍|[코드](boj/silver2/2872.md)
 |2942|[ 퍼거슨과 사과 ](https://www.acmicpc.net/problem/2942) |🥈 실버 2| 최대 공약수 & 약수 출력하기|[코드](boj/silver2/2942.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) |🥇 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) |🥈 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
@@ -137,7 +138,7 @@
 |Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) | minimax 게임 이론 & 재귀 (많이 어려움) | [코드](programmers/level03/발판.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
-|Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 | [코드](programmers/level03/순위.md) |
+|Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 , dfs | [코드](programmers/level03/순위.md) |
 |Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
 |Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
