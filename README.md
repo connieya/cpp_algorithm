@@ -42,6 +42,7 @@
 |2872|[ 우리집에엔 도서관이 있어 ](https://www.acmicpc.net/problem/2872) |🥈 실버 2 |그리디 👍👍|[코드](boj/silver2/2872.md)
 |2942|[ 퍼거슨과 사과 ](https://www.acmicpc.net/problem/2942) |🥈 실버 2| 최대 공약수 & 약수 출력하기|[코드](boj/silver2/2942.md)
 |3019|[ 테트리스 ](https://www.acmicpc.net/problem/3019) |🥈 실버 1| 구현|[코드](boj/silver1/3019.md)
+|3078|[ 입국심사 ](https://www.acmicpc.net/problem/3078) |🥇 골드 4 | 큐 , 슬라이싱 윈도우|[코드](boj/gold4/3078.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) |🥇 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) |🥈 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
 |5177|[ 출력 형식이 잘못되었습니다. ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 정규식 |[코드](boj/silver2/5177.md)
@@ -130,6 +131,7 @@
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
 |Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
 |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
+|Lv.2| [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | 완탐 !! | [코드](programmers/level02/피로도.md) |
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
 |Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
