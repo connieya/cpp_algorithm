@@ -73,6 +73,7 @@
 |15729|[ 방탈출 ](https://www.acmicpc.net/problem/15729) | 🥈 실버 2 | 그리디  |[코드](boj/silver2/15729.md)
 |15824|[ 너 봄에는 캡사이신이 ](https://www.acmicpc.net/problem/15824) | 🥇 골드 1 | 거듭제곱 , 수학 ,조합론  |[코드](boj/gold1/15824.md)
 |15954|[ 인형들 ](https://www.acmicpc.net/problem/15954) | 🥈 실버 1 | 수학 , 완탐  |[코드](study/2022/week18/15954.cpp)
+|15973|[ 두 박스 ](https://www.acmicpc.net/problem/15973) | 🥈 실버 1 | 수학 , 기하학   |[코드](boj/silver1/15973.md)
 |16174|[ 점프왕 쩰리(Large) ](https://www.acmicpc.net/problem/16174) |🥈 실버 1 | DP or DFS & BFS  |[코드](boj/silver1/16174.md)
 |16197|[ 두 동전 ](https://www.acmicpc.net/problem/16197) |🥇 골드 4 | 백트래킹 & pair 사용 시 주의(call by reference)  |[코드](boj/gold4/16197.md)
 |16235|[ 나무 재테크 ](https://www.acmicpc.net/problem/16235) |🥇 골드 4 | 구현  |[코드](boj/gold4/16235.md)
