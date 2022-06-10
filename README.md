@@ -2,6 +2,7 @@
 
 ## ✨ BOJ
 
+
 | 번호 |  문제 이름 | 난이도  | 코멘트|  코드 |
 |:---|:-------------------:|:-----------:|:-----:|:------|
 |1013|[Contact](https://www.acmicpc.net/problem/1013) |🥇 골드 5 | 정규표현식 && DFA(따로 공부하기) |[코드](boj/gold5/1013.md)
@@ -15,6 +16,7 @@
 |1490|[자리수로 나누기](https://www.acmicpc.net/problem/1490) |🥇 골드 5 |수학,완탐 (코드 다시 보기) |[코드](study/2022/week19/1490.cpp)
 |1495|[기타리스트](https://www.acmicpc.net/problem/1495) |🥈 실버 1 |DP |[코드](boj/silver1/1495.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) |🥇 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
+|1600|[ 말이 되고픈 원숭이 ](https://www.acmicpc.net/problem/1600) |🥇 골드 4 | BFS  |[코드](boj/gold4/1600.md)
 |1707|[ 이분 그래프 ](https://www.acmicpc.net/problem/1707) |🥇 골드 4 | 그래프 |[코드](boj/gold4/1707.md)
 |1764|[ 듣보잡 ](https://www.acmicpc.net/problem/1764) |🥈 실버 4 | map |[코드](boj/silver4/1764.md)
 |1793|[ 타일링 ](https://www.acmicpc.net/problem/1793) |🥈 실버 1 |매우 큰 숫자 연산 / EOF 처리|[코드](boj/silver1/1793.md)
@@ -96,7 +98,7 @@
 |20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) |🥈 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
 |20440|[ 니가 싫어~ .. ](https://www.acmicpc.net/problem/20440) |🥇 골드 4 | prefix_sum  |[코드](boj/gold4/20440.md)
 |20530|[ 양분 ](https://www.acmicpc.net/problem/20530) |🥇 골드 1 | cycle이 있는 정점 구하기 & 분리 집합 ⭐⭐⭐⭐  |[코드](boj/gold1/20530.md)
-|21278|[ 호석이 두 마리 치킨 ](https://www.acmicpc.net/problem/21278) |🥇 골드 5 | 진짜 좋은 그래프 문제 👍 |[코드](boj/gold5/21278.md)
+|21278|[ 호석이 두 마리 치킨 ](https://www.acmicpc.net/problem/21278) |🥇 골드 5 | 진짜 좋은 그래프 문제 👍 복습 ✍️ |[코드](boj/gold5/21278.md)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) |🥇 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
 
 ## 🎃 LeetCode
