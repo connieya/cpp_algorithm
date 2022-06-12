@@ -126,24 +126,26 @@
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
 |Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
 |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
-|Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
-|Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
-|Lv.2| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | 구현 | [코드](programmers/level02/행렬테두리회전.md) |
-|Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
-|Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
-|Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
-|Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
-|Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
-|Lv.2| [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | 완탐 !! | [코드](programmers/level02/피로도.md) |
-|Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
-|Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
-|Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
-|Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
-|Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
-|Lv.2| [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | DFS , 조합 , map 👍👍 | [코드](programmers/level02/메뉴리뉴얼.md) |
-|Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
 |Lv.2| [게임 맵 최단거리 ](https://programmers.co.kr/learn/courses/30/lessons/1844) | BFS| [코드](programmers/level02/게임맵최단거리.md) |
+|Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
+|Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
+|Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
 |Lv.2| [전화번호 목록 ](https://programmers.co.kr/learn/courses/30/lessons/42577) | 정렬 , 문자열 substr| [코드](programmers/level02/전화번호목록.md) |
+|Lv.2| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42578) | 큐 , 구현 센스 익히기(큐 X) 👍 | [코드](programmers/level02/프린터.md) |
+|Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
+|Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
+|Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
+|Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
+|Lv.2| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | vector erase 👍👍 | [코드](programmers/level02/수식최대화.md) |
+|Lv.2| [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | DFS , 조합 , map 👍👍 | [코드](programmers/level02/메뉴리뉴얼.md) |
+|Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
+|Lv.2| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | 구현 | [코드](programmers/level02/행렬테두리회전.md) |
+|Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
+|Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
+|Lv.2| [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | 완탐 !! | [코드](programmers/level02/피로도.md) |
+|Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
+|Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
+|Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
 |Lv.3| [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | DFS  | [코드](programmers/level03/네트워크.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
