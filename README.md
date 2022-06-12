@@ -8,6 +8,7 @@
 |1041|[주사위](https://www.acmicpc.net/problem/1041) |🥇 골드 5 | 그리디 , 구현 |[코드](boj/gold5/1041.md)
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) |🥈 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) |🥈 실버 4 |map|[코드](boj/silver4/1302.md)
+|1347|[미로 만들기](https://www.acmicpc.net/problem/1347) |🥈 실버 3 |구현 , R , L 회전 👍👍 복습하기|[코드](boj/silver3/1347.md)
 |1388|[바닥 장식](https://www.acmicpc.net/problem/1388) |🥈 실버 3 |구현|[코드](boj/silver3/1388.md)
 |1398|[동전 문제](https://www.acmicpc.net/problem/1398) |🥇 골드 2 |그리디 |[코드](boj/gold2/1398.md)
 |1406|[에디터](https://www.acmicpc.net/problem/1406) |🥈 실버 2 |연결리스트|[코드](boj/silver2/1406.md)
