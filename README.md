@@ -2,7 +2,6 @@
 
 ## ✨ BOJ
 
-
 | 번호 |  문제 이름 | 난이도  | 코멘트|  코드 |
 |:---|:-------------------:|:-----------:|:-----:|:------|
 |1013|[Contact](https://www.acmicpc.net/problem/1013) |🥇 골드 5 | 정규표현식 && DFA(따로 공부하기) |[코드](boj/gold5/1013.md)
@@ -128,6 +127,8 @@
 |Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
 |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
+|Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
+|Lv.2| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | 구현 | [코드](programmers/level02/행렬테두리회전.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
 |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
@@ -138,6 +139,7 @@
 |Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
 |Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
+|Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
