@@ -24,6 +24,7 @@
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) |🥇 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |1911|[ 흙길 보수하기 ](https://www.acmicpc.net/problem/1911) |🥈 실버 1 | 정렬,스위핑|[코드](boj/silver1/1911.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) |🥈 실버 1 | DP |[코드](boj/silver1/1932.md)
+|1986|[ 체스 ](https://www.acmicpc.net/problem/1986) |🥈 실버 2 | 구현 |[코드](boj/silver2/1986.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) |🥈 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2022|[ 사다리 ](https://www.acmicpc.net/problem/2022) |🥈 실버 1 | 이분탐색 , 기하학 |[코드](boj/silver1/2022.md)
 |2072|[ 오목 ](https://www.acmicpc.net/problem/2072) | 🥈 실버 2 | 구현👍👍 |[코드](boj/silver2/2072.md)

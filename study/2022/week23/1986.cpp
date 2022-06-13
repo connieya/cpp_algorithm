@@ -1,0 +1,78 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int n, m;
+int board[1001][1001];
+
+void move_knight(int x, int y) {
+    board[x][y] = 2;
+    for (int i = 0; i < 8; ++i) {
+        const int dx = "10013443"[i] - '2';
+        const int dy = "01344310"[i] - '2';
+        int nx = x + dx;
+        int ny = y + dy;
+        if (nx < 0 || nx >= n || ny < 0 || ny >= m || board[nx][ny] == 2) continue;
+        board[nx][ny] = -1;
+    }
+}
+
+void move_queen(int x, int y) {
+    for (int i = 0; i < 8; ++i) {
+        int nx = x;
+        int ny = y;
+        while (1) {
+            const int dy = "22100012"[i] - '1';
+            const int dx = "10001222"[i] - '1';
+            nx += dx;
+            ny += dy;
+            if (nx < 0 || nx >= n || ny < 0 || ny >= m || board[nx][ny] == 2) break;
+            board[nx][ny] = 1;
+        }
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> n >> m;
+    int x, y, q, k, p, ans = 0;
+    cin >> q;
+    vector<pair<int, int>> queen;
+    for (int i = 0; i < q; ++i) {
+        cin >> x >> y;
+        queen.push_back({x - 1, y - 1});
+    }
+
+    cin >> k;
+    for (int i = 0; i < k; ++i) {
+        cin >> x >> y;
+        move_knight(x - 1, y - 1);
+    }
+
+    cin >> p;
+    for (int i = 0; i < p; ++i) {
+        cin >> x >> y;
+        board[x - 1][y - 1] = 2;
+    }
+
+    for (auto q: queen) {
+        board[q.first][q.second] = 1;
+        move_queen(q.first, q.second);
+    }
+
+//    for (int i = 0; i < n; ++i) {
+//        for (int j = 0; j < m; ++j) {
+//            cout << board[i][j] << ' ';
+//        }
+//        cout << '\n';
+//    }
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            ans += board[i][j] == 0;
+        }
+    }
+    cout << ans;
+}
