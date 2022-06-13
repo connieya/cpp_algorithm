@@ -86,6 +86,7 @@
 |16926|[ 배열 돌리기 1 ](https://www.acmicpc.net/problem/16926) |🥈 실버 1 |  구현 문제  |[코드](boj/silver1/16926.md)
 |16927|[ 배열 돌리기 2 ](https://www.acmicpc.net/problem/16927) |🥇 골드 5 |  구현 문제  |[코드](boj/gold5/16927.md)
 |16929|[ Two Dots ](https://www.acmicpc.net/problem/16929) |🥇 골드 4 | 그래프 탐색 (cycle 판별 코드 참고 👍)  |[코드](boj/gold4/16929.md)
+|16931|[ 겉넓이 구하기 ](https://www.acmicpc.net/problem/16931) |🥇 실버 2 | 구현 , 수학  |[코드](boj/silver2/16931.md)
 |16935|[ 배열 돌리기 3 ](https://www.acmicpc.net/problem/16935) |🥈 실버 1 | 배열 돌리기 참고하기)  |[코드](boj/silver1/16935.md)
 |16943|[ 숫자 재배치 ](https://www.acmicpc.net/problem/16943) |🥈 실버 1 | 완전 탐색 👍👍  |[코드](boj/silver1/16943.md)
 |16947|[ 서울 지하철 2호선 ](https://www.acmicpc.net/problem/16947) |🥇 골드 3 | 그래프 - cycle , 최단거리 , good ⭐⭐⭐ |[코드](boj/gold3/16947.md)
