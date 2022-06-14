@@ -47,6 +47,7 @@
 |3019|[ 테트리스 ](https://www.acmicpc.net/problem/3019) |🥈 실버 1| 구현|[코드](boj/silver1/3019.md)
 |3078|[ 입국심사 ](https://www.acmicpc.net/problem/3078) |🥇 골드 4 | 큐 , 슬라이싱 윈도우|[코드](boj/gold4/3078.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) |🥇 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
+|3896|[ 소수 사이 수열 ](https://www.acmicpc.net/problem/3896) |🥈 실버 1 |소수 , 구현|[코드](boj/silver1/3896.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) |🥈 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
 |5177|[ 출력 형식이 잘못되었습니다. ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 정규식 |[코드](boj/silver2/5177.md)
 |5212|[ 지구 온난화 ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 구현,시뮬레이션 |[코드](boj/silver2/5212.md)
@@ -149,20 +150,21 @@
 |Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
+|Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
+|Lv.3| [1차 셔틀버스 ](https://programmers.co.kr/learn/courses/30/lessons/17678) | 구현 (시간 관련 ) & 그리디 | [코드](programmers/level03/셔틀버스.md) |
+|Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
+|Lv.3| [N으로 표현 ](https://programmers.co.kr/learn/courses/30/lessons/42895) | DP , unordered_set , find() | [코드](programmers/level03/N으로표현.md) |
 |Lv.3| [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | DFS  | [코드](programmers/level03/네트워크.md) |
-|Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
+|Lv.3| [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | DFS , 문자열   | [코드](programmers/level03/여행경로.md) |
+|Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 , dfs | [코드](programmers/level03/순위.md) |
+|Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
+|Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
+|Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
+|Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
+|Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
 |Lv.3| [사라지는 발판 ](https://programmers.co.kr/learn/courses/30/lessons/92345) | minimax 게임 이론 & 재귀 (많이 어려움) | [코드](programmers/level03/발판.md) |
-|Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
-|Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
-|Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 , dfs | [코드](programmers/level03/순위.md) |
-|Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
-|Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
-|Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
-|Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
-|Lv.3| [N으로 표현 ](https://programmers.co.kr/learn/courses/30/lessons/42895) | DP , unordered_set , find() | [코드](programmers/level03/N으로표현.md) |
-|Lv.3| [1차 셔틀버스 ](https://programmers.co.kr/learn/courses/30/lessons/17678) | 구현 (시간 관련 ) & 그리디 | [코드](programmers/level03/셔틀버스.md) |
 |Lv.4| [징검다리 ](https://programmers.co.kr/learn/courses/30/lessons/43326) | 이분탐색 | [코드](programmers/level04/징검다리.md) |
 
 
