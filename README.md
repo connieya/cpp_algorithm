@@ -41,6 +41,7 @@
 |2661|[ 좋은 수열 ](https://www.acmicpc.net/problem/2661) |🥇 골드 4 | 백 트래킹 |[코드](boj/gold4/2661.md)
 |2659|[ 십자카드 문제 ](https://www.acmicpc.net/problem/2659) |🥈 실버 3 | 구현, 브루트 포스 |[코드](boj/silver3/2659.md)
 |2671|[ 잠수함식별 ](https://www.acmicpc.net/problem/2671) |🥇 골드 5 | 정규식 |[코드](boj/gold5/2671.md)
+|2780|[ 비밀번호 ](https://www.acmicpc.net/problem/2780) |🥈 실버 1 | DP 👍 |[코드](boj/silver1/2780.md)
 |2870|[ 수학 숙제 ](https://www.acmicpc.net/problem/2870) |🥈 실버 4 | 문자열 파싱 ,예외 처리 ,범위 신경 쓰기|[코드](boj/silver4/2870.md)
 |2872|[ 우리집에엔 도서관이 있어 ](https://www.acmicpc.net/problem/2872) |🥈 실버 2 |그리디 👍👍|[코드](boj/silver2/2872.md)
 |2942|[ 퍼거슨과 사과 ](https://www.acmicpc.net/problem/2942) |🥈 실버 2| 최대 공약수 & 약수 출력하기|[코드](boj/silver2/2942.md)
