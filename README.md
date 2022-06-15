@@ -155,6 +155,7 @@
 |Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
 |Lv.3| [1차 셔틀버스 ](https://programmers.co.kr/learn/courses/30/lessons/17678) | 구현 (시간 관련 ) & 그리디 | [코드](programmers/level03/셔틀버스.md) |
 |Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
+|Lv.3| [길 찾기 게임 ](https://programmers.co.kr/learn/courses/30/lessons/42892) | 트리 전위,중위 순회 | [코드](programmers/level03/길찾기게임.md) |
 |Lv.3| [N으로 표현 ](https://programmers.co.kr/learn/courses/30/lessons/42895) | DP , unordered_set , find() | [코드](programmers/level03/N으로표현.md) |
 |Lv.3| [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | DFS  | [코드](programmers/level03/네트워크.md) |
 |Lv.3| [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | DFS , 문자열   | [코드](programmers/level03/여행경로.md) |
