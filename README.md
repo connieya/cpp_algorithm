@@ -122,6 +122,7 @@
 |208|[ Implement Trie (Prefix tree) ](https://leetcode.com/problems/implement-trie-prefix-tree/) |Medium | 트라이 |[Solution](leetcode/medium/208.md)
 |316|[ Remove Duplicate Letters ](https://leetcode.com/problems/remove-duplicate-letters/) | Medium | Stack & 구현 |[Solution](leetcode/medium/316.md)
 |344|[ Reverse String ](https://leetcode.com/problems/reverse-string/) | Easy | swap 활용|[Solution](leetcode/easy/344.md)
+|543|[  Diameter of Binary Tree ](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | 트리의 직경|[Solution](leetcode/easy/543.md)
 |739|[ Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/) | Medium | Monotonic Stack |[Solution](leetcode/medium/739.md)
 |819|[ Most Common Word ](https://leetcode.com/problems/most-common-word/) | Easy | transform , unordered_map 활용 , 클린 코드| [Solution](leetcode/easy/819.md)
 |937|[ Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/) | Easy | 문자열 정렬시 참고하기 (sort 사용자 정의)|[Solution](leetcode/easy/937.md)
