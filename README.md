@@ -116,9 +116,11 @@
 |3|[ Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 구현 |[Solution](leetcode/medium/3.md)
 |5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |  |[Solution](leetcode/medium/5.md)
 |17|[ Letter Combinations of a Phone Number ](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | DFS |[Solution](leetcode/medium/17.md)
+|39|[ Combination Sumr ](https://leetcode.com/problems/combination-sum/) | Medium | DFS, 조합 |[Solution](leetcode/medium/39.md)
 |42|[Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/) | Hard | 여러가지 풀이 |[Solution](leetcode/hard/42.md)
 |46|[ Permutations ](https://leetcode.com/problems/permutations/) | Medium |순열을 출력하는 여러가지 풀이 |[Solution](leetcode/medium/46.md)
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
+|77|[ Combinations ](https://leetcode.com/problems/combinations/) | Medium | DFS |[Solution](leetcode/medium/77.md)
 |92|[ Maximum-Depth-of-Binary-tree ](https://leetcode.com/problems/reverse-linked-list-ii/) | Easy | 트리의 깊이 |[Solution](leetcode/easy/104.md)
 |104|[ Reverse Linked List 2 ](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Medium | 연결 리스트 |[Solution](leetcode/medium/92.md)
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
@@ -142,6 +144,8 @@
 |Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
 |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.2| [게임 맵 최단거리 ](https://programmers.co.kr/learn/courses/30/lessons/1844) | BFS| [코드](programmers/level02/게임맵최단거리.md) |
+|Lv.2| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | stringstream | [코드](programmers/level02/최댓값과최솟값.md) |
+|Lv.2| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | 정렬 | [코드](programmers/level02/최솟값만들기.md) |
 |Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
