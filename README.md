@@ -7,6 +7,7 @@
 |1013|[Contact](https://www.acmicpc.net/problem/1013) |🥇 골드 5 | 정규표현식 && DFA(따로 공부하기) |[코드](boj/gold5/1013.md)
 |1041|[주사위](https://www.acmicpc.net/problem/1041) |🥇 골드 5 | 그리디 , 구현 |[코드](boj/gold5/1041.md)
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) |🥈 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
+|1240|[노드사이의 거리](https://www.acmicpc.net/problem/1240) |🥇 골드 5 |트리 & DFS|[코드](boj/gold5/1240.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) |🥈 실버 4 |map|[코드](boj/silver4/1302.md)
 |1347|[미로 만들기](https://www.acmicpc.net/problem/1347) |🥈 실버 3 |구현 , R , L 회전 👍👍 복습하기|[코드](boj/silver3/1347.md)
 |1388|[바닥 장식](https://www.acmicpc.net/problem/1388) |🥈 실버 3 |구현|[코드](boj/silver3/1388.md)
@@ -145,6 +146,7 @@
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
 |Lv.2| [전화번호 목록 ](https://programmers.co.kr/learn/courses/30/lessons/42577) | 정렬 , 문자열 substr| [코드](programmers/level02/전화번호목록.md) |
+|Lv.2| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 해시| [코드](programmers/level02/위장.md) |
 |Lv.2| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42578) | 큐 , 구현 센스 익히기(큐 X) 👍 | [코드](programmers/level02/프린터.md) |
 |Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
