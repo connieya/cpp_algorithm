@@ -121,6 +121,7 @@
 |46|[ Permutations ](https://leetcode.com/problems/permutations/) | Medium |순열을 출력하는 여러가지 풀이 |[Solution](leetcode/medium/46.md)
 |49|[ Group Anagrams ](https://leetcode.com/problems/group-anagrams/) | Medium |unordered_map 과 정렬 |[Solution](leetcode/medium/49.md)
 |77|[ Combinations ](https://leetcode.com/problems/combinations/) | Medium | DFS |[Solution](leetcode/medium/77.md)
+|78|[ Subsets ](https://leetcode.com/problems/subsets/) | Medium | DFS, 비트마스킹 |[Solution](leetcode/medium/78.md)
 |92|[ Maximum-Depth-of-Binary-tree ](https://leetcode.com/problems/reverse-linked-list-ii/) | Easy | 트리의 깊이 |[Solution](leetcode/easy/104.md)
 |104|[ Reverse Linked List 2 ](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Medium | 연결 리스트 |[Solution](leetcode/medium/92.md)
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
