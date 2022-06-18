@@ -19,6 +19,7 @@
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) |🥇 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
 |1600|[ 말이 되고픈 원숭이 ](https://www.acmicpc.net/problem/1600) |🥇 골드 4 | BFS  |[코드](boj/gold4/1600.md)
 |1707|[ 이분 그래프 ](https://www.acmicpc.net/problem/1707) |🥇 골드 4 | 그래프 |[코드](boj/gold4/1707.md)
+|1722|[ 순열의 순서 ](https://www.acmicpc.net/problem/1722) |🥇 골드 5 | 수학 ,조합론  |[코드](boj/gold5/1722.md)
 |1764|[ 듣보잡 ](https://www.acmicpc.net/problem/1764) |🥈 실버 4 | map |[코드](boj/silver4/1764.md)
 |1793|[ 타일링 ](https://www.acmicpc.net/problem/1793) |🥈 실버 1 |매우 큰 숫자 연산 / EOF 처리|[코드](boj/silver1/1793.md)
 |1806|[ 부분합 ](https://www.acmicpc.net/problem/1897) |🥇 골드 4 | 투 포인터 |[코드](boj/gold4/1806.md)
@@ -145,9 +146,12 @@
 |Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
 |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.2| [게임 맵 최단거리 ](https://programmers.co.kr/learn/courses/30/lessons/1844) | BFS| [코드](programmers/level02/게임맵최단거리.md) |
+|Lv.2| [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | 괄호 문제 | [코드](programmers/level02/올바른괄호.md) |
+|Lv.2| [즐서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | 조합,수학론, 순열 | [코드](programmers/level02/줄서는방법.md) |
 |Lv.2| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | stringstream | [코드](programmers/level02/최댓값과최솟값.md) |
 |Lv.2| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | 정렬 | [코드](programmers/level02/최솟값만들기.md) |
 |Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
+|Lv.2| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | 다익스트라  | [코드](programmers/level02/배달.md) |
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
 |Lv.2| [전화번호 목록 ](https://programmers.co.kr/learn/courses/30/lessons/42577) | 정렬 , 문자열 substr| [코드](programmers/level02/전화번호목록.md) |
@@ -160,6 +164,7 @@
 |Lv.2| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | vector erase 👍👍 | [코드](programmers/level02/수식최대화.md) |
 |Lv.2| [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | DFS , 조합 , map 👍👍 | [코드](programmers/level02/메뉴리뉴얼.md) |
 |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
+|Lv.2| [ 괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | stack , 구현 | [코드](programmers/level02/괄호회전하기.md) |
 |Lv.2| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | 구현 | [코드](programmers/level02/행렬테두리회전.md) |
 |Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
 |Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
@@ -167,6 +172,7 @@
 |Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
+|Lv.3| [거스름돈 ](https://programmers.co.kr/learn/courses/30/lessons/12907) | 냅색 | [코드](programmers/level03/거스름돈.md) |
 |Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
 |Lv.3| [1차 셔틀버스 ](https://programmers.co.kr/learn/courses/30/lessons/17678) | 구현 (시간 관련 ) & 그리디 | [코드](programmers/level03/셔틀버스.md) |
 |Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
