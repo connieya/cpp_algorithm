@@ -150,9 +150,11 @@
 |Lv.2| [즐서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | 조합,수학론, 순열 | [코드](programmers/level02/줄서는방법.md) |
 |Lv.2| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | stringstream | [코드](programmers/level02/최댓값과최솟값.md) |
 |Lv.2| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | 정렬 | [코드](programmers/level02/최솟값만들기.md) |
+|Lv.2| [N개의 최소 공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | 수학, 최소공배수 ,유클리드 호제법 | [코드](programmers/level02/최소공배수.md) |
 |Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
 |Lv.2| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | 다익스트라  | [코드](programmers/level02/배달.md) |
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
+|Lv.2| [[3차] 파일명 정렬 ](https://programmers.co.kr/learn/courses/30/lessons/17686) | 문자열 정렬 (구조체) 커스텀 | [코드](programmers/level02/파일명정렬.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
 |Lv.2| [전화번호 목록 ](https://programmers.co.kr/learn/courses/30/lessons/42577) | 정렬 , 문자열 substr| [코드](programmers/level02/전화번호목록.md) |
 |Lv.2| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 해시| [코드](programmers/level02/위장.md) |
