@@ -150,6 +150,7 @@
 |Lv.2| [즐서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | 조합,수학론, 순열 | [코드](programmers/level02/줄서는방법.md) |
 |Lv.2| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | stringstream | [코드](programmers/level02/최댓값과최솟값.md) |
 |Lv.2| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | 정렬 | [코드](programmers/level02/최솟값만들기.md) |
+|Lv.2| [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | 문자열 구현 , toupper & tolower | [코드](programmers/level02/JadenCase.md) |
 |Lv.2| [N개의 최소 공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | 수학, 최소공배수 ,유클리드 호제법 | [코드](programmers/level02/최소공배수.md) |
 |Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
 |Lv.2| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | 다익스트라  | [코드](programmers/level02/배달.md) |
