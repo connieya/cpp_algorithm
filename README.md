@@ -117,6 +117,7 @@
 |3|[ Longest Substring Without Repeating Characters ](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | 구현 |[Solution](leetcode/medium/3.md)
 |5|[ Longest Palindromic ... ](https://leetcode.com/problems/longest-palindromic-substring/) | Medium |  |[Solution](leetcode/medium/5.md)
 |17|[ Letter Combinations of a Phone Number ](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | Medium | DFS |[Solution](leetcode/medium/17.md)
+|33|[Search in Rotated Sorted Arrayr ](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | 이진 검색 |[Solution](leetcode/medium/33.md)
 |39|[ Combination Sumr ](https://leetcode.com/problems/combination-sum/) | Medium | DFS, 조합 |[Solution](leetcode/medium/39.md)
 |42|[Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/) | Hard | 여러가지 풀이 |[Solution](leetcode/hard/42.md)
 |46|[ Permutations ](https://leetcode.com/problems/permutations/) | Medium |순열을 출력하는 여러가지 풀이 |[Solution](leetcode/medium/46.md)
