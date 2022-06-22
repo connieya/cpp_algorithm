@@ -15,11 +15,15 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    to_binary(4095);
-    to_binary(4095*2);
-    to_binary(4095*4);
-    to_binary(4095*8);
-    to_binary(4095*16);
-    to_binary(4095*32);
-    to_binary(4095*4095);
+    vector<string> v;
+    v.push_back("sdsd");
+    v.push_back("sssdsd");
+    v.push_back("11sdsd");
+    v.push_back("s33sssdsd");
+
+    for(auto s : v){
+        cout << s << ' ';
+    }
+
+
 }

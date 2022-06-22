@@ -163,7 +163,9 @@
 |Lv.2| [N개의 최소 공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | 수학, 최소공배수 ,유클리드 호제법 | [코드](programmers/level02/최소공배수.md) |
 |Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
 |Lv.2| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | 다익스트라  | [코드](programmers/level02/배달.md) |
+|Lv.2| [점프와 순간이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | 그리디 ,2진법에서 1의 개수  | [코드](programmers/level02/점프.md) |
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
+|Lv.2| [[1차] 캐시 ](https://programmers.co.kr/learn/courses/30/lessons/17680) | vector erase ,push_back , LRU 알고리즘 👍👍| [코드](programmers/level02/캐시.md) |
 |Lv.2| [[3차] 파일명 정렬 ](https://programmers.co.kr/learn/courses/30/lessons/17686) | 문자열 정렬 (구조체) 커스텀 | [코드](programmers/level02/파일명정렬.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
 |Lv.2| [전화번호 목록 ](https://programmers.co.kr/learn/courses/30/lessons/42577) | 정렬 , 문자열 substr| [코드](programmers/level02/전화번호목록.md) |
@@ -196,6 +198,7 @@
 |Lv.3| [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | DFS  | [코드](programmers/level03/단어변환.md) |
 |Lv.3| [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | DFS , 문자열   | [코드](programmers/level03/여행경로.md) |
 |Lv.3| [순위 ](https://programmers.co.kr/learn/courses/30/lessons/49191) | 플로이드 와샬 , dfs | [코드](programmers/level03/순위.md) |
+|Lv.3| [기둥과 보 설치 ](https://programmers.co.kr/learn/courses/30/lessons/60061) | 빡구현 | [코드](programmers/level03/기둥과보.md) |
 |Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
