@@ -8,6 +8,7 @@
 |1041|[주사위](https://www.acmicpc.net/problem/1041) |🥇 골드 5 | 그리디 , 구현 |[코드](boj/gold5/1041.md)
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) |🥈 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1240|[노드사이의 거리](https://www.acmicpc.net/problem/1240) |🥇 골드 5 |트리 & DFS|[코드](boj/gold5/1240.md)
+|1300|[K번째 수](https://www.acmicpc.net/problem/1300) |🥇 골드 2 |매개 변수 탐색 , 이분탐색|[코드](boj/gold2/1300.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) |🥈 실버 4 |map|[코드](boj/silver4/1302.md)
 |1326|[폴짝폴짝](https://www.acmicpc.net/problem/1326) |🥈 실버 2 |BFS , dp 같은 문제|[코드](boj/silver2/1326.md)
 |1347|[미로 만들기](https://www.acmicpc.net/problem/1347) |🥈 실버 3 |구현 , R , L 회전 👍👍 복습하기|[코드](boj/silver3/1347.md)
@@ -201,6 +202,7 @@
 |Lv.3| [기둥과 보 설치 ](https://programmers.co.kr/learn/courses/30/lessons/60061) | 빡구현 | [코드](programmers/level03/기둥과보.md) |
 |Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
+|Lv.3| [합승 택시 요금 ](https://programmers.co.kr/learn/courses/30/lessons/72413) | 플로이드 | [코드](programmers/level03/합승택시요금.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |

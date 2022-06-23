@@ -42,3 +42,5 @@ set(CMAKE_C_FLAGS "-fexec-charset=CP949 -g -Wall")
 #add_executable(study_2022_week24_main study/2022/week24/main.cpp)
 #add_executable(study_2022_week24_11058 study/2022/week24/11058.cpp)
 add_executable(main main.cpp)
+
+add_executable(solved_gold2_1300 solved/gold2/1300.cpp)
