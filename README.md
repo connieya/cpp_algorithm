@@ -165,6 +165,7 @@
 |Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
 |Lv.2| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | 다익스트라  | [코드](programmers/level02/배달.md) |
 |Lv.2| [점프와 순간이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | 그리디 ,2진법에서 1의 개수  | [코드](programmers/level02/점프.md) |
+|Lv.2| [영어 끝말잇기 ](https://programmers.co.kr/learn/courses/30/lessons/12981) | 구현  | [코드](programmers/level02/영어끝말잇기.md) |
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
 |Lv.2| [[1차] 캐시 ](https://programmers.co.kr/learn/courses/30/lessons/17680) | vector erase ,push_back , LRU 알고리즘 👍👍| [코드](programmers/level02/캐시.md) |
 |Lv.2| [[3차] 파일명 정렬 ](https://programmers.co.kr/learn/courses/30/lessons/17686) | 문자열 정렬 (구조체) 커스텀 | [코드](programmers/level02/파일명정렬.md) |
@@ -175,6 +176,7 @@
 |Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
 |Lv.2| [카펫 ](https://programmers.co.kr/learn/courses/30/lessons/42842) | 수학 ,완탐 | [코드](programmers/level02/카펫.md) |
+|Lv.2| [큰 수 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/42883) | 그리디 , 스텍 👍👍 | [코드](programmers/level02/큰수만들기.md) |
 |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
 |Lv.2| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | vector erase 👍👍 | [코드](programmers/level02/수식최대화.md) |
@@ -202,7 +204,7 @@
 |Lv.3| [기둥과 보 설치 ](https://programmers.co.kr/learn/courses/30/lessons/60061) | 빡구현 | [코드](programmers/level03/기둥과보.md) |
 |Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
-|Lv.3| [합승 택시 요금 ](https://programmers.co.kr/learn/courses/30/lessons/72413) | 플로이드 | [코드](programmers/level03/합승택시요금.md) |
+|Lv.3| [합승 택시 요금 ](https://programmers.co.kr/learn/courses/30/lessons/72413) | 플로이드 와샬 or 다익스트라| [코드](programmers/level03/합승택시요금.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
