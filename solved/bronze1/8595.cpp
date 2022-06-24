@@ -6,21 +6,18 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    long long n, ans = 0;
+    long long ans = 0;
+    long long res = 0;
+    int n;
     string str;
-    cin >> n;
-    cin >> str;
-    for (int i = 0; i < n;) {
-        string tmp = "";
-        while (i < n && isdigit(str[i])) {
-            tmp += str[i++];
-        }
-        while (i < n && !isdigit(str[i])) {
-            i++;
-        }
-        if (tmp.length() > 0) {
-            ans += stoi(tmp);
+    cin >> n >> str;
+    for (char ch: str) {
+        if (isdigit(ch)) {
+            res = res * 10 + (ch - '0');
+        } else {
+            ans += res;
+            res = 0;
         }
     }
-    cout << ans;
+    cout << ans+res;
 }

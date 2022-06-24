@@ -8,6 +8,7 @@
 |1041|[주사위](https://www.acmicpc.net/problem/1041) |🥇 골드 5 | 그리디 , 구현 |[코드](boj/gold5/1041.md)
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) |🥈 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1240|[노드사이의 거리](https://www.acmicpc.net/problem/1240) |🥇 골드 5 |트리 & DFS|[코드](boj/gold5/1240.md)
+|1269|[대칭 차집합](https://www.acmicpc.net/problem/1269) |🥈 실버 3 |이진검색 or set , insert ,erase 👍👍|[코드](boj/silver2/1269.md)
 |1300|[K번째 수](https://www.acmicpc.net/problem/1300) |🥇 골드 2 |매개 변수 탐색 , 이분탐색|[코드](boj/gold2/1300.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) |🥈 실버 4 |map|[코드](boj/silver4/1302.md)
 |1326|[폴짝폴짝](https://www.acmicpc.net/problem/1326) |🥈 실버 2 |BFS , dp 같은 문제|[코드](boj/silver2/1326.md)
