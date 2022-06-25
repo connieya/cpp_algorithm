@@ -5,6 +5,7 @@
 | 번호 |  문제 이름 | 난이도  | 코멘트|  코드 |
 |:---|:-------------------:|:-----------:|:-----:|:------|
 |1013|[Contact](https://www.acmicpc.net/problem/1013) |🥇 골드 5 | 정규표현식 && DFA(따로 공부하기) |[코드](boj/gold5/1013.md)
+|1027|[고층 건물](https://www.acmicpc.net/problem/1027) |🥇 골드 4 | 기하학 , 직선의 기울기 |[코드](boj/gold4/1027.md)
 |1041|[주사위](https://www.acmicpc.net/problem/1041) |🥇 골드 5 | 그리디 , 구현 |[코드](boj/gold5/1041.md)
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) |🥈 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1240|[노드사이의 거리](https://www.acmicpc.net/problem/1240) |🥇 골드 5 |트리 & DFS|[코드](boj/gold5/1240.md)
@@ -76,6 +77,7 @@
 |10867|[ 중복 빼고 정렬하기  ](https://www.acmicpc.net/problem/10867) | 🥈 실버 5 | 계수정렬 , unique 사용|[코드](boj/silver5/10867.md)
 |11000|[ 강의실 배정  ](https://www.acmicpc.net/problem/11000) |🥇 골드 5 | 그리디 & 정렬 & 우선순위 큐|[코드](study/2022/week19/11000.cpp)
 |11024|[ 더하기 4  ](https://www.acmicpc.net/problem/11024) |🥉 브론즈 3 | 공백 있는 문자열 , stringstream|[코드](boj/bronze3/11024.md)
+|11058|[ 크리보드  ](https://www.acmicpc.net/problem/11058) |🥇 골드 5 | DP|[코드](boj/gold5/11058.md)
 |11279|[ 최대 힙  ](https://www.acmicpc.net/problem/11279) |🥈 실버 2 | priority queue|[코드](boj/silver1/11279.md)
 |11478|[ 서로 다른 부분 문자열의 개수  ](https://www.acmicpc.net/problem/11478) |🥈 실버 3 | set , unique & erase |[코드](boj/silver3/11478.md)
 |11653|[ 소인수분해  ](https://www.acmicpc.net/problem/11653) |🥈 실버 5 |  수학   |[코드](boj/silver5/11653.md)
