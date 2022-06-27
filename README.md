@@ -57,6 +57,7 @@
 |3019|[ 테트리스 ](https://www.acmicpc.net/problem/3019) |🥈 실버 1| 구현|[코드](boj/silver1/3019.md)
 |3078|[ 입국심사 ](https://www.acmicpc.net/problem/3078) |🥇 골드 4 | 큐 , 슬라이싱 윈도우|[코드](boj/gold4/3078.md)
 |3079|[ 입국심사 ](https://www.acmicpc.net/problem/3079) |🥇 골드 5 | 파라메트릭 서칙, 결정알고리즘|[코드](boj/gold5/3079.md)
+|3109|[ 빵집 ](https://www.acmicpc.net/problem/3109) |🥇 골드 2 |  빵집 , 그리디 |[코드](boj/gold2/3109.md)
 |3758|[ KCPC ](https://www.acmicpc.net/problem/3758) |🥈 실버 3 | 구조체 사용해서 구현,정렬(구조체 정렬 참고)👍👍 |[코드](boj/silver3/3758.md)
 |3896|[ 소수 사이 수열 ](https://www.acmicpc.net/problem/3896) |🥈 실버 1 |소수 , 구현|[코드](boj/silver1/3896.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) |🥈 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
