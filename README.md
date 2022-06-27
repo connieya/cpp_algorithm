@@ -111,6 +111,7 @@
 |16935|[ 배열 돌리기 3 ](https://www.acmicpc.net/problem/16935) |🥈 실버 1 | 배열 돌리기 참고하기)  |[코드](boj/silver1/16935.md)
 |16943|[ 숫자 재배치 ](https://www.acmicpc.net/problem/16943) |🥈 실버 1 | 완전 탐색 👍👍  |[코드](boj/silver1/16943.md)
 |16947|[ 서울 지하철 2호선 ](https://www.acmicpc.net/problem/16947) |🥇 골드 3 | 그래프 - cycle , 최단거리 , good ⭐⭐⭐ |[코드](boj/gold3/16947.md)
+|16967|[ 배열 복원하기 ](https://www.acmicpc.net/problem/16967) |🥈 실버 3 |  |[코드](boj/silver3/16967.md)
 |16987|[ 계란으로 계란치기 ](https://www.acmicpc.net/problem/16987) |🥈 실버 1 | 백트래킹  |[코드](boj/silver1/16987.md)
 |17124|[ 두 개의 배열 ](https://www.acmicpc.net/problem/17124) |🥈 실버 3 | 이분탐색 , lower_bound 👍👍|[코드](boj/silver3/17124.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) |🥈 실버 4 | hash map 사용|[코드](boj/silver4/17219.md)

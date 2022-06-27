@@ -2,14 +2,14 @@
 
 using namespace std;
 
-int r, c;
+int r, c, ans = 0;
 char board[10001][501];
-
 int dx[] = {-1, 0, 1};
 int dy[] = {1, 1, 1};
 
 bool dfs(int x, int y) {
     if (y == c - 1) {
+        ans++;
         return true;
     }
     for (int i = 0; i < 3; ++i) {
@@ -17,7 +17,7 @@ bool dfs(int x, int y) {
         int ny = y + dy[i];
         if (nx < 0 || ny < 0 || nx >= r || board[nx][ny] == 'x') continue;
         if (board[nx][ny] == '.') {
-            board[nx][ny] = 'o';
+            board[nx][ny] = 'x';
             if (dfs(nx, ny)) return true;
         }
     }
@@ -34,21 +34,8 @@ int main() {
             cin >> board[i][j];
         }
     }
-
     for (int i = 0; i < r; i++) {
         dfs(i, 0);
-    }
-
-//    for (int i = 0; i < r; ++i) {
-//        for (int j = 0; j < c; ++j) {
-//            cout << board[i][j] << ' ';
-//        }
-//        cout << '\n';
-//    }
-
-    int ans = 0;
-    for (int i = 0; i < r; i++) {
-        ans += board[i][c - 1] == 'o';
     }
     cout << ans;
 }
