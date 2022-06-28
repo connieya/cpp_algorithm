@@ -1,34 +1,40 @@
-﻿#include "stdio.h"
+﻿#include "bits/stdc++.h"
 
-int a[1000000];
-int b[1000000];
-int c[2000000];
+using namespace std;
 
-int main(void) {
-    int n, m, ai = 0, bi = 0, idx = 0;
-    scanf("%d %d", &n, &m);
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int n,m;
+    cin >> n >> m;
+    vector<int> a(n) ,b(m);
+    vector<int> ans;
     for (int i = 0; i < n; ++i) {
-        scanf("%d", &a[i]);
+        cin >> a[i];
     }
     for (int i = 0; i < m; ++i) {
-        scanf("%d", &b[i]);
+        cin >> b[i];
     }
-    while (ai < n && bi < m){
-        if (a[ai] < b[bi]) {
-            c[idx++] = a[ai];
-            ai++;
-        }else{
-            c[idx++] = b[bi];
-            bi++;
+    sort(a.begin(),a.end());
+    sort(b.begin(),b.end());
+    int i = 0 , j = 0 ;
+    while (i < a.size() && j < b.size()){
+        if(a[i] < b[j]){
+            ans.push_back(a[i++]);
+        }else {
+            ans.push_back(b[j++]);
         }
     }
-    while (ai < n){
-        c[idx++] = a[ai++];
+    while (i < a.size()){
+        ans.push_back(a[i++]);
     }
-    while (bi < m) {
-        c[idx++] = b[bi++];
+    while (j < b.size()){
+        ans.push_back(b[j++]);
     }
-    for (int i = 0; i < n+m; ++i) {
-        printf("%d ",c[i]);
+
+    for(auto v : ans){
+        cout << v << ' ';
     }
 }
