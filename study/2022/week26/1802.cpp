@@ -1,0 +1,35 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+bool check(string input, int lt, int rt) {
+    if (lt >= rt) return true;
+
+    int st = lt;
+    int end = rt;
+
+    while (st < end) {
+        if (input[st++] == input[end--]) {
+            return false;
+        }
+    }
+
+    return check(input, lt, end - 1);
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int t;
+    cin >> t;
+    while (t--) {
+        string str;
+        cin >> str;
+        if (str.length() % 2 == 0) {
+            cout << "NO\n";
+            continue;
+        }
+        cout << (check(str, 0, str.length() - 1) ? "YES\n" : "NO\n");
+    }
+}
