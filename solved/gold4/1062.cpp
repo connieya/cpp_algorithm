@@ -2,65 +2,55 @@
 
 using namespace std;
 
-vector<string> str;
-int ans = -1;
-bool alpha[26];
+int n, k;
+vector<string> v;
+bool check[27];
+int ans = 0;
 
-bool isReadableWord(string s) {
-    int len = s.length();
-    for (int i = 0; i < len; ++i) {
-        if (!alpha[s[i]-'a']) return false;
-    }
-    return true;
-}
-
-void dfs(int L , int len , int start){
-    if (L == len){
+void dfs(int l, int start) {
+    if (l == k) {
+        int len = v.size();
         int cnt = 0;
-        for (int i = 0; i < str.size(); ++i) {
-            if (isReadableWord(str[i])){
-                cnt++;
+        for (int i = 0; i < len; i++) {
+            bool flag =false;
+            for (char ch: v[i]) {
+                if (!check[ch - 'a']) {
+                    flag =true;
+                    break;
+                }
             }
+            if(flag) continue;
+            cnt++;
         }
-        if (cnt > ans) {
-            ans = cnt;
-        }
+        if(cnt > ans) ans = cnt;
         return;
     }
 
-    for (int i = start; i < 26; ++i) {
-        if (!alpha[i]){
-            alpha[i] = true;
-            dfs(L+1, len ,i+1);
-            alpha[i] = false;
-        }
+    for (int i = start; i <= 26; i++) {
+        if (!check[i]) {
+            check[i] = true;
+            dfs(l + 1, i + 1);
+            check[i] = false;
+        };
     }
-
 }
 
-int main()
-{
+int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n,k;
-    string s;
     cin >> n >> k;
-    if(k < 5) {
-        cout << 0;
-        return 0;
-    }
-    if (k == 26) {
-        cout << n;
-        return 0;
-    }
+    string str;
     for (int i = 0; i < n; ++i) {
-        cin >> s;
-        str.push_back(s);
+        cin >> str;
+        v.push_back(str);
     }
-    k -= 5;
-    alpha[0] = alpha[2] = alpha['n'-'a'] = alpha['t'-'a'] = alpha['i'-'a'] = true;
-    dfs(0,k,1);
+    if (k < 5) {
+        cout << 0;
+        exit(0);
+    }
+    k-=5;
+    check[0] = check[2] = check['n'-'a'] = check['t'-'a'] = check['i'-'a'] = true;
+    dfs(0, 0);
     cout << ans;
-
 }
