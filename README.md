@@ -126,6 +126,7 @@
 |16967|[ 배열 복원하기 ](https://www.acmicpc.net/problem/16967) |🥈 실버 3 |구현  |[코드](boj/silver3/16967.md)
 |16987|[ 계란으로 계란치기 ](https://www.acmicpc.net/problem/16987) |🥈 실버 1 | 백트래킹  |[코드](boj/silver1/16987.md)
 |17124|[ 두 개의 배열 ](https://www.acmicpc.net/problem/17124) |🥈 실버 3 | 이분탐색 , lower_bound 👍👍|[코드](boj/silver3/17124.md)
+|17144|[ 미세머지 안녕! ](https://www.acmicpc.net/problem/17144) |🥇 골드 4 | 빡!!! 구현  .. |[코드](boj/gold4/17144.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) |🥈 실버 4 | hash map 사용|[코드](boj/silver4/17219.md)
 |17406|[ 배열 돌리기 4 ](https://www.acmicpc.net/problem/17406) |🥇 실버 4 | 구현 , 모든 순열|[코드](boj/gold4/17406.md)
 |17471|[ 게리맨더링 ](https://www.acmicpc.net/problem/17471) |🥇 골드 4 | 비트마스킹 && 완탐 && 그래프이론 👍👍👍👍 |[코드](boj/gold4/17471.md)
