@@ -2,28 +2,29 @@
 
 using namespace std;
 
-int a[1000];
-int d[1000];
-
-int main(void) {
-    ios::sync_with_stdio(0);
+int arr[1001];
+int dp[1001];
+int main()
+{
+    ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
     int n;
     cin >> n;
     for (int i = 0; i < n; ++i) {
-        cin >> a[i];
+        cin >> arr[i];
     }
-    d[0] = 1;
-    int ans = d[0];
-    for (int i = 1; i < n; ++i) {
-        d[i] =1;
-        for (int j = 0; j < i; ++j) {
-            if (a[i] > a[j] && d[j]+1 > d[i]) {
-                    d[i] = d[j]+1;
+    int ans = 1;
+    for (int i = 0; i < n; ++i) {
+        dp[i] = 1;
+        for (int j = i-1; j >= 0 ; --j) {
+            if(arr[i] > arr[j] && dp[i] < dp[j]+1){
+                dp[i] = dp[j]+1;
             }
         }
-        ans = max(ans, d[i]);
+        if(dp[i] > ans){
+            ans = dp[i];
+        }
     }
     cout << ans;
 }

@@ -14,3 +14,6 @@ set(CMAKE_C_FLAGS "-fexec-charset=CP949 -g -Wall")
 add_executable(solved_gold5_13398 solved/gold5/13398.cpp)
 
 add_executable(baaaaakingdog_0x15_dp_11055 baaaaakingdog/0x15_dp/11055.cpp)
+add_executable(baaaaakingdog_0x15_dp_11053 baaaaakingdog/0x15_dp/11053.cpp)
+add_executable(baaaaakingdog_0x15_dp_11054 baaaaakingdog/0x15_dp/11054.cpp)
+add_executable(solved_silver2_11722 solved/silver2/11722.cpp)
