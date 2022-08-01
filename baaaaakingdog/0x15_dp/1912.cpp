@@ -1,29 +1,30 @@
-﻿#include "stdio.h"
+﻿#include "bits/stdc++.h"
 
 using namespace std;
-int main(void)
+
+int dp[100001];
+int arr[100001];
+
+int main()
 {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
     int n;
-    scanf("%d",&n);
-    int arr[n];
-    int dp[n];
+    cin >> n;
     for (int i = 0; i < n; ++i) {
-        scanf("%d",&arr[i]);
+        cin >> arr[i];
     }
+
     dp[0] = arr[0];
-    for (int i = 0; i < n - 1; ++i) {
-        if (arr[i+1] > arr[i]+arr[i+1]){
-                dp[i+1] = arr[i+1];
+    int ans = dp[0];
+    for (int i = 1; i < n; ++i) {
+        if(arr[i] < arr[i]+dp[i-1]){
+            dp[i] = arr[i]+dp[i-1];
         }else {
-            dp[i+1] = arr[i]+arr[i+1];
-            arr[i+1] = dp[i+1];
+            dp[i] = arr[i];
         }
+        ans = max(ans ,dp[i]);
     }
-    int MAX = -214700000;
-    for (int i = 0; i < n; ++i) {
-        if(dp[i] > MAX) {
-            MAX = dp[i];
-        }
-    }
-    printf("%d",MAX);
+    cout << ans;
 }

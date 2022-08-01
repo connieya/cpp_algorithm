@@ -31,6 +31,7 @@
 |1806|[ 부분합 ](https://www.acmicpc.net/problem/1806) |🥇 골드 4 | 투 포인터 |[코드](boj/gold4/1806.md)
 |1897|[ 토달기 ](https://www.acmicpc.net/problem/1897) |🥇 골드 5 | 문자열 파싱 , 해싱|[코드](boj/gold5/1897.md)
 |1911|[ 흙길 보수하기 ](https://www.acmicpc.net/problem/1911) |🥈 실버 1 | 정렬,스위핑|[코드](boj/silver1/1911.md)
+|1912|[ 연속합 ](https://www.acmicpc.net/problem/1912) |🥈 실버 2 | DP|[코드](boj/silver2/1912.md)
 |1916|[ 최소 비용 구하기 ](https://www.acmicpc.net/problem/1916) |🥇 골드 5 | 그냥 다익스트라 코드 ⭐ |[코드](boj/gold5/1916.md)
 |1913|[ 달팽이 ](https://www.acmicpc.net/problem/1913) |🥈 실버 3 | 구현 👍 |[코드](boj/silver3/1913.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) |🥈 실버 1 | DP |[코드](boj/silver1/1932.md)
