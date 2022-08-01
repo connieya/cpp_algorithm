@@ -1,29 +1,32 @@
-﻿#include <algorithm>
-#include "stdio.h"
+﻿#include "bits/stdc++.h"
 
 using namespace std;
 
-int main(void)
+int board[1001];
+int dp[1001];
+
+int main()
 {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
     int n;
-    scanf("%d",&n);
-    int arr[n];
-    int dp[n];
+    cin >> n;
     for (int i = 0; i < n; ++i) {
-        scanf("%d",&arr[i]);
-        dp[i] = arr[i];
+        cin >> board[i];
+        dp[i] = board[i];
     }
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < i; ++j) {
-            if (arr[i] > arr[j]){
-                dp[i] = max(dp[i],arr[i]+dp[j]);
+    int ans = dp[0];
+    for (int i = 1; i < n; ++i) {
+        for (int j = i-1; j >=0 ; --j) {
+            if(board[i] > board[j]){
+                dp[i] = max(dp[i],board[i]+dp[j]);
             }
         }
-    }
-    int ans = 0;
-    for (int i = 0; i < n; ++i) {
-        ans = max(ans , dp[i]);
-    }
-    printf("%d",ans);
 
+        if(dp[i] > ans){
+           ans = dp[i];
+        }
+    }
+    cout << ans;
 }
