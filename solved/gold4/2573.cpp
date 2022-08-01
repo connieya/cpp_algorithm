@@ -2,74 +2,68 @@
 
 using namespace std;
 
-int iceberg[305][305];
-bool visited[305][305];
+int n, m;
+int board[301][301];
+int visited[301][301];
 int dx[] = {-1, 0, 1, 0};
 int dy[] = {0, 1, 0, -1};
 
-
-void init(int n, int m) {
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            visited[i][j] = false;
+void bfs(int x ,int y){
+    visited[x][y] = true;
+    queue<pair<int,int>> q;
+    q.push({x,y});
+    while (!q.empty()){
+        int x = q.front().first;
+        int y = q.front().second;
+        q.pop();
+        for (int i = 0; i < 4; ++i) {
+            int nx = x+dx[i];
+            int ny = y+dy[i];
+            if(visited[nx][ny]) continue;
+            if(board[nx][ny] > 0){
+                visited[nx][ny] = true;
+                q.push({nx,ny});
+            }else {
+                board[x][y] -= 1;
+            }
         }
     }
 }
-
-
-void dfs(int x, int y) {
-    int melting = 4;
-    for (int i = 0; i < 4; ++i) {
-        int nx = x + dx[i];
-        int ny = y + dy[i];
-        if (iceberg[nx][ny] > 0) {
-            melting -= 1;
-        }
-    }
-    for (int i = 0; i < 4; ++i) {
-        int nx = x + dx[i];
-        int ny = y + dy[i];
-        if (!visited[nx][ny] && iceberg[nx][ny] > 0) {
-            visited[nx][ny] = true;
-            dfs(nx, ny);
-        }
-    }
-    iceberg[x][y] -= melting;
-}
-
 
 
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n, m, ans = 0;
     cin >> n >> m;
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
-            cin >> iceberg[i][j];
+            cin >> board[i][j];
         }
     }
+    int ans = 0;
     while (1) {
         int cnt = 0;
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < m; ++j) {
-                if (iceberg[i][j] > 0 && !visited[i][j]) {
-                    visited[i][j] = true;
-                    dfs(i, j);
+                if (board[i][j] > 0 && !visited[i][j]) {
                     cnt++;
+                    bfs(i,j);
                 }
             }
         }
-        if (cnt > 1) {
-            break;
-        }
-        if (cnt == 0) {
+        if(cnt == 0) {
             cout << 0;
-            return 0;
+            exit(0);
         }
-        init(n, m);
+        if (cnt > 1) break;
         ans++;
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; ++j) {
+                visited[i][j] = false;
+            }
+        }
     }
     cout << ans;
 }

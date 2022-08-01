@@ -1,0 +1,92 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int arr[51][51];
+bool visited[51][51];
+
+int dx[] = {-1, 0, 1, 0};
+int dy[] = {0, 1, 0, -1};
+int n, l, r;
+queue<pair<int, int>> q;
+
+bool bfs(int x, int y) {
+    visited[x][y] = true;
+    queue<pair<int, int>> eq, sq;
+    int cnt = 0;
+    int sum = 0;
+    eq.push({x, y});
+    sq.push({x, y});
+    bool flag = false;
+    while (!eq.empty()) {
+        auto cur = eq.front();
+        int x = cur.first;
+        int y = cur.second;
+        cnt++;
+        sum += arr[x][y];
+        eq.pop();
+        for (int i = 0; i < 4; ++i) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if (nx < 0 || nx >= n || ny < 0 || ny >= n || visited[nx][ny]) continue;
+            if (l <= abs(arr[x][y] - arr[nx][ny]) && abs(arr[x][y] - arr[nx][ny]) <= r) {
+                visited[nx][ny] = true;
+                eq.push({nx, ny});
+                sq.push({nx, ny});
+                flag = true;
+            }
+        }
+    }
+    int value = sum / cnt;
+    while (!sq.empty()) {
+        auto cur = sq.front();
+        sq.pop();
+        arr[cur.first][cur.second] = value;
+        q.push({cur.first, cur.second});
+    }
+    return flag;
+}
+
+bool check(int x, int y) {
+    for (int i = 0; i < 4; ++i) {
+        int nx = x + dx[i];
+        int ny = y + dy[i];
+        if (nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
+        int dif = abs(arr[x][y] - arr[nx][ny]);
+        if (l <= dif && dif <= r) return false;
+    }
+    return true;
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> n >> l >> r;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cin >> arr[i][j];
+            q.push({i, j});
+
+        }
+    }
+    bool flag = true;
+    int ans = 0;
+    while (flag) {
+        flag = false;
+        int qs = q.size();
+        for (int i = 0; i < qs; ++i) {
+            int x = q.front().first;
+            int y = q.front().second;
+            q.pop();
+            if (visited[x][y] || check(x, y)) continue;
+            if (bfs(x, y)) {
+                flag = true;
+            }
+        }
+        if (flag) ans++;
+        memset(visited, 0, sizeof(visited));
+    }
+
+    cout << ans;
+}
