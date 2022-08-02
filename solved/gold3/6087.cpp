@@ -1,0 +1,51 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int n, m;
+char board[101][101];
+int ans[101][101];
+pair<int, int> mirror[2];
+int dx[] = {-1, 0, 1, 0};
+int dy[] = {0, 1, 0, -1};
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> m >> n;
+    int idx = 0;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            cin >> board[i][j];
+            ans[i][j] = -1;
+            if (board[i][j] == 'C') {
+                mirror[idx].first = i;
+                mirror[idx].second = j;
+                idx++;
+            }
+        }
+    }
+    queue<pair<int, int>> q;
+    q.push({mirror[0].first, mirror[0].second});
+    ans[mirror[0].first][mirror[0].second] = 0;
+    while (!q.empty()) {
+        int x = q.front().first;
+        int y = q.front().second;
+        q.pop();
+        for (int i = 0; i < 4; ++i) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            while (nx >= 0 && nx < n && ny >= 0 && ny < m && board[nx][ny] != '*') {
+                if (ans[nx][ny] == -1) {
+                    ans[nx][ny] = ans[x][y] + 1;
+                    q.push({nx, ny});
+                }
+                if (nx == mirror[1].first && ny == mirror[1].second) break;
+                nx += dx[i];
+                ny += dy[i];
+            }
+        }
+    }
+    cout << ans[mirror[1].first][mirror[1].second]-1;
+}

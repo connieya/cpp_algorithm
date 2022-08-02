@@ -74,6 +74,7 @@
 |5557|[ 1학년 ](https://www.acmicpc.net/problem/5557) |🥇 골드 5 | dp |[코드](boj/gold5/5557.md)
 |5710|[ 전기 요금 ](https://www.acmicpc.net/problem/5710) |🥇 골드 5 | 수학,이분탐색|[코드](study/2022/week16/5710.cpp)
 |5719|[ 거의 최단 경로](https://www.acmicpc.net/problem/5719) |❇️ 플레티넘 5 | 다익스트라 응용 |[코드](boj/platinum5/5719.md)
+|6087|[ 레이저 통신 ](https://www.acmicpc.net/problem/6087) |🥇 골드 3 | BFS 응용 👍 |[코드](boj/gold3/6087.md)
 |6324|[ URLs ](https://www.acmicpc.net/problem/6324) |🥈 실버 1 | 문자열 파싱 , 정규표현식 |[코드](boj/silver1/6324.md)
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) |🥉 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
 |9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) |🥈 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
@@ -124,6 +125,7 @@
 |16926|[ 배열 돌리기 1 ](https://www.acmicpc.net/problem/16926) |🥈 실버 1 |  구현 문제  |[코드](boj/silver1/16926.md)
 |16927|[ 배열 돌리기 2 ](https://www.acmicpc.net/problem/16927) |🥇 골드 5 |  구현 문제  |[코드](boj/gold5/16927.md)
 |16929|[ Two Dots ](https://www.acmicpc.net/problem/16929) |🥇 골드 4 | 그래프 탐색 (cycle 판별 코드 참고 👍)  |[코드](boj/gold4/16929.md)
+|16930|[ 달리기 ](https://www.acmicpc.net/problem/16930) |❇️ 플래티넘 3 |  BFS 응용 👍  |[코드](boj/platinum3/16930.md)
 |16931|[ 겉넓이 구하기 ](https://www.acmicpc.net/problem/16931) |🥇 실버 2 | 구현 , 수학  |[코드](boj/silver2/16931.md)
 |16935|[ 배열 돌리기 3 ](https://www.acmicpc.net/problem/16935) |🥈 실버 1 | 배열 돌리기 참고하기)  |[코드](boj/silver1/16935.md)
 |16937|[ 두 스티커 ](https://www.acmicpc.net/problem/16937) |🥈 실버 3 | 브루트포스 , 기하학👍👍  |[코드](boj/silver3/16937.md)
@@ -252,6 +254,11 @@
 |Lv.3| [ 있었는데요 없었습니다. ](https://programmers.co.kr/learn/courses/30/lessons/59043) |inner join| [코드](SQL/lv_3/있었는데요.md) |
 |Lv.4| [ 우유와 요거트가 담긴 장바구니 ](https://programmers.co.kr/learn/courses/30/lessons/62284) |self join , intersect ,inner join , 서브쿼리| [코드](SQL/lv_4/우유.md) |
 
+
+## 👽인프런
+| 문제 | 코멘트 |코드|
+|:----|:----|:-----
+|[톰과 제리](https://cote.inflearn.com/contest/5/problem/3-5) |in | [코드](inflearn/ps/1.md) |
 
 ## 📃 Document
 
