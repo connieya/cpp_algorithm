@@ -1,75 +1,91 @@
-﻿#include "stdio.h"
-#include "queue"
-#include "vector"
-#include "algorithm"
+﻿#include "bits/stdc++.h"
+
 using namespace std;
 
-int map[100][100];
-bool visited[100][100];
-int n;
+int n , ans = INT_MAX;
 int dx[] = {-1, 0, 1, 0};
 int dy[] = {0, 1, 0, -1};
-vector<pair<int, int >> v;
+int mp[101][101];
+int dist[101][101];
+int g[101][101];
 
-void bfs(int x, int y, int num);
-
-int main(void) {
-    int num = 1;
-    int ans = 214700;
-    scanf("%d", &n);
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
-            scanf("%d", &map[i][j]);
-        }
-    }
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
-            if (map[i][j] && !visited[i][j]) {
-                map[i][j] = num;
-                visited[i][j] = true;
-                bfs(i, j, num);
-                num++;
+void bfs(int x, int y, int idx) {
+    g[x][y] = idx;
+    queue<pair<int, int>> q;
+    q.push({x, y});
+    while (!q.empty()) {
+        int x = q.front().first;
+        int y = q.front().second;
+        q.pop();
+        for (int i = 0; i < 4; ++i) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if (nx < 0 || nx >= n || ny < 0 || ny >= n || !mp[nx][ny]) continue;
+            if (g[nx][ny] == 0) {
+                q.push({nx, ny});
+                g[nx][ny] = idx;
             }
         }
     }
-    int tmp = 0;
-    for (int i = 0; i < v.size() - 1; ++i) {
-        int x1 = v[i].first;
-        int y1 = v[i].second;
-        for (int j = i + 1; j < v.size(); ++j) {
-            int x2 = v[j].first;
-            int y2 = v[j].second;
-            if (map[x1][y1] != map[x2][y2]) {
-                tmp = abs(x1 - x2) + abs(y1 - y2) - 1;
-                ans = min(ans, tmp);
-            }
-        }
-    }
-    printf("%d",ans);
 }
 
-void bfs(int x, int y, int num) {
-    queue<pair<int, int >> Q;
-    Q.push({x, y});
-    while (!Q.empty()) {
-        bool isEdge = false;
-        auto cur = Q.front();
-        Q.pop();
-        for (int i = 0; i < 4; ++i) {
-            int nx = cur.first + dx[i];
-            int ny = cur.second + dy[i];
-            if (nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
-            if (map[nx][ny] && !visited[nx][ny]) {
-                visited[nx][ny] = true;
-                map[nx][ny] = num;
-                Q.push({nx, ny});
-            }
-            if (!map[nx][ny]) {
-                isEdge = true;
-            }
-        }
-        if (isEdge){
-            v.push_back({cur.first, cur.second});
+
+
+
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cin >> mp[i][j];
+            dist[i][j] = -1;
         }
     }
+
+    int idx = 1;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            if (mp[i][j] && g[i][j] == 0) {
+                bfs(i, j, idx);
+                idx++;
+            }
+        }
+    }
+
+    queue<pair<int,int>> q;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            if(mp[i][j]){
+                dist[i][j] = 0;
+                q.push({i,j});
+            }
+        }
+    }
+
+    while (!q.empty()){
+        int x= q.front().first;
+        int y = q.front().second;
+        q.pop();
+        for (int i = 0; i < 4; ++i) {
+            int nx = x +dx[i];
+            int ny = y + dy[i];
+            if(nx < 0 || nx >= n || ny < 0 || ny >=n) continue;
+            if(g[nx][ny] && g[nx][ny] != g[x][y]){
+                if(ans > dist[nx][ny]+dist[x][y]){
+                    ans = dist[nx][ny]+dist[x][y];
+                }
+            }
+            if(dist[nx][ny] == -1){
+                dist[nx][ny] = dist[x][y]+1;
+                g[nx][ny]= g[x][y];
+                q.push({nx,ny});
+            }
+
+        }
+    }
+    cout << ans;
+
 }
