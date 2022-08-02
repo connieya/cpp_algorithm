@@ -1,0 +1,67 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+int parent[100001];
+int find(int a);
+void Union(int a, int b);
+
+int find(int a) {
+    if (a == parent[a]) {
+        return a;
+    }
+    return parent[a] = find(parent[a]);
+}
+
+void Union(int a, int b) {
+    a = find(a);
+    b = find(b);
+    if (a != b) {
+        parent[a] = b;
+    }
+}
+
+int n;
+
+vector<pair<int, int>> p[3];
+vector<pair<int, pair<int, int>>> edge;
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        parent[i] = i;
+    }
+
+    for (int i = 0; i < n; ++i) {
+        int x, y, z;
+        cin >> x >> y >> z;
+        p[0].push_back({x, i});
+        p[1].push_back({y, i});
+        p[2].push_back({z, i});
+    }
+    for (int i = 0; i < 3; ++i) {
+        sort(p[i].begin(), p[i].end());
+    }
+    for (int i = 0; i < n - 1; ++i) {
+        edge.push_back({p[0][i + 1].first - p[0][i].first, {p[0][i + 1].second, p[0][i].second}});
+        edge.push_back({p[1][i + 1].first - p[1][i].first, {p[1][i + 1].second, p[1][i].second}});
+        edge.push_back({p[2][i + 1].first - p[2][i].first, {p[2][i + 1].second, p[2][i].second}});
+    }
+
+    int ans = 0;
+    int cnt = 0;
+    sort(edge.begin(), edge.end());
+    for (int i = 0; i < edge.size(); ++i) {
+        int a = edge[i].second.first;
+        int b = edge[i].second.second;
+        if(find(a) != find(b)){
+            ans += abs(edge[i].first);
+            Union(a,b);
+            cnt++;
+        }
+        if(cnt == n-1) break;
+    }
+    cout << ans;
+}
