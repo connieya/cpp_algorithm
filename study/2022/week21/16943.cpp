@@ -6,15 +6,17 @@ int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    string a;
-    int b;
+    string a, b;
     cin >> a >> b;
-    sort(a.begin(),a.end());
-    int ans = -1;
+    sort(a.begin(), a.end());
+    string ans = "0";
     do {
-        if(a[0] == '0' || stoi(a) >= b) continue;
-        ans = max(ans, stoi(a));
+        if (a[0] != '0' && a.compare(b) < 0) {
+            if (a.compare(ans) > 0) {
+                ans = a;
+            }
+        }
+    } while (next_permutation(a.begin(), a.end()));
 
-    } while (next_permutation(a.begin(),a.end()));
-    cout << ans;
+    cout << (ans == "0" ? "-1" : ans);
 }
