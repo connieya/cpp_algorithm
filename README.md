@@ -130,6 +130,7 @@
 |16235|[ 나무 재테크 ](https://www.acmicpc.net/problem/16235) |🥇 골드 4 | 구현  |[코드](boj/gold4/16235.md)
 |16562|[ 친구비 ](https://www.acmicpc.net/problem/16562) |🥇 골드 4 | 여러가지 풀이 가능 !!!  |[코드](boj/gold4/16562.md)
 |16917|[ 양념 반 후라이드 반 ](https://www.acmicpc.net/problem/16917) |🥉 브론즈 2 | 문제 잘 이해하기 , 브루트포스 , 음수 처리 센스 👍👍 |[코드](boj/bronze2/16917.md)
+|16922|[ 로마 숫자 만들기 ](https://www.acmicpc.net/problem/16922) |🥈 실버 3 |복습 하기 (약한 부분), 브루트 포스, dfs 👍👍 |[코드](boj/silver3/16922.md)
 |16924|[ 십자가 찾기 ](https://www.acmicpc.net/problem/16924) |🥈 실버 2 | 괜찮은 구현 문제  |[코드](boj/silver2/16924.md)
 |16926|[ 배열 돌리기 1 ](https://www.acmicpc.net/problem/16926) |🥈 실버 1 |  구현 문제  |[코드](boj/silver1/16926.md)
 |16927|[ 배열 돌리기 2 ](https://www.acmicpc.net/problem/16927) |🥇 골드 5 |  구현 문제  |[코드](boj/gold5/16927.md)

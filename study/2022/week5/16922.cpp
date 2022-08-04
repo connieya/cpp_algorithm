@@ -2,29 +2,25 @@
 
 using namespace std;
 
-int roma[4] = {1, 5, 10, 50};
-bool visited[1001];
-int ans = 0;
-
-void dfs(int L, int start, int sum, int n) {
-    if (L == n) {
-        if (!visited[sum]) {
-            visited[sum] = true;
-            ans++;
-        }
-        return;
-    }
-    for (int i = start; i < 4; ++i) {
-        dfs(L + 1, i, sum + roma[i], n);
-    }
-}
+bool check[1001];
 
 int main() {
-    ios::sync_with_stdio(0);
+    ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n;
+    int n, ans = 0;
     cin >> n;
-    dfs(0, 0, 0, n);
+    for (int i = 0; i <= n; ++i) {
+        for (int j = 0; j <= n - i; ++j) {
+            for (int k = 0; k <= n - i - j; ++k) {
+                int value = i * 1 + j * 5 + k * 10 + (n - i - j - k) * 50;
+                if (!check[value]) {
+                    check[value] = true;
+                    ans++;
+                }
+
+            }
+        }
+    }
     cout << ans;
 }
