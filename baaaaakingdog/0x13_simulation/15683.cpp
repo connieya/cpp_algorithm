@@ -1,93 +1,88 @@
 ﻿#include "bits/stdc++.h"
 
-#define X first
-#define Y second
 using namespace std;
 
+int board[9][9];
+bool check[9][9];
 int n, m;
-int office[10][10];
-int board[10][10];
 vector<pair<int, int>> cctv;
 int dx[] = {-1, 0, 1, 0};
 int dy[] = {0, 1, 0, -1};
+int d[9];
+int idx[] = {0, 4, 2, 4, 4, 1};
 
-bool OOB(int a, int b) {
-    return a < 0 || a >= n || b < 0 || b >= m;
+void f(int x, int y, int dir) {
+    int nx = x;
+    int ny = y;
+    check[x][y] = 1;
+    while (nx >= 0 && nx < n && ny >= 0 && ny < m) {
+        if (board[nx][ny] == 6) break;
+        nx += dx[dir];
+        ny += dy[dir];
+        check[nx][ny] = 1;
+    }
 }
 
-void upd(int x, int y, int dir) {
-    dir %= 4;
-    while (1) {
-        x += dx[dir];
-        y += dy[dir];
-        if (OOB(x, y) || board[x][y] == 6) {
-            return;
+int dfs(int L) {
+    if (L == cctv.size()) {
+        for (int i = 0; i < cctv.size(); ++i) {
+            int num = board[cctv[i].first][cctv[i].second];
+            if (num == 1) {
+                f(cctv[i].first, cctv[i].second, (d[i] + 1) % 4);
+            } else if (num == 2) {
+                f(cctv[i].first, cctv[i].second, (d[i] + 1) % 4);
+                f(cctv[i].first, cctv[i].second, (d[i] + 3) % 4);
+            } else if (num == 3) {
+                f(cctv[i].first, cctv[i].second, d[i]);
+                f(cctv[i].first, cctv[i].second, (d[i] + 1) % 4);
+            } else if (num == 4) {
+                f(cctv[i].first, cctv[i].second, d[i]);
+                f(cctv[i].first, cctv[i].second, (d[i] + 1) % 4);
+                f(cctv[i].first, cctv[i].second, (d[i] + 3) % 4);
+            } else {
+                f(cctv[i].first, cctv[i].second, 0);
+                f(cctv[i].first, cctv[i].second, 1);
+                f(cctv[i].first, cctv[i].second, 2);
+                f(cctv[i].first, cctv[i].second, 3);
+            }
+
         }
-        if (board[x][y] != 0) continue;
-        board[x][y] = 7;
+        int cnt = 0;
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                if (board[i][j] == 6) continue;
+                cnt += (check[i][j] == 0);
+            }
+        }
+        for (int i = 0; i < n; ++i) {
+            for (int j = 0; j < m; ++j) {
+                check[i][j] = 0;
+            }
+        }
+        return cnt;
     }
+    int num = board[cctv[L].first][cctv[L].second];
+    int ans = 100;
+    for (int i = 0; i < idx[num]; ++i) {
+        d[L] = i;
+        int temp = dfs(L + 1);
+        if (ans > temp) ans = temp;
+    }
+    return ans;
 }
 
 int main() {
-    ios::sync_with_stdio(0);
+    ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
     cin >> n >> m;
-    int ans = 0;
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < m; ++j) {
-            cin >> office[i][j];
-            if (office[i][j] != 0 && office[i][j] != 6) {
+            cin >> board[i][j];
+            if (board[i][j] && board[i][j] != 6) {
                 cctv.push_back({i, j});
             }
-            if (office[i][j] == 0) ans++;
         }
     }
-    for (int temp = 0; temp < 1 << (2 * cctv.size()); ++temp) {
-        for (int i = 0; i < n; ++i) {
-            for (int j = 0; j < m; ++j) {
-                board[i][j] = office[i][j];
-            }
-        }
-        int brute = temp;
-        for (int i = 0; i < cctv.size(); ++i) {
-            int dir = brute % 4;
-            brute /= 4;
-            int x = cctv[i].X;
-            int y = cctv[i].Y;
-            if (office[x][y] == 1) {
-                upd(x, y, dir);
-            }
-            if (office[x][y] == 2) {
-                upd(x, y, dir);
-                upd(x, y, dir + 2);
-            }
-            if (office[x][y] == 3) {
-                upd(x, y, dir);
-                upd(x, y, dir + 1);
-
-            }
-            if (office[x][y] == 4) {
-                upd(x, y, dir);
-                upd(x, y, dir + 1);
-                upd(x, y, dir + 2);
-
-            }
-            if (office[x][y] == 5){
-                upd(x, y, dir);
-                upd(x, y, dir + 1);
-                upd(x, y, dir + 2);
-                upd(x, y, dir + 3);
-
-            }
-            int val = 0;
-            for (int j = 0; j < n; ++j) {
-                for (int k = 0; k < m; ++k) {
-                    val += (board[j][k] == 0);
-                }
-            }
-            ans = min(ans, val);
-        }
-    }
-    cout << ans;
+    cout << dfs(0);
 }
