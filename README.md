@@ -117,6 +117,7 @@
 |14676|[ 영우는 사기꾼? ](https://www.acmicpc.net/problem/14676) |🥇 골드 3 |위상 정렬 응용|[코드](boj/gold3/14676.md)
 |15558|[ 점프 게임 ](https://www.acmicpc.net/problem/15558) |🥈 실버 1 | 재밌는 BFS()  |[코드](study/2022/week20/15558.cpp)
 |15649|[ N과M (1) ](https://www.acmicpc.net/problem/15649) |🥈 실버 1 | 백트래킹  |[코드](study/2022/week20/15558.cpp)
+|15686✔️|[ 치킨 배달 ](https://www.acmicpc.net/problem/15686) |🥇 골드 5 | 브루트포스 ,백트래킹  |[코드](boj/gold5/15686.md)
 |15683✔️|[ 감시 ](https://www.acmicpc.net/problem/15683) |🥇 골드 4 |브루트포스 , 구현  |[코드](boj/gold4/15683.md)
 |15723|[ n단 논법 ](https://www.acmicpc.net/problem/15723) |🥇 골드 5 | 플로이드 와샬  |[코드](boj/gold5/15723.md)
 |15729|[ 방탈출 ](https://www.acmicpc.net/problem/15729) | 🥈 실버 2 | 그리디  |[코드](boj/silver2/15729.md)
@@ -178,12 +179,15 @@
 |78|[ Subsets ](https://leetcode.com/problems/subsets/) | Medium | DFS, 비트마스킹 |[Solution](leetcode/medium/78.md)
 |92|[ Maximum-Depth-of-Binary-tree ](https://leetcode.com/problems/reverse-linked-list-ii/) | Easy | 트리의 깊이 |[Solution](leetcode/easy/104.md)
 |104|[ Reverse Linked List 2 ](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Medium | 연결 리스트 |[Solution](leetcode/medium/92.md)
+|110|[ Balanced Binary Tree ](https://leetcode.com/problems/balanced-binary-tree/) | Medium | 균형 이진 트리 |[Solution](leetcode/easy/110.md)
 |125|[ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) | Easy | 그냥 팰린드롬 !|[Solution](leetcode/easy/125.md)
+|166|[ Fraction to Recurring Decimal ](https://leetcode.com/problems/fraction-to-recurring-decimal/) | Medium | 문자열 , 구현|[Solution](leetcode/medium/166.md)
 |200|[Number of Islands ](https://leetcode.com/problems/number-of-islands/) |Medium | BFS & DFS 기본 |[Solution](leetcode/medium/200.md)
 |208|[ Implement Trie (Prefix tree) ](https://leetcode.com/problems/implement-trie-prefix-tree/) |Medium | 트라이 |[Solution](leetcode/medium/208.md)
 |226|[ Invert Binary Tree ](https://leetcode.com/problems/invert-binary-tree/) |Easy | 트리 자식 변환 |[Solution](leetcode/easy/226.md)
 |316|[ Remove Duplicate Letters ](https://leetcode.com/problems/remove-duplicate-letters/) | Medium | Stack & 구현 |[Solution](leetcode/medium/316.md)
 |344|[ Reverse String ](https://leetcode.com/problems/reverse-string/) | Easy | swap 활용|[Solution](leetcode/easy/344.md)
+|367|[ Valid Perfect Square ](https://leetcode.com/problems/valid-perfect-square/) | Easy | easy~~ |[Solution](leetcode/easy/367.md)
 |543|[ Diameter of Binary Tree ](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | 트리의 직경|[Solution](leetcode/easy/543.md)
 |617|[  Merge Two Binary Trees ](https://leetcode.com/problems/merge-two-binary-trees/) | Easy | 트리의 병합|[Solution](leetcode/easy/617.md)
 |687|[Longest Univalue Path  ](https://leetcode.com/problems/longest-univalue-path/) | Medium | 트리의 경로|[Solution](leetcode/medium/687.md)
@@ -221,6 +225,7 @@
 |Lv.2| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 해시| [코드](programmers/level02/위장.md) |
 |Lv.2| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42578) | 큐 , 구현 센스 익히기(큐 X) 👍 | [코드](programmers/level02/프린터.md) |
 |Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
+|Lv.2| [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | 정렬 | [코드](programmers/level02/H.md) |
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
 |Lv.2| [카펫 ](https://programmers.co.kr/learn/courses/30/lessons/42842) | 수학 ,완탐 | [코드](programmers/level02/카펫.md) |
 |Lv.2| [큰 수 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/42883) | 그리디 , 스텍 👍👍 | [코드](programmers/level02/큰수만들기.md) |
