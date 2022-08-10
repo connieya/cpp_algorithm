@@ -7,7 +7,7 @@ vector<int> num;
 int n;
 int ans = INT_MIN;
 
-int calc(int a, int b, char op) {
+int calc(int a, char op, int b) {
     if (op == '+') return a + b;
     if (op == '*') return a * b;
     return a - b;
@@ -20,8 +20,8 @@ void dfs(int L, int sum) {
         }
         return;
     }
-    dfs(L + 1, calc(sum, num[L + 1], op[n]));
-    dfs(L + 2, calc(sum, calc(num[L + 1], num[L + 2], op[L + 1]), op[L]));
+    dfs(L + 1, calc(sum, op[L] , num[L + 1]));
+    dfs(L + 2, calc(sum, op[L] , calc(num[L + 1], op[L+1] ,num[L + 2])));
 }
 
 int main() {
