@@ -2,38 +2,41 @@
 
 using namespace std;
 
-int digits[6][6];
-int dx[] = {-1, 0, 1, 0};
-int dy[] = {0, 1, 0, -1};
-unordered_set<int> ans;
 
+int arr[5][5];
+int dx[] = {-1,0,1,0};
+int dy[] = {0,1,0,-1};
+unordered_set<int> s;
 
-void dfs(int L,int sum,  int x, int y) {
-    if (L == 6) {
-        cout << sum <<'\n';
+void dfs(int l ,int x ,int y , int sum){
+    if(l==5){
+        s.insert(sum);
         return;
     }
     for (int i = 0; i < 4; ++i) {
-        int nx = dx[i] + x;
-        int ny = dy[i] + y;
-        if (nx < 0 || nx >= 5 || ny < 0 || ny >= 5) continue;
-        dfs(L + 1,sum*10+digits[nx][ny],  nx, ny);
+        int nx = x +dx[i];
+        int ny = y+ dy[i];
+        if(nx <0 || nx>=5 || ny < 0 || ny >=5) continue;
+        dfs(l+1, nx, ny , sum*10+arr[nx][ny]);
     }
 }
 
-int main() {
-    ios::sync_with_stdio(0);
+int main()
+{
+    ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
     for (int i = 0; i < 5; ++i) {
         for (int j = 0; j < 5; ++j) {
-            cin >> digits[i][j];
+            cin >> arr[i][j];
         }
     }
     for (int i = 0; i < 5; ++i) {
         for (int j = 0; j < 5; ++j) {
-            dfs(0,digits[i][j],i,j);
+            dfs(0,i,j,arr[i][j]);
         }
     }
-    cout << ans.size();
+
+    cout << s.size();
+
 }
