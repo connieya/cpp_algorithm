@@ -259,6 +259,7 @@
 |Lv.3| [기둥과 보 설치 ](https://programmers.co.kr/learn/courses/30/lessons/60061) | 빡구현 | [코드](programmers/level03/기둥과보.md) |
 |Lv.3| [불량 사용자 ](https://programmers.co.kr/learn/courses/30/lessons/64064) | 조합 , DFS (무조건 복습) 👍👍👍👍👍 | [코드](programmers/level03/불량사용자.md) |
 |Lv.3| [보석 쇼핑 ](https://programmers.co.kr/learn/courses/30/lessons/67258) | 투포인터!! , 테케 추가 👍👍👍| [코드](programmers/level03/보석쇼핑.md) |
+|Lv.3| [경주로 건설 ](https://programmers.co.kr/learn/courses/30/lessons/67259) | BFS 응용  | [코드](programmers/level03/경주로건설.md) |
 |Lv.3| [합승 택시 요금 ](https://programmers.co.kr/learn/courses/30/lessons/72413) | 플로이드 와샬 or 다익스트라| [코드](programmers/level03/합승택시요금.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
