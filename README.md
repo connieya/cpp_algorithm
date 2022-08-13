@@ -222,6 +222,7 @@
 |Lv.2| [점프와 순간이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | 그리디 ,2진법에서 1의 개수  | [코드](programmers/level02/점프.md) |
 |Lv.2| [영어 끝말잇기 ](https://programmers.co.kr/learn/courses/30/lessons/12981) | 구현  | [코드](programmers/level02/영어끝말잇기.md) |
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
+|Lv.2| [[1차] 프렌즈4블록 ](https://programmers.co.kr/learn/courses/30/lessons/17679) | 구현, 퍼즐 문제 | [코드](programmers/level02/프렌즈블록.md) |
 |Lv.2| [[1차] 캐시 ](https://programmers.co.kr/learn/courses/30/lessons/17680) | vector erase ,push_back , LRU 알고리즘 👍👍| [코드](programmers/level02/캐시.md) |
 |Lv.2| [[3차] 파일명 정렬 ](https://programmers.co.kr/learn/courses/30/lessons/17686) | 문자열 정렬 (구조체) 커스텀 | [코드](programmers/level02/파일명정렬.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
@@ -241,6 +242,7 @@
 |Lv.2| [ 괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | stack , 구현 | [코드](programmers/level02/괄호회전하기.md) |
 |Lv.2| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | 구현 | [코드](programmers/level02/행렬테두리회전.md) |
 |Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
+|Lv.2| [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | DFS , 완탐 | [코드](programmers/level02/빛의경로.md) |
 |Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
 |Lv.2| [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | 완탐 !! | [코드](programmers/level02/피로도.md) |
 |Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
@@ -301,7 +303,7 @@
 ## 👽인프런
 | 문제 | 코멘트 |코드|
 |:----|:----|:-----
-|[톰과 제리](https://cote.inflearn.com/contest/5/problem/3-5) |in | [코드](inflearn/ps/1.md) |
+|[톰과 제리](https://cote.inflearn.com/contest/5/problem/3-5) |BFS 응용 문제 | [코드](inflearn/ps/1.md) |
 
 ## 📃 Document
 
