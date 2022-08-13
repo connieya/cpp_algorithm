@@ -276,7 +276,18 @@
 
 |레벨 | 문제 | 코멘트 |코드|
 |:-----|:----|:----|:-----
+|Lv.1| [ 모든 레코드 조회하기 ✔️](https://programmers.co.kr/learn/courses/30/lessons/59034) | select 에 대해서 아는지 확인| [코드](SQL/lv_1/모든레코드.md) |
+|Lv.1| [ 역순 정렬하기 ✔️](https://programmers.co.kr/learn/courses/30/lessons/59035) | order by desc , asc 를 아는가| [코드](SQL/lv_1/역순.md) |
+|Lv.1| [이름이 없는 동물의 아이디 ✔️](https://programmers.co.kr/learn/courses/30/lessons/59039) | null 값은 어떻게 체크하는가 (is null)| [코드](SQL/lv_1/이름이없는.md) |
+|Lv.1| [이름이 있는 동물의 아이디 ✔️](https://programmers.co.kr/learn/courses/30/lessons/59047) | is not null 처리 | [코드](SQL/lv_1/이름이있는.md) |
+|Lv.1| [ 최대값 구하기 ✔️](https://programmers.co.kr/learn/courses/30/lessons/59415) | max 키워드를 아는가 , order by limit 1| [코드](SQL/lv_1/최대값.md) |
+|Lv.2| [ 최솟값 구하기✔️ ](https://programmers.co.kr/learn/courses/30/lessons/59038) |min 키워드, order by desc limit 1 | [코드](SQL/lv_2/최솟값.md) |
+|Lv.2| [ 고양이와 개는 몇 마리 있을까✔️ ](https://programmers.co.kr/learn/courses/30/lessons/59040) |group by , order by 사용 | [코드](SQL/lv_2/고양이와개.md) |
+|Lv.2| [ 동명 동물 수 찾기✔️ ](https://programmers.co.kr/learn/courses/30/lessons/59041) |이름이 2번 쓰인 동물 , group  by , having 을 아는가| [코드](SQL/lv_2/동명동물.md) |
 |Lv.2| [ 루시와 엘라 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59046) |in | [코드](SQL/lv_2/루시와엘라찾기.md) |
+|Lv.2| [ 이름에 el이 들어가는 동물 찾기 ✔️ ](https://programmers.co.kr/learn/courses/30/lessons/59047) |mysql 과 oracle 차이(대소문자 구문 , like) | [코드](SQL/lv_2/이름el.md) |
+|Lv.2| [ 동물 수 구하기 ✔️ ](https://programmers.co.kr/learn/courses/30/lessons/59406) | count 키워드를 사용할 줄 아는가| [코드](SQL/lv_2/동물수.md) |
+|Lv.2| [ 입양 시각 구하기(1) ✔️ ](https://programmers.co.kr/learn/courses/30/lessons/59412) | 날짜의 시간을 추출 하는 hour 키워드,group by,having| [코드](SQL/lv_2/입양시각.md) |
 |Lv.3| [ 없어진 기록 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/59042) |outer join| [코드](SQL/lv_3/없어진기록.md) |
 |Lv.3| [ 있었는데요 없었습니다. ](https://programmers.co.kr/learn/courses/30/lessons/59043) |inner join| [코드](SQL/lv_3/있었는데요.md) |
 |Lv.3| [ 오래 기간 보호한 동물 (2) ](https://programmers.co.kr/learn/courses/30/lessons/59411) |datediff ,string ,date , 날짜 차이 | [코드](SQL/lv_3/보호동물2.md) |
