@@ -241,6 +241,7 @@
 |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
 |Lv.2| [ 괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | stack , 구현 | [코드](programmers/level02/괄호회전하기.md) |
 |Lv.2| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | 구현 | [코드](programmers/level02/행렬테두리회전.md) |
+|Lv.2| [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) | 비트 연산 이해하기 | [코드](programmers/level02/2개이하.md) |
 |Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
 |Lv.2| [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | DFS , 완탐 | [코드](programmers/level02/빛의경로.md) |
 |Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
