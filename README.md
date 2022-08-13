@@ -283,6 +283,7 @@
 |Lv.3| [ 오래 기간 보호한 동물 (1) ](https://programmers.co.kr/learn/courses/30/lessons/59044) |left join| [코드](SQL/lv_3/보호동물.md) |
 |Lv.3| [ 헤비 유저가 소유한 장소 ](https://programmers.co.kr/learn/courses/30/lessons/77487) |서브 쿼리 , in| [코드](SQL/lv_3/헤비유저.md) |
 |Lv.4| [ 보호소에서 중성화한 동물 ](https://programmers.co.kr/learn/courses/30/lessons/59045) |inner join , like| [코드](SQL/lv_4/중성화동물.md) |
+|Lv.4| [ 입양 시각 구하기 (2) ](https://programmers.co.kr/learn/courses/30/lessons/59413) | row 채우기 | [코드](SQL/lv_4/입양시각2.md) |
 |Lv.4| [ 우유와 요거트가 담긴 장바구니 ](https://programmers.co.kr/learn/courses/30/lessons/62284) |self join , intersect ,inner join , 서브쿼리| [코드](SQL/lv_4/우유.md) |
 
 
