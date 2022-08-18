@@ -23,7 +23,7 @@
 |1490|[자리수로 나누기](https://www.acmicpc.net/problem/1490) |🥇 골드 5 |수학,완탐 (코드 다시 보기) |[코드](study/2022/week19/1490.cpp)
 |1495|[기타리스트](https://www.acmicpc.net/problem/1495) |🥈 실버 1 |DP |[코드](boj/silver1/1495.md)
 |1561|[ 놀이 공원 ](https://www.acmicpc.net/problem/1561) |🥇 골드 2 |난이도가 있는 결정 알고리즘|[코드](boj/gold2/1561.md)
-|1600|[ 말이 되고픈 원숭이 ](https://www.acmicpc.net/problem/1600) |🥇 골드 4 | BFS  |[코드](boj/gold4/1600.md)
+|1600 ✔️|[ 말이 되고픈 원숭이 ](https://www.acmicpc.net/problem/1600) |🥇 골드 3 | BFS  |[코드](boj/gold4/1600.md)
 |1695|[ 팰린드롬 만들기 ](https://www.acmicpc.net/problem/1695) |🥇 골드 4 | DP  |[코드](boj/gold4/1695.md)
 |1707|[ 이분 그래프 ](https://www.acmicpc.net/problem/1707) |🥇 골드 4 | 그래프 |[코드](boj/gold4/1707.md)
 |1722|[ 순열의 순서 ](https://www.acmicpc.net/problem/1722) |🥇 골드 5 | 수학 ,조합론  |[코드](boj/gold5/1722.md)
@@ -47,6 +47,7 @@
 |2174|[로봇 시뮬레이션](https://www.acmicpc.net/problem/2174) | 🥇 골드 5 | 구현 , struct (x,y 좌표 반대)👍 |[코드](boj/gold5/2174.md)
 |2210|[숫자판 점프](https://www.acmicpc.net/problem/2210) | 🥈 실버 2| 브루트포스 , DFS|[코드](boj/silver2/2210.md)
 |2231|[ 분해합 ](https://www.acmicpc.net/problem/2231) |🥉 브론즈 2  |브루트포스 , 구현|[코드](boj/bronze2/2231.md)
+|2251✔️|[ 물통 ️](https://www.acmicpc.net/problem/2251) |🥇 골드 5  | |[코드](boj/gold5/2251.md)
 |2290|[ LCD Test ](https://www.acmicpc.net/problem/2290) |🥈 실버 2 | 구현 |[코드](boj/silver2/2290.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) |🥇 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
 |2437|[ 저울 ](https://www.acmicpc.net/problem/2437) |🥇 골드 3 | 그리디, 정렬|[코드](boj/gold3/2437.md)
@@ -76,6 +77,7 @@
 |3758|[ KCPC ](https://www.acmicpc.net/problem/3758) |🥈 실버 3 | 구조체 사용해서 구현,정렬(구조체 정렬 참고)👍👍 |[코드](boj/silver3/3758.md)
 |3896|[ 소수 사이 수열 ](https://www.acmicpc.net/problem/3896) |🥈 실버 1 |소수 , 구현|[코드](boj/silver1/3896.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) |🥈 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
+|5014✔️ |[ 스타트링크 ️ ](https://www.acmicpc.net/problem/5014) |🥇 골드 5 | BFS | [코드](boj/gold5/5014.md)
 |5177|[ 출력 형식이 잘못되었습니다. ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 정규식 |[코드](boj/silver2/5177.md)
 |5212|[ 지구 온난화 ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 구현,시뮬레이션 |[코드](boj/silver2/5212.md)
 |5545|[ 최고의 피자 ](https://www.acmicpc.net/problem/5545) |🥈 실버 3 | 그리디 ,정렬 |[코드](boj/silver3/5545.md)
@@ -87,6 +89,7 @@
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) |🥉 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
 |9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) |🥈 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
 |9342|[ 염색체  ](https://www.acmicpc.net/problem/9342) |🥈 실버 4 | 정규 표현식|[코드](boj/silver4/9342.md)
+|9376|[ 탈옥 ](https://www.acmicpc.net/problem/9376) | ❇️플래티넘 4 | BFS, 다익스트라 👍👍👍|[코드](boj/platinum4/9376.md)
 |9421|[ 소수상근수 ](https://www.acmicpc.net/problem/9421) |🥇 골드 5 |수학, 정수론 ,시간 복잡도 개선 코드 👍👍|[코드](boj/gold5/9421.md)
 |9489|[ 사촌  ](https://www.acmicpc.net/problem/9489) |🥇  골드 4 |트리의 부모,사촌 찾기 👍👍👍 |[코드](boj/gold4/9489.md)
 |9663|[ N-Queen  ](https://www.acmicpc.net/problem/9663) |🥇 골드 5 |백트래킹|[코드](boj/gold5/9663.md)
@@ -143,6 +146,7 @@
 |16929|[ Two Dots ](https://www.acmicpc.net/problem/16929) |🥇 골드 4 | 그래프 탐색 (cycle 판별 코드 참고 👍)  |[코드](boj/gold4/16929.md)
 |16930|[ 달리기 ](https://www.acmicpc.net/problem/16930) |❇️ 플래티넘 3 |  BFS 응용 👍  |[코드](boj/platinum3/16930.md)
 |16931|[ 겉넓이 구하기 ](https://www.acmicpc.net/problem/16931) |🥇 실버 2 | 구현 , 수학  |[코드](boj/silver2/16931.md)
+|16932✔️|[ 모양 만들기️](https://www.acmicpc.net/problem/16932) |🥇 골드 3 |  |[코드](boj/gold3/16932.md)
 |16935|[ 배열 돌리기 3 ](https://www.acmicpc.net/problem/16935) |🥈 실버 1 | 배열 돌리기 참고하기)  |[코드](boj/silver1/16935.md)
 |16936|[ 나3곱2 ](https://www.acmicpc.net/problem/16936) |🥇 골드 5 | 수학, 정렬 (사용자 정의)  |[코드](boj/gold5/16936.md)
 |16937✔️|[ 두 스티커 ](https://www.acmicpc.net/problem/16937) |🥈 실버 3 | 브루트포스 , 기하학👍👍  |[코드](boj/silver3/16937.md)
@@ -153,6 +157,7 @@
 |16967|[ 배열 복원하기 ](https://www.acmicpc.net/problem/16967) |🥈 실버 3 |구현  |[코드](boj/silver3/16967.md)
 |16968|[ 차량 번호판 1 ](https://www.acmicpc.net/problem/16968) |🥈 브론즈 1 |조합론 , 브루트포스  |[코드](boj/bronze1/16968.md)
 |16987|[ 계란으로 계란치기 ](https://www.acmicpc.net/problem/16987) |🥈 실버 1 | 백트래킹  |[코드](boj/silver1/16987.md)
+|17086✔️|[ 아기 상어 2 ](https://www.acmicpc.net/problem/17086) |🥈 실버 2 |  |[코드](boj/silver2/17086.md)
 |17088|[ 등차수열 변환 ](https://www.acmicpc.net/problem/17088) |🥇 골드 5 | 브루트포스 |[코드](boj/gold5/17088.md)
 |17124|[ 두 개의 배열 ](https://www.acmicpc.net/problem/17124) |🥈 실버 3 | 이분탐색 , lower_bound 👍👍|[코드](boj/silver3/17124.md)
 |17144|[ 미세머지 안녕! ](https://www.acmicpc.net/problem/17144) |🥇 골드 4 | 빡!!! 구현  .. |[코드](boj/gold4/17144.md)
@@ -207,8 +212,10 @@
 |Lv.1| [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | 구현 , stack 대신 vector 사용 가능 (참고) 👍👍👍 | [코드](programmers/level01/다트게임.md) |
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
 |Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
+|Lv.1| [최소 직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | swap , 수학 | [코드](programmers/level01/직사각형.md) |
 |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.2| [게임 맵 최단거리 ](https://programmers.co.kr/learn/courses/30/lessons/1844) | BFS| [코드](programmers/level02/게임맵최단거리.md) |
+|Lv.2| [2 X N 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900) | DP | [코드](programmers/level02/타일링.md) |
 |Lv.2| [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | 괄호 문제 | [코드](programmers/level02/올바른괄호.md) |
 |Lv.2| [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | 구현 | [코드](programmers/level02/다음큰숫자.md) |
 |Lv.2| [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | 구현 | [코드](programmers/level02/숫자의표현.md) |
@@ -234,6 +241,7 @@
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
 |Lv.2| [카펫 ](https://programmers.co.kr/learn/courses/30/lessons/42842) | 수학 ,완탐 | [코드](programmers/level02/카펫.md) |
 |Lv.2| [큰 수 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/42883) | 그리디 , 스텍 👍👍 | [코드](programmers/level02/큰수만들기.md) |
+|Lv.2| [구명보트 ](https://programmers.co.kr/learn/courses/30/lessons/42885) | 그리디 , 투 포인터 | [코드](programmers/level02/구명보트.md) |
 |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
 |Lv.2| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | vector erase 👍👍 | [코드](programmers/level02/수식최대화.md) |

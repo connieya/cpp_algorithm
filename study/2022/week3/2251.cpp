@@ -2,69 +2,47 @@
 
 using namespace std;
 
-const int MX = 201;
-int A, B, C;
+int from[] = {0, 0, 1, 1, 2, 2};
+int to[] = {1, 2, 0, 2, 0, 1};
+bool check[201][201];
 
-bool check[MX][MX][MX];
-
-vector<int> BFS(void) {
-    queue<pair<pair<int, int>, int>> q; //A, B, C
-    q.push(make_pair(make_pair(0, 0), C));
-    vector<int> result;
-    while (!q.empty()) {
-        int a = q.front().first.first;
-        int b = q.front().first.second;
-        int c = q.front().second;
-        q.pop();
-        if (check[a][b][c])
-            continue;
-        check[a][b][c] = true;
-        if (a == 0)
-            result.push_back(c);
-        //a->b
-
-        if (a + b > B) //넘치면 안되므로
-            q.push(make_pair(make_pair(a + b - B, B), c));
-        else
-            q.push(make_pair(make_pair(0, a + b), c));
-
-        //a->c
-        if (a + c > C)
-            q.push(make_pair(make_pair(a + b - C, b), C));
-        else
-            q.push(make_pair(make_pair(0, b), a + c));
-        //b->a
-        if (b + a > A)
-            q.push(make_pair(make_pair(A, b + a - A), c));
-        else
-            q.push(make_pair(make_pair(b + a, 0), c));
-        //b->c
-        if (b + c > C)
-            q.push(make_pair(make_pair(a, b + c - C), C));
-        else
-            q.push(make_pair(make_pair(a, 0), b + c));
-        //c->a
-        if (c + a > A)
-            q.push(make_pair(make_pair(A, b), c + a - A));
-        else
-            q.push(make_pair(make_pair(c + a, b), 0));
-        //c->b
-        if (c + b > B)
-            q.push(make_pair(make_pair(a, B), c + b - B));
-        else
-            q.push(make_pair(make_pair(a, c + b), 0));
-    }
-    return result;
-}
 
 int main() {
-    ios::sync_with_stdio(0);
+    ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    cin >> A >> B >> C;
-    vector<int> ans = BFS();
+    int cap[3];
+    for (int i = 0; i < 3; ++i) {
+        cin >> cap[i];
+    }
+    int sum = cap[2];
+    check[0][0] = 1;
+    queue<pair<int, int>> q;
+    q.push({0, 0});
+    vector<int> ans;
+    ans.push_back(cap[2]);
+    while (!q.empty()) {
+        int next[3] = {q.front().first, q.front().second, sum - q.front().first - q.front().second};
+        q.pop();
+        for (int i = 0; i < 6; ++i) {
+            next[to[i]] += next[from[i]];
+            next[from[i]] = 0;
+            if (next[to[i]] >= cap[to[i]]) {
+                next[from[i]] = next[to[i]] - cap[to[i]];
+                next[to[i]] = cap[to[i]];
+            }
+            if (!check[next[0]][next[1]]) {
+                check[next[0]][next[1]] = 1;
+                q.push({next[0], next[1]});
+                if (next[0] == 0) {
+                    ans.push_back(next[2]);
+                }
+            }
+        }
+    }
     sort(ans.begin(), ans.end());
-    for (int a: ans) {
+    for (auto a: ans) {
         cout << a << ' ';
     }
+
 }

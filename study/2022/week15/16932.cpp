@@ -2,18 +2,19 @@
 
 using namespace std;
 
-int board[1001][1001];
-bool visited[1001][1001];
-vector<pair<int,int>> point;
+int n, m;
+int board[1005][1005];
+bool visited[1005][1005];
+unordered_map<int, int> mp;
 int dx[] = {-1, 0, 1, 0};
 int dy[] = {0, 1, 0, -1};
-int n, m;
 
-int bfs(int x, int y) {
-    int shape_size = 1;
+int bfs(int x, int y, int num) {
+    int count = 1;
     queue<pair<int, int>> q;
+    board[x][y] = num;
+    visited[x][y] = 1;
     q.push({x, y});
-    visited[x][y] = true;
     while (!q.empty()) {
         x = q.front().first;
         y = q.front().second;
@@ -21,72 +22,31 @@ int bfs(int x, int y) {
         for (int i = 0; i < 4; ++i) {
             int nx = x + dx[i];
             int ny = y + dy[i];
-            if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
-            if (!visited[nx][ny] && board[nx][ny] == 1) {
-                visited[nx][ny] = true;
-                shape_size++;
+            if (nx < 0 || nx >= n || ny < 0 || ny >= m || !board[nx][ny]) continue;
+            if (!visited[nx][ny]) {
+                visited[nx][ny] = 1;
+                count++;
+                board[nx][ny] = num;
                 q.push({nx, ny});
             }
         }
     }
-    return shape_size;
+    return count;
 }
 
-int maxShapeSize() {
-    int maxShape = 0;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            if (board[i][j] == 1 && !visited[i][j]) {
-                int cnt = bfs(i, j);
-                maxShape = max(cnt, maxShape);
-            }
-        }
-    }
-    return maxShape;
-}
-
-void init() {
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            visited[i][j] = false;
-        }
-    }
-}
-
-int solve() {
-    int ans = -1;
-    int len = point.size();
-    for (int i = 0; i < len; ++i) {
-        int x = point[i].first;
-        int y = point[i].second;
-        board[x][y] = 1;
-        int m = maxShapeSize();
-        board[x][y] = 0;
-        init();
-        ans = max(ans,m);
-    }
-    return ans;
-}
-
-int calc(int x, int y) {
-    int cnt = 0;
+int solve(int x, int y) {
+    int sum = 0;
+    unordered_map<int,bool> check;
     for (int i = 0; i < 4; ++i) {
         int nx = x + dx[i];
         int ny = y + dy[i];
         if (nx < 0 || nx >= n || ny < 0 || ny >= m) continue;
-        if (board[nx][ny] == 1) cnt++;
-    }
-    return cnt;
-}
-
-void ps() {
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < m; ++j) {
-            if (board[i][j] == 0 && calc(i,j) > 1){
-                point.push_back({i,j});
-            }
+        if (board[nx][ny] && !check[board[nx][ny]]) {
+            sum += mp[board[nx][ny]];
+            check[board[nx][ny]] = 1;
         }
     }
+    return sum;
 }
 
 int main() {
@@ -99,7 +59,28 @@ int main() {
             cin >> board[i][j];
         }
     }
-    ps();
-    cout << solve();
-
+    int num = 1;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            if (board[i][j] && !visited[i][j]) {
+                int cnt = bfs(i, j, num);
+                mp[num] = cnt;
+                num++;
+            }
+        }
+    }
+    int res = 0;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < m; ++j) {
+            if (board[i][j]) continue;
+            int sum = solve(i, j);
+            if (++sum > res) {
+                res = sum;
+            }
+        }
+    }
+//    for (auto m: mp) {
+//        cout << m.first << ' ' << m.second << '\n';
+//    }
+    cout << res;
 }
