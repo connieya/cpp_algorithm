@@ -214,6 +214,7 @@
 |Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
 |Lv.1| [최소 직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | swap , 수학 | [코드](programmers/level01/직사각형.md) |
 |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
+|Lv.1| [성격 유형 검사하기](https://programmers.co.kr/learn/courses/30/lessons/118666) | hashMap , 구현 | [코드](programmers/level01/성격유형.md) |
 |Lv.2| [게임 맵 최단거리 ](https://programmers.co.kr/learn/courses/30/lessons/1844) | BFS| [코드](programmers/level02/게임맵최단거리.md) |
 |Lv.2| [2 X N 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900) | DP | [코드](programmers/level02/타일링.md) |
 |Lv.2| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | DP  | [코드](programmers/level02/가장큰정사각형.md) |
