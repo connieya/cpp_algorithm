@@ -216,8 +216,10 @@
 |Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.2| [게임 맵 최단거리 ](https://programmers.co.kr/learn/courses/30/lessons/1844) | BFS| [코드](programmers/level02/게임맵최단거리.md) |
 |Lv.2| [2 X N 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900) | DP | [코드](programmers/level02/타일링.md) |
+|Lv.2| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | DP  | [코드](programmers/level02/가장큰정사각형.md) |
 |Lv.2| [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | 괄호 문제 | [코드](programmers/level02/올바른괄호.md) |
 |Lv.2| [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | 구현 | [코드](programmers/level02/다음큰숫자.md) |
+|Lv.2| [멀리 뛰기](https://programmers.co.kr/learn/courses/30/lessons/12914) | DP | [코드](programmers/level02/멀리뛰기.md) |
 |Lv.2| [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | 구현 | [코드](programmers/level02/숫자의표현.md) |
 |Lv.2| [즐서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | 조합,수학론, 순열 | [코드](programmers/level02/줄서는방법.md) |
 |Lv.2| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | stringstream | [코드](programmers/level02/최댓값과최솟값.md) |
