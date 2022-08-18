@@ -259,6 +259,7 @@
 |Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
 |Lv.2| [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | DFS , 완탐 | [코드](programmers/level02/빛의경로.md) |
 |Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
+|Lv.2| [n^2 배열 자르기](https://programmers.co.kr/learn/courses/30/lessons/87390) | 수학, 규칙 찾기   | [코드](programmers/level02/배열자르기.md) |
 |Lv.2| [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | 완탐 !! | [코드](programmers/level02/피로도.md) |
 |Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
