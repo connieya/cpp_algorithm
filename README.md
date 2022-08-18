@@ -60,6 +60,7 @@
 |2602|[ 돌다리 건너기 ](https://www.acmicpc.net/problem/2602) |🥇 골드 4 |  0 과 1 toggle & DP |[코드](boj/gold4/2602.md)
 |2617|[ 구슬 찾기 ](https://www.acmicpc.net/problem/2617) |🥇 골드 5 | 플로이드 와샬  |[코드](jungle/week3/2617_1.cpp)
 |2623|[ 음악프로그램 ](https://www.acmicpc.net/problem/2623) |🥇 골드 2 | 위상정렬  |[코드](boj/gold2/2623.md)
+|2630|[ 색종이 만들기 ](https://www.acmicpc.net/problem/2630) |🥈 실버 2 | 분할정복  |[코드](boj/silver2/2630.md)
 |2643|[ 색종이 올려 놓기 ](https://www.acmicpc.net/problem/2643) |🥇 골드 4 | DP , 정렬  |[코드](boj/gold4/2643.md)
 |2661|[ 좋은 수열 ](https://www.acmicpc.net/problem/2661) |🥇 골드 4 | 백 트래킹 |[코드](boj/gold4/2661.md)
 |2659|[ 십자카드 문제 ](https://www.acmicpc.net/problem/2659) |🥈 실버 3 | 구현, 브루트 포스 |[코드](boj/silver3/2659.md)
@@ -248,6 +249,7 @@
 |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
 |Lv.2| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | vector erase 👍👍 | [코드](programmers/level02/수식최대화.md) |
+|Lv.2| [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936) |  | [코드](programmers/level02/쿼드압축.md) |
 |Lv.2| [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | DFS , 조합 , map 👍👍 | [코드](programmers/level02/메뉴리뉴얼.md) |
 |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
 |Lv.2| [ 괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | stack , 구현 | [코드](programmers/level02/괄호회전하기.md) |
