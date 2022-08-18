@@ -240,6 +240,7 @@
 |Lv.2| [전화번호 목록 ](https://programmers.co.kr/learn/courses/30/lessons/42577) | 정렬 , 문자열 substr| [코드](programmers/level02/전화번호목록.md) |
 |Lv.2| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 해시| [코드](programmers/level02/위장.md) |
 |Lv.2| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42578) | 큐 , 구현 센스 익히기(큐 X) 👍 | [코드](programmers/level02/프린터.md) |
+|Lv.2| [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | 스택 | [코드](programmers/level02/주식가격.md) |
 |Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
 |Lv.2| [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | 정렬 | [코드](programmers/level02/H.md) |
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
