@@ -209,6 +209,7 @@
 
 |레벨 | 문제 | 코멘트 |코드|
   |:-----|:----|:----|:-----
+|Lv.1| [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 구현 , unique 키워드를 아는가 | [코드](programmers/level01/같은숫자.md) |
 |Lv.1| [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | 2진법 ,구현 ,문자열, 코드 참고 👍👍 | [코드](programmers/level01/비밀지도.md) |
 |Lv.1| [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | 구현 , stack 대신 vector 사용 가능 (참고) 👍👍👍 | [코드](programmers/level01/다트게임.md) |
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
