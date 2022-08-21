@@ -213,9 +213,11 @@
 |Lv.1| [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | 2진법 ,구현 ,문자열, 코드 참고 👍👍 | [코드](programmers/level01/비밀지도.md) |
 |Lv.1| [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | 구현 , stack 대신 vector 사용 가능 (참고) 👍👍👍 | [코드](programmers/level01/다트게임.md) |
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
-|Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱 | [코드](programmers/level01/숫자문자열과영단어.md) |
+|Lv.1| [신규 아이디 추천✔️](https://programmers.co.kr/learn/courses/30/lessons/72410) | isdigit , strchr , front , pop_back | [코드](programmers/level01/신규아이디.md) |
+|Lv.1| [로또의 최고 순위와 최저 순위✔️](https://programmers.co.kr/learn/courses/30/lessons/77484) | 배열 lookup 테이블,  | [코드](programmers/level01/로또.md) |
+|Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱, regex | [코드](programmers/level01/숫자문자열과영단어.md) |
 |Lv.1| [최소 직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | swap , 수학 | [코드](programmers/level01/직사각형.md) |
-|Lv.1| [신고 결과 받기](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
+|Lv.1| [신고 결과 받기✔️](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.1| [성격 유형 검사하기](https://programmers.co.kr/learn/courses/30/lessons/118666) | hashMap , 구현 | [코드](programmers/level01/성격유형.md) |
 |Lv.2| [게임 맵 최단거리 ](https://programmers.co.kr/learn/courses/30/lessons/1844) | BFS| [코드](programmers/level02/게임맵최단거리.md) |
 |Lv.2| [2 X N 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900) | DP | [코드](programmers/level02/타일링.md) |
