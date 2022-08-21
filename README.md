@@ -251,6 +251,7 @@
 |Lv.2| [큰 수 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/42883) | 그리디 , 스텍 👍👍 | [코드](programmers/level02/큰수만들기.md) |
 |Lv.2| [구명보트 ](https://programmers.co.kr/learn/courses/30/lessons/42885) | 그리디 , 투 포인터 | [코드](programmers/level02/구명보트.md) |
 |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
+|Lv.2| [문자열 압축✔️](https://programmers.co.kr/learn/courses/30/lessons/60057) |문자열 압축 !! | [코드](programmers/level02/문자열압축.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
 |Lv.2| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | vector erase 👍👍 | [코드](programmers/level02/수식최대화.md) |
 |Lv.2| [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936) |  | [코드](programmers/level02/쿼드압축.md) |
