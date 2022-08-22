@@ -210,10 +210,16 @@
 |레벨 | 문제 | 코멘트 |코드|
   |:-----|:----|:----|:-----
 |Lv.1| [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 구현 , unique 키워드를 아는가 | [코드](programmers/level01/같은숫자.md) |
+|Lv.1| [소수 만들기✔️ ](https://programmers.co.kr/learn/courses/30/lessons/12977) | 소수 확인 |[코드](programmers/level01/같은숫자.md) |
 |Lv.1| [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | 2진법 ,구현 ,문자열, 코드 참고 👍👍 | [코드](programmers/level01/비밀지도.md) |
 |Lv.1| [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | 구현 , stack 대신 vector 사용 가능 (참고) 👍👍👍 | [코드](programmers/level01/다트게임.md) |
+|Lv.1| [완주하지 못한 선수 ✔️](https://programmers.co.kr/learn/courses/30/lessons/42576) | unordered_map | [코드](programmers/level01/완주.md) |
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
+|Lv.1| [크레인 인형뽑기 게임✔️](https://programmers.co.kr/learn/courses/30/lessons/64061) | 구현 | [코드](programmers/level01/크레인.md) |
+|Lv.1| [키패드 누르기✔️](https://programmers.co.kr/learn/courses/30/lessons/67256) | 구현 | [코드](programmers/level01/키패드.md) |
+|Lv.1| [내적✔️](https://programmers.co.kr/learn/courses/30/lessons/70128) | 구현 | [코드](programmers/level01/내적.md) |
 |Lv.1| [신규 아이디 추천✔️](https://programmers.co.kr/learn/courses/30/lessons/72410) | isdigit , strchr , front , pop_back | [코드](programmers/level01/신규아이디.md) |
+|Lv.1| [음양 더하기✔️](https://programmers.co.kr/learn/courses/30/lessons/76501) | 구현  | [코드](programmers/level01/음양.md) |
 |Lv.1| [로또의 최고 순위와 최저 순위✔️](https://programmers.co.kr/learn/courses/30/lessons/77484) | 배열 lookup 테이블,  | [코드](programmers/level01/로또.md) |
 |Lv.1| [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | 문자열 파싱, regex | [코드](programmers/level01/숫자문자열과영단어.md) |
 |Lv.1| [최소 직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | swap , 수학 | [코드](programmers/level01/직사각형.md) |
@@ -244,12 +250,14 @@
 |Lv.2| [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | 해시| [코드](programmers/level02/위장.md) |
 |Lv.2| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42578) | 큐 , 구현 센스 익히기(큐 X) 👍 | [코드](programmers/level02/프린터.md) |
 |Lv.2| [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | 스택 | [코드](programmers/level02/주식가격.md) |
+|Lv.2| [기능개발✔️](https://programmers.co.kr/learn/courses/30/lessons/42586) | vector , queue 자료 구조 | [코드](programmers/level02/기능개발.md) |
 |Lv.2| [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | 정렬 , 비교함수| [코드](programmers/level02/가장큰수.md) |
 |Lv.2| [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | 정렬 | [코드](programmers/level02/H.md) |
 |Lv.2| [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | 완탐 | [코드](programmers/level02/소수찾기.md) |
 |Lv.2| [카펫 ](https://programmers.co.kr/learn/courses/30/lessons/42842) | 수학 ,완탐 | [코드](programmers/level02/카펫.md) |
 |Lv.2| [큰 수 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/42883) | 그리디 , 스텍 👍👍 | [코드](programmers/level02/큰수만들기.md) |
 |Lv.2| [구명보트 ](https://programmers.co.kr/learn/courses/30/lessons/42885) | 그리디 , 투 포인터 | [코드](programmers/level02/구명보트.md) |
+|Lv.2| [오픈채팅방✔️ ](https://programmers.co.kr/learn/courses/30/lessons/42888) | map , 구현  | [코드](programmers/level02/오픈채팅방.md) |
 |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
 |Lv.2| [문자열 압축✔️](https://programmers.co.kr/learn/courses/30/lessons/60057) |문자열 압축 !! | [코드](programmers/level02/문자열압축.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
