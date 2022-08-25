@@ -214,6 +214,7 @@
 |Lv.1| [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | 2진법 ,구현 ,문자열, 코드 참고 👍👍 | [코드](programmers/level01/비밀지도.md) |
 |Lv.1| [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | 구현 , stack 대신 vector 사용 가능 (참고) 👍👍👍 | [코드](programmers/level01/다트게임.md) |
 |Lv.1| [완주하지 못한 선수 ✔️](https://programmers.co.kr/learn/courses/30/lessons/42576) | unordered_map | [코드](programmers/level01/완주.md) |
+|Lv.1| [K번째 수 ✔️](https://programmers.co.kr/learn/courses/30/lessons/42748) | 정렬 | [코드](programmers/level01/K번째.md) |
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
 |Lv.1| [크레인 인형뽑기 게임✔️](https://programmers.co.kr/learn/courses/30/lessons/64061) | 구현 | [코드](programmers/level01/크레인.md) |
 |Lv.1| [키패드 누르기✔️](https://programmers.co.kr/learn/courses/30/lessons/67256) | 구현 | [코드](programmers/level01/키패드.md) |
@@ -268,6 +269,7 @@
 |Lv.2| [ 괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | stack , 구현 | [코드](programmers/level02/괄호회전하기.md) |
 |Lv.2| [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | 구현 | [코드](programmers/level02/행렬테두리회전.md) |
 |Lv.2| [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) | 비트 연산 이해하기 | [코드](programmers/level02/2개이하.md) |
+|Lv.2| [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302) | 구현 !!! | [코드](programmers/level02/거리두기.md) |
 |Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
 |Lv.2| [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | DFS , 완탐 | [코드](programmers/level02/빛의경로.md) |
 |Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
