@@ -211,6 +211,9 @@
   |:-----|:----|:----|:-----
 |Lv.1| [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | substr 활용하기 | [코드](programmers/level01/가운데글자.md) |
 |Lv.1| [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 구현 , unique 키워드를 아는가 | [코드](programmers/level01/같은숫자.md) |
+|Lv.1| [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910) | 나머지 연산 | [코드](programmers/level01/나누어.md) |
+|Lv.1| [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912) | swap | [코드](programmers/level01/두정수합.md) |
+|Lv.1| [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918) | isdigit | [코드](programmers/level01/문자열다루기.md) |
 |Lv.1| [소수 만들기✔️ ](https://programmers.co.kr/learn/courses/30/lessons/12977) | 소수 확인 |[코드](programmers/level01/소수만들기.md) |
 |Lv.1| [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | 2진법 ,구현 ,문자열, 코드 참고 👍👍 | [코드](programmers/level01/비밀지도.md) |
 |Lv.1| [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | 구현 , stack 대신 vector 사용 가능 (참고) 👍👍👍 | [코드](programmers/level01/다트게임.md) |
