@@ -88,3 +88,23 @@ int main() {
 	for (auto& i : v) cout << i << ' '; cout << '\n'; // 1 2 3 4 5
 }
 ```
+
+## string
+
+### pop_back()
+
+```c++
+#include "bits/stdc++.h"
+
+using namespace std;
+
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    string str = "ABCD";
+    str.pop_back();
+    cout << str << '\n'; // ABC
+}
+```

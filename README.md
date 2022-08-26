@@ -209,8 +209,9 @@
 
 |레벨 | 문제 | 코멘트 |코드|
   |:-----|:----|:----|:-----
+|Lv.1| [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | substr 활용하기 | [코드](programmers/level01/가운데글자.md) |
 |Lv.1| [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 구현 , unique 키워드를 아는가 | [코드](programmers/level01/같은숫자.md) |
-|Lv.1| [소수 만들기✔️ ](https://programmers.co.kr/learn/courses/30/lessons/12977) | 소수 확인 |[코드](programmers/level01/같은숫자.md) |
+|Lv.1| [소수 만들기✔️ ](https://programmers.co.kr/learn/courses/30/lessons/12977) | 소수 확인 |[코드](programmers/level01/소수만들기.md) |
 |Lv.1| [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | 2진법 ,구현 ,문자열, 코드 참고 👍👍 | [코드](programmers/level01/비밀지도.md) |
 |Lv.1| [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | 구현 , stack 대신 vector 사용 가능 (참고) 👍👍👍 | [코드](programmers/level01/다트게임.md) |
 |Lv.1| [완주하지 못한 선수 ✔️](https://programmers.co.kr/learn/courses/30/lessons/42576) | unordered_map | [코드](programmers/level01/완주.md) |
@@ -246,6 +247,7 @@
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
 |Lv.2| [[1차] 프렌즈4블록 ](https://programmers.co.kr/learn/courses/30/lessons/17679) | 구현, 퍼즐 문제 | [코드](programmers/level02/프렌즈블록.md) |
 |Lv.2| [[1차] 캐시 ](https://programmers.co.kr/learn/courses/30/lessons/17680) | vector erase ,push_back , LRU 알고리즘 👍👍| [코드](programmers/level02/캐시.md) |
+|Lv.2| [[3차] 압축 ](https://programmers.co.kr/learn/courses/30/lessons/17684) | map ,string , pop_back()| [코드](programmers/level02/압축.md) |
 |Lv.2| [[3차] 파일명 정렬 ](https://programmers.co.kr/learn/courses/30/lessons/17686) | 문자열 정렬 (구조체) 커스텀 | [코드](programmers/level02/파일명정렬.md) |
 |Lv.2| [n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | 구현 | [코드](programmers/level02/n진수게임.md) |
 |Lv.2| [전화번호 목록 ](https://programmers.co.kr/learn/courses/30/lessons/42577) | 정렬 , 문자열 substr| [코드](programmers/level02/전화번호목록.md) |
@@ -261,7 +263,8 @@
 |Lv.2| [구명보트 ](https://programmers.co.kr/learn/courses/30/lessons/42885) | 그리디 , 투 포인터 | [코드](programmers/level02/구명보트.md) |
 |Lv.2| [오픈채팅방✔️ ](https://programmers.co.kr/learn/courses/30/lessons/42888) | map , 구현  | [코드](programmers/level02/오픈채팅방.md) |
 |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
-|Lv.2| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) |  | [코드](programmers/level02/스킬트리.md) |
+|Lv.2| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | 구현 | [코드](programmers/level02/스킬트리.md) |
+|Lv.2| [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | 방문체크 , 구현 | [코드](programmers/level02/방문길이.md) |
 |Lv.2| [문자열 압축✔️](https://programmers.co.kr/learn/courses/30/lessons/60057) |문자열 압축 !! | [코드](programmers/level02/문자열압축.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
 |Lv.2| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | vector erase 👍👍 | [코드](programmers/level02/수식최대화.md) |
