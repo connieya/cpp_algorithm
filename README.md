@@ -218,6 +218,7 @@
 |Lv.1| [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | 구현 | [코드](programmers/level01/실패율.md) |
 |Lv.1| [크레인 인형뽑기 게임✔️](https://programmers.co.kr/learn/courses/30/lessons/64061) | 구현 | [코드](programmers/level01/크레인.md) |
 |Lv.1| [키패드 누르기✔️](https://programmers.co.kr/learn/courses/30/lessons/67256) | 구현 | [코드](programmers/level01/키패드.md) |
+|Lv.1| [두 개 뽑아서 더하기✔️](https://programmers.co.kr/learn/courses/30/lessons/68644) |정렬  | [코드](programmers/level01/두개.md) |
 |Lv.1| [내적✔️](https://programmers.co.kr/learn/courses/30/lessons/70128) | 구현 | [코드](programmers/level01/내적.md) |
 |Lv.1| [신규 아이디 추천✔️](https://programmers.co.kr/learn/courses/30/lessons/72410) | isdigit , strchr , front , pop_back | [코드](programmers/level01/신규아이디.md) |
 |Lv.1| [음양 더하기✔️](https://programmers.co.kr/learn/courses/30/lessons/76501) | 구현  | [코드](programmers/level01/음양.md) |
