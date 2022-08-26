@@ -261,10 +261,12 @@
 |Lv.2| [구명보트 ](https://programmers.co.kr/learn/courses/30/lessons/42885) | 그리디 , 투 포인터 | [코드](programmers/level02/구명보트.md) |
 |Lv.2| [오픈채팅방✔️ ](https://programmers.co.kr/learn/courses/30/lessons/42888) | map , 구현  | [코드](programmers/level02/오픈채팅방.md) |
 |Lv.2| [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | 조합 (완탐) | [코드](programmers/level02/후보키.md) |
+|Lv.2| [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) |  | [코드](programmers/level02/스킬트리.md) |
 |Lv.2| [문자열 압축✔️](https://programmers.co.kr/learn/courses/30/lessons/60057) |문자열 압축 !! | [코드](programmers/level02/문자열압축.md) |
 |Lv.2| [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | 구현 | [코드](programmers/level02/괄호변환.md) |
 |Lv.2| [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | vector erase 👍👍 | [코드](programmers/level02/수식최대화.md) |
-|Lv.2| [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936) |  | [코드](programmers/level02/쿼드압축.md) |
+|Lv.2| [이진 변환 반복하기](https://programmers.co.kr/learn/courses/30/lessons/68936) | 2진법 계산 , reverse | [코드](programmers/level02/이진변환.md) |
+|Lv.2| [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/70129) | 분할 정복| [코드](programmers/level02/쿼드압축.md) |
 |Lv.2| [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | DFS , 조합 , map 👍👍 | [코드](programmers/level02/메뉴리뉴얼.md) |
 |Lv.2| [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | 해시 , 이분탐색 | [코드](programmers/level02/순위검색.md) |
 |Lv.2| [ 괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | stack , 구현 | [코드](programmers/level02/괄호회전하기.md) |
