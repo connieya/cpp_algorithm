@@ -19,7 +19,9 @@ vector<tuple<int, int, int>> ans;
  tie(x, y, len) = ans[i];
 ```
 
-### vector 에 원소 있는지
+## vector
+
+### find
 
 ```c
 if(find(v.begin(), v.end(), 0) == v.end()) { // vector내에 0이 존재하지 않음
@@ -30,6 +32,9 @@ if(find(v.begin(), v.end(), 0) == v.end()) { // vector내에 0이 존재하지 �
         cout << find(v.begin(), v.end(), 6) - v.begin(); // index 확인
     }
 ```
+
+
+
 
 ### unordered_set  find()
 

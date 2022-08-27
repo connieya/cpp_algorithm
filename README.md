@@ -236,6 +236,7 @@
 |Lv.2| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | DP  | [코드](programmers/level02/가장큰정사각형.md) |
 |Lv.2| [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | 괄호 문제 | [코드](programmers/level02/올바른괄호.md) |
 |Lv.2| [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | 구현 | [코드](programmers/level02/다음큰숫자.md) |
+|Lv.2| [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) | dp , max() | [코드](programmers/level02/땅따먹기.md) |
 |Lv.2| [멀리 뛰기](https://programmers.co.kr/learn/courses/30/lessons/12914) | DP | [코드](programmers/level02/멀리뛰기.md) |
 |Lv.2| [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | 구현 | [코드](programmers/level02/숫자의표현.md) |
 |Lv.2| [즐서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | 조합,수학론, 순열 | [코드](programmers/level02/줄서는방법.md) |
@@ -287,11 +288,13 @@
 |Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
+|Lv.2| [두 큐 합 같게 만들기](https://programmers.co.kr/learn/courses/30/lessons/118667) | 두 개의 큐| [코드](programmers/level02/듀큐합.md) |
 |Lv.3| [거스름돈 ](https://programmers.co.kr/learn/courses/30/lessons/12907) | 냅색 | [코드](programmers/level03/거스름돈.md) |
 |Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
 |Lv.3| [최고의 집합 ](https://programmers.co.kr/learn/courses/30/lessons/12938) | 수학 ,구현 | [코드](programmers/level03/최고의집합.md) |
 |Lv.3| [1차 셔틀버스 ](https://programmers.co.kr/learn/courses/30/lessons/17678) | 구현 (시간 관련 ) & 그리디 | [코드](programmers/level03/셔틀버스.md) |
 |Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
+|Lv.3| [섬 연결하기 ](https://programmers.co.kr/learn/courses/30/lessons/42861) | MST , 크루스칼 , 정렬 사용자 정의 custom | [코드](programmers/level03/섬연결하기.md) |
 |Lv.3| [길 찾기 게임 ](https://programmers.co.kr/learn/courses/30/lessons/42892) | 트리 전위,중위 순회 | [코드](programmers/level03/길찾기게임.md) |
 |Lv.3| [N으로 표현 ](https://programmers.co.kr/learn/courses/30/lessons/42895) | DP , unordered_set , find() | [코드](programmers/level03/N으로표현.md) |
 |Lv.3| [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | DFS  | [코드](programmers/level03/네트워크.md) |
@@ -305,6 +308,7 @@
 |Lv.3| [합승 택시 요금 ](https://programmers.co.kr/learn/courses/30/lessons/72413) | 플로이드 와샬 or 다익스트라| [코드](programmers/level03/합승택시요금.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
+|Lv.3| [110 옮기기 ](https://programmers.co.kr/learn/courses/30/lessons/77886) | Stack , 구현| [코드](programmers/level03/110옮기기.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
 |Lv.3| [양과 늑대](https://programmers.co.kr/learn/courses/30/lessons/92343) | DFS & 비트마스킹 & DP | [코드](programmers/level03/양과늑대.md) |
 |Lv.3| [파괴되지 않은 건물 ](https://programmers.co.kr/learn/courses/30/lessons/92344) |누적합 , imos , dp | [코드](programmers/level03/건물.md) |
