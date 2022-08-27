@@ -295,6 +295,7 @@
 |Lv.3| [1차 셔틀버스 ](https://programmers.co.kr/learn/courses/30/lessons/17678) | 구현 (시간 관련 ) & 그리디 | [코드](programmers/level03/셔틀버스.md) |
 |Lv.3| [디스크 컨트롤러 ](https://programmers.co.kr/learn/courses/30/lessons/42627) | 우선순위 큐 | [코드](programmers/level03/디스크컨트롤러.md) |
 |Lv.3| [섬 연결하기 ](https://programmers.co.kr/learn/courses/30/lessons/42861) | MST , 크루스칼 , 정렬 사용자 정의 custom | [코드](programmers/level03/섬연결하기.md) |
+|Lv.3| [단속카메라 ](https://programmers.co.kr/learn/courses/30/lessons/42884) | 정렬 , 그리디 , 정렬 custom | [코드](programmers/level03/단속카메라.md) |
 |Lv.3| [길 찾기 게임 ](https://programmers.co.kr/learn/courses/30/lessons/42892) | 트리 전위,중위 순회 | [코드](programmers/level03/길찾기게임.md) |
 |Lv.3| [N으로 표현 ](https://programmers.co.kr/learn/courses/30/lessons/42895) | DP , unordered_set , find() | [코드](programmers/level03/N으로표현.md) |
 |Lv.3| [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | DFS  | [코드](programmers/level03/네트워크.md) |
