@@ -59,6 +59,7 @@
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 🥈 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
 |2573|[ 빙산 ](https://www.acmicpc.net/problem/2573) | 🥇 골드 4 | DFS & BFS 응용 👍👍👍 |[코드](boj/gold4/2573.md)
 |2602|[ 돌다리 건너기 ](https://www.acmicpc.net/problem/2602) |🥇 골드 4 |  0 과 1 toggle & DP |[코드](boj/gold4/2602.md)
+|2606|[ 바이러스 ](https://www.acmicpc.net/problem/2602) |🥈 실버 3 | DFS/BFS , 유니온 파인드 |[코드](boj/silver3/2606.md)
 |2617|[ 구슬 찾기 ](https://www.acmicpc.net/problem/2617) |🥇 골드 5 | 플로이드 와샬  |[코드](jungle/week3/2617_1.cpp)
 |2623|[ 음악프로그램 ](https://www.acmicpc.net/problem/2623) |🥇 골드 2 | 위상정렬  |[코드](boj/gold2/2623.md)
 |2630|[ 색종이 만들기 ](https://www.acmicpc.net/problem/2630) |🥈 실버 2 | 분할정복  |[코드](boj/silver2/2630.md)
