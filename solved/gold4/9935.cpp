@@ -7,38 +7,33 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    string str , bomb;
-    cin >> str >> bomb;
-    int len = str.length();
-    int b_len = bomb.length();
-    string ans;
-    for (int i = 0; i < len; ++i) {
-        if (ans.length() >= b_len){
-            int s = b_len;
-            string tmp = "";
-            while (s--){
-                 tmp.push_back(ans.back());
-                 ans.pop_back();
+    string a ,b;
+    cin >> a >> b;
+    int len = b.size();
+    stack<char> s;
+    for(auto ch : a){
+        s.push(ch);
+        if(s.size() >= len){
+            string str = "";
+            int tmp = len;
+            while (tmp){
+                str += s.top();
+                s.pop();
+                tmp--;
             }
-            reverse(tmp.begin(),tmp.end());
-            if (tmp != bomb){
-                ans += tmp;
+            reverse(str.begin() , str.end());
+            if(str != b){
+                for(auto ch : str){
+                    s.push(ch);
+                }
             }
         }
-        ans.push_back(str[i]);
     }
-    string tmp;
-    while (b_len--){
-        tmp += ans.back();
-        ans.pop_back();
+    string answer ="";
+    while (!s.empty()){
+        answer += s.top();
+        s.pop();
     }
-    reverse(tmp.begin(),tmp.end());
-    if (tmp != bomb){
-        ans += tmp;
-    }
-    if (ans.length() == 0){
-        cout << "FRULA";
-    }else{
-        cout << ans;
-    }
+    reverse(answer.begin() , answer.end());
+    cout << (answer.size() ? answer : "FRULA");
 }
