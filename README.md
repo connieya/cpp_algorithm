@@ -26,7 +26,7 @@
 |1600 ✔️|[ 말이 되고픈 원숭이 ](https://www.acmicpc.net/problem/1600) |🥇 골드 3 | BFS  |[코드](boj/gold4/1600.md)
 |1695|[ 팰린드롬 만들기 ](https://www.acmicpc.net/problem/1695) |🥇 골드 4 | DP  |[코드](boj/gold4/1695.md)
 |1707|[ 이분 그래프 ](https://www.acmicpc.net/problem/1707) |🥇 골드 4 | 그래프 |[코드](boj/gold4/1707.md)
-|1717|[ 집합의 표현 ](https://www.acmicpc.net/problem/1717) |🥇 골드 4 |    |[코드](boj/gold4/1717.md)
+|1717✔️|[ 집합의 표현 ](https://www.acmicpc.net/problem/1717) |🥇 골드 4 | 유니온 파인드   |[코드](boj/gold4/1717.md)
 |1722|[ 순열의 순서 ](https://www.acmicpc.net/problem/1722) |🥇 골드 5 | 수학 ,조합론  |[코드](boj/gold5/1722.md)
 |1764|[ 듣보잡 ](https://www.acmicpc.net/problem/1764) |🥈 실버 4 | map |[코드](boj/silver4/1764.md)
 |1793|[ 타일링 ](https://www.acmicpc.net/problem/1793) |🥈 실버 1 |매우 큰 숫자 연산 , EOF 처리|[코드](boj/silver1/1793.md)

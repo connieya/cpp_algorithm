@@ -1,24 +1,24 @@
 ﻿#include "bits/stdc++.h"
-#define INF 1000001
+#define rank _rank
 using namespace std;
 
-int parent[INF];
-int find(int a);
-void Union(int a , int b);
+int parent[1000001];
+int rank[1000001];
 
-int find(int a){
-    if (a == parent[a]){
-        return a;
-    }
-    return parent[a] = find(parent[a]);
+int Find(int x){
+    if(x == parent[x]) return x;
+    return  parent[x] = Find(parent[x]);
 }
 
 void Union(int a ,int b){
-        a = find(a);
-        b = find(b);
-        if(a != b) {
-            parent[a] = b;
-        }
+    a = Find(a);
+    b = Find(b);
+    if(a == b) return;
+    if(rank[a] < rank[b]) swap(a,b);
+    parent[b] = a;
+    if(rank[a] == rank[b]){
+        rank[a] = rank[b] +1;
+    }
 }
 
 int main()
@@ -28,20 +28,21 @@ int main()
     cout.tie(0);
     int n,m;
     cin >> n >> m;
-    for (int i = 1; i <= n; ++i) {
-        parent[i] =  i;
+    for (int i = 0; i <= n; ++i) {
+        parent[i] =i;
     }
     for (int i = 0; i < m; ++i) {
         int a,b,c;
-        cin >> a >> b >>c;
-        if (a){
-            if (find(b) == find(c)){
-                cout << "YES" << '\n';
+        cin >> a >> b >> c;
+        if(a){
+            if(Find(b) == Find(c)){
+                cout << "YES\n";
             }else {
-                cout << "NO" << '\n';
+                cout << "NO\n";
             }
         }else {
             Union(b,c);
         }
     }
+
 }
