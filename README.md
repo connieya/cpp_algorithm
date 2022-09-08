@@ -89,7 +89,7 @@
 |5719|[ 거의 최단 경로](https://www.acmicpc.net/problem/5719) |❇️ 플레티넘 5 | 다익스트라 응용 |[코드](boj/platinum5/5719.md)
 |6087|[ 레이저 통신 ](https://www.acmicpc.net/problem/6087) |🥇 골드 3 | BFS 응용 👍 |[코드](boj/gold3/6087.md)
 |6324|[ URLs ](https://www.acmicpc.net/problem/6324) |🥈 실버 1 | 문자열 파싱 , 정규표현식 |[코드](boj/silver1/6324.md)
-|6549|[ 히스토크램에서 가장 큰 직사각형 ](https://www.acmicpc.net/problem/6549) |❇️ 플래티넘 5 | 스택 |[코드](boj/platinum5/6549.md)
+|6549✔️|[ 히스토그램에서 가장 큰 직사각형 ](https://www.acmicpc.net/problem/6549) |❇️ 플래티넘 5 | 모노톤 스택 |[코드](boj/platinum5/6549.md)
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) |🥉 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
 |9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) |🥈 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
 |9342|[ 염색체  ](https://www.acmicpc.net/problem/9342) |🥈 실버 4 | 정규 표현식|[코드](boj/silver4/9342.md)

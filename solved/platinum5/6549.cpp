@@ -1,46 +1,46 @@
 ﻿#include "bits/stdc++.h"
 
-#define INF 100001
+using namespace std;
 typedef long long ll;
 
-using namespace std;
+ll arr[100001];
+ll lf[100001];
+ll rt[100001];
 
-ll arr[INF];
-int Left[INF];
-int Right[INF];
 
-int main() {
+int main()
+{
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int size;
-    while (1) {
-        ll ans = -1;
-        cin >> size;
-        vector<pair<int, int>> stack;
-        if (!size) break;
-        for (int i = 0; i < size; ++i) {
+    while (1){
+        int t;
+        cin >> t;
+        if(!t) break;
+        for (int i = 0; i < t; ++i) {
             cin >> arr[i];
-            while (!stack.empty() && stack.back().second >= arr[i]) {
-                stack.pop_back();
-            }
-            Left[i] = stack.empty() ? -1 : stack.back().first;
-            stack.push_back({i, arr[i]});
         }
-        stack.clear();
-        for (int i = size - 1; i >= 0; --i) {
-            while (!stack.empty() && stack.back().second >= arr[i]) {
-                stack.pop_back();
+        vector<int> s;
+        for (int i = 0; i < t; ++i) {
+            while (!s.empty() && arr[s.back()] >= arr[i]){
+                s.pop_back();
             }
-            Right[i] = stack.empty() ? size : stack.back().first;
-            stack.push_back({i, arr[i]});
+            lf[i] = s.empty() ? -1 : s.back();
+            s.push_back(i);
+
         }
-        stack.clear();
-        for (int i = 0; i < size; ++i) {
-            ll t = arr[i] * (Right[i] - Left[i] - 1);
-            ans = max(ans, t);
+        s.clear();
+        for (int i = t-1; i  >=0 ; --i) {
+            while (!s.empty() && arr[s.back()] >= arr[i]){
+                s.pop_back();
+            }
+            rt[i] = s.empty() ? t : s.back();
+            s.push_back(i);
+        }
+        ll ans = 0;
+        for (int i = 0; i < t; ++i) {
+            ans = max(ans , arr[i]*(rt[i]-lf[i]-1));
         }
         cout << ans << '\n';
-
     }
 }
