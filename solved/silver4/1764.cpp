@@ -2,28 +2,38 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    unordered_map<string ,int > mp;
-    int n,m ;
+    int n, m;
     string name;
     cin >> n >> m;
-    for (int i = 0; i < n+m; ++i) {
+    vector<string> a, b;
+    for (int i = 0; i < n; ++i) {
         cin >> name;
-        mp[name]++;
+        a.push_back(name);
     }
-    vector<string> ans;
-    for(auto &m : mp){
-        if(m.second > 1){
-            ans.push_back(m.first);
+    for (int i = 0; i < m; ++i) {
+        cin >> name;
+        b.push_back(name);
+    }
+    sort(a.begin(), a.end());
+    sort(b.begin(), b.end());
+    vector<string> answer;
+    for (int i = 0, j = 0; i < a.size() && j < b.size();) {
+        if (a[i] < b[j]) {
+            i++;
+        } else if (a[i] > b[j]) {
+            j++;
+        } else {
+            answer.push_back(a[i]);
+            i++;
+            j++;
         }
     }
-    sort(ans.begin(),ans.end());
-    cout << ans.size() << '\n';
-    for(auto s : ans){
+    cout << answer.size() << '\n';
+    for (auto s: answer) {
         cout << s << '\n';
     }
 }
