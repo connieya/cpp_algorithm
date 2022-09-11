@@ -159,6 +159,7 @@
 |16937✔️|[ 두 스티커 ](https://www.acmicpc.net/problem/16937) |🥈 실버 3 | 브루트포스 , 기하학👍👍  |[코드](boj/silver3/16937.md)
 |16938✔️|[캠프 준비 ](https://www.acmicpc.net/problem/16938) |🥇 골드 5 | 비트마스킹 or DFS |[코드](boj/gold5/16938.md)
 |16943✔️|[ 숫자 재배치 ](https://www.acmicpc.net/problem/16943) |🥈 실버 1 | 완전 탐색 👍👍  |[코드](boj/silver1/16943.md)
+|16945|[ 매직 스퀘어로 변경하기 ](https://www.acmicpc.net/problem/16945) |🥈 실버 3 | 브루트포스 , next_permutation (배열) |[코드](boj/silver3/16945.md)
 |16947|[ 서울 지하철 2호선 ](https://www.acmicpc.net/problem/16947) |🥇 골드 3 | 그래프 - cycle , 최단거리 , good ⭐⭐⭐ |[코드](boj/gold3/16947.md)
 |16953|[ A->B ](https://www.acmicpc.net/problem/16953) |🥈 실버 2 | 브루트포스  |[코드](boj/silver2/16953.md)
 |16956✔️|[ 늑대와 양 ](https://www.acmicpc.net/problem/16956) |🥈 실버 3 | BFS/DFS  |[코드](boj/silver3/16956.md)
