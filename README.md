@@ -70,6 +70,7 @@
 |2661|[ 좋은 수열 ](https://www.acmicpc.net/problem/2661) |🥇 골드 4 | 백 트래킹 |[코드](boj/gold4/2661.md)
 |2659|[ 십자카드 문제 ](https://www.acmicpc.net/problem/2659) |🥈 실버 3 | 구현, 브루트 포스 |[코드](boj/silver3/2659.md)
 |2671|[ 잠수함식별 ](https://www.acmicpc.net/problem/2671) |🥇 골드 5 | 정규식 |[코드](boj/gold5/2671.md)
+|2749|[ 피보나치 수 3 ](https://www.acmicpc.net/problem/2749) |🥇 골드 2 | 피사노 주기 |[코드](boj/gold2/2749.md)
 |2780|[ 비밀번호 ](https://www.acmicpc.net/problem/2780) |🥈 실버 1 | DP 👍 |[코드](boj/silver1/2780.md)
 |2852|[ NBA 농구 ](https://www.acmicpc.net/problem/2852) |🥈 실버 3 | 구현 , 문자열 (시간 분 -> 정수)  👍 |[코드](boj/silver3/2852.md)
 |2870|[ 수학 숙제 ](https://www.acmicpc.net/problem/2870) |🥈 실버 4 | 문자열 파싱 ,예외 처리 ,범위 신경 쓰기|[코드](boj/silver4/2870.md)
