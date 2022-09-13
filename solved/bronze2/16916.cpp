@@ -1,0 +1,46 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int mod = 127;
+int base = 256;
+
+int Hash(string s) {
+    int ans = 0;
+    for (char ch: s) {
+        ans = (ans * base + ch) % mod;
+    }
+    return ans;
+}
+
+bool match(string &s, string &p) {
+    int n = s.length();
+    int m = p.length();
+    if (n < m) return 0;
+    int hash_p = Hash(p);
+    int hash_s = Hash(s.substr(0, m));
+    int first = 1;
+    for (int i = 1; i < m; ++i) {
+        first = (first * base) % mod;
+    }
+    for (int i = 0; i <= n - m; ++i) {
+        if ((hash_s == hash_p) && (p == s.substr(i, m))) return 1;
+
+        if (i + m < n) {
+            hash_s = hash_s - (s[i] * first) % mod;
+            hash_s = (hash_s + mod) % mod;
+            hash_s = ((hash_s * base) % mod + s[i + m]) % mod;
+        }
+    }
+
+    return 0;
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    string s, p;
+    cin >> s >> p;
+    cout << match(s, p);
+}
