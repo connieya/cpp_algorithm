@@ -232,6 +232,7 @@
 |Lv.1| [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910) | 나머지 연산 | [코드](programmers/level01/나누어.md) |
 |Lv.1| [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912) | swap | [코드](programmers/level01/두정수합.md) |
 |Lv.1| [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918) | isdigit | [코드](programmers/level01/문자열다루기.md) |
+|Lv.1| [자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932) | 수학 , 나머지 | [코드](programmers/level01/자연수뒤집어.md) |
 |Lv.1| [소수 만들기✔️ ](https://programmers.co.kr/learn/courses/30/lessons/12977) | 소수 확인 |[코드](programmers/level01/소수만들기.md) |
 |Lv.1| [[1차] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | 2진법 ,구현 ,문자열, 코드 참고 👍👍 | [코드](programmers/level01/비밀지도.md) |
 |Lv.1| [[1차] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | 구현 , stack 대신 vector 사용 가능 (참고) 👍👍👍 | [코드](programmers/level01/다트게임.md) |
@@ -300,7 +301,7 @@
 |Lv.2| [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302) | 구현 !!! | [코드](programmers/level02/거리두기.md) |
 |Lv.2| [모음 사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | 구현 , 수학 | [코드](programmers/level02/모음사전.md) |
 |Lv.2| [빛의 경로 사이클](https://programmers.co.kr/learn/courses/30/lessons/86052) | DFS , 완탐 | [코드](programmers/level02/빛의경로.md) |
-|Lv.2| [전력망을 둘로 나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
+|Lv.2| [전력망을 둘로 나누기✔️](https://programmers.co.kr/learn/courses/30/lessons/86971) | DFS , 자식 노드의 수  | [코드](programmers/level02/전력망.md) |
 |Lv.2| [n^2 배열 자르기](https://programmers.co.kr/learn/courses/30/lessons/87390) | 수학, 규칙 찾기   | [코드](programmers/level02/배열자르기.md) |
 |Lv.2| [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946) | 완탐 !! | [코드](programmers/level02/피로도.md) |
 |Lv.2| [k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335) | stringstream , stoll 함수 구현 | [코드](programmers/level02/k진수.md) |
