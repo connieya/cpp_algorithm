@@ -227,6 +227,7 @@
 
 |레벨 | 문제 | 코멘트 |코드|
   |:-----|:----|:----|:-----
+|Lv.1| [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | unordered_set | [코드](programmers/level01/폰켓몬.md) |
 |Lv.1| [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | substr 활용하기 | [코드](programmers/level01/가운데글자.md) |
 |Lv.1| [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 구현 , unique 키워드를 아는가 | [코드](programmers/level01/같은숫자.md) |
 |Lv.1| [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910) | 나머지 연산 | [코드](programmers/level01/나누어.md) |
@@ -251,16 +252,20 @@
 |Lv.1| [신고 결과 받기✔️](https://programmers.co.kr/learn/courses/30/lessons/92334) | 구현 & unordered_map | [코드](programmers/level01/신고결과받기.md) |
 |Lv.1| [성격 유형 검사하기](https://programmers.co.kr/learn/courses/30/lessons/118666) | hashMap , 구현 | [코드](programmers/level01/성격유형.md) |
 |Lv.2| [게임 맵 최단거리 ](https://programmers.co.kr/learn/courses/30/lessons/1844) | BFS| [코드](programmers/level02/게임맵최단거리.md) |
+|Lv.2| [124 나라의 숫자✔️](https://programmers.co.kr/learn/courses/30/lessons/12899) |  3진법 규칙 찾기| [코드](programmers/level02/124나라.md) |
 |Lv.2| [2 X N 타일링](https://programmers.co.kr/learn/courses/30/lessons/12900) | DP | [코드](programmers/level02/타일링.md) |
+|Lv.2| [3 X N 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902) | DP 심화 | [코드](programmers/level02/3N타일링.md) |
 |Lv.2| [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | DP  | [코드](programmers/level02/가장큰정사각형.md) |
 |Lv.2| [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | 괄호 문제 | [코드](programmers/level02/올바른괄호.md) |
 |Lv.2| [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | 구현 | [코드](programmers/level02/다음큰숫자.md) |
 |Lv.2| [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) | dp , max() | [코드](programmers/level02/땅따먹기.md) |
 |Lv.2| [멀리 뛰기](https://programmers.co.kr/learn/courses/30/lessons/12914) | DP | [코드](programmers/level02/멀리뛰기.md) |
+|Lv.2| [숫자 블록](https://programmers.co.kr/learn/courses/30/lessons/12923) | 수학 , 약수 | [코드](programmers/level02/숫자블록.md) |
 |Lv.2| [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | 구현 | [코드](programmers/level02/숫자의표현.md) |
 |Lv.2| [즐서는 방법](https://programmers.co.kr/learn/courses/30/lessons/12936) | 조합,수학론, 순열 | [코드](programmers/level02/줄서는방법.md) |
 |Lv.2| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | stringstream | [코드](programmers/level02/최댓값과최솟값.md) |
 |Lv.2| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | 정렬 | [코드](programmers/level02/최솟값만들기.md) |
+|Lv.2| [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945) | 피보나치 수 | [코드](programmers/level02/피보나치수.md) |
 |Lv.2| [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | 문자열 구현 , toupper & tolower | [코드](programmers/level02/JadenCase.md) |
 |Lv.2| [N개의 최소 공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | 수학, 최소공배수 ,유클리드 호제법 | [코드](programmers/level02/최소공배수.md) |
 |Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
