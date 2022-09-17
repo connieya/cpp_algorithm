@@ -2,25 +2,29 @@
 
 using namespace std;
 
-bool column[16];
-bool diagonal_r[31];
-bool diagonal_l[31];
+bool isVisited1[40];
+bool isVisited2[40];
+bool isVisited3[40];
 
-int ans;
+int dfs(int L, int n) {
+    if(L == n){
+        return 1;
+    }
+    int cnt = 0;
+    for(int i=0; i<n; i++){
+        if (isVisited1[i] || isVisited2[i + L] || isVisited3[L - i + n - 1]) continue;
+        isVisited1[i] = true;
+        isVisited2[i + L] = true;
+        isVisited3[L-i+n-1] = true;
+        dfs(L + 1,n);
+        isVisited1[i] = false;
+        isVisited2[i + L] = false;
+        isVisited3[L-i+n-1] = false;
 
-void dfs(int L, int n) {
-    if (L == n + 1) {
-        ans++;
-        return;
     }
-    for (int i = 1; i <= n; ++i) {
-        if (!column[i] && !diagonal_r[i + L] && !diagonal_l[i - L + n]) {
-            column[i] = diagonal_r[i + L] = diagonal_l[i - L + n] = true;
-            dfs(L + 1, n);
-            column[i] = diagonal_r[i + L] = diagonal_l[i - L + n] = false;
-        }
-    }
+    return cnt;
 }
+
 
 int main() {
     ios_base::sync_with_stdio(0);
@@ -28,7 +32,5 @@ int main() {
     cout.tie(0);
     int n;
     cin >> n;
-    dfs(1, n);
-    cout << ans;
-
+    cout << dfs(0, n);
 }

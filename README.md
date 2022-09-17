@@ -103,7 +103,7 @@
 |9421|[ 소수상근수 ](https://www.acmicpc.net/problem/9421) |🥇 골드 5 |수학, 정수론 ,시간 복잡도 개선 코드 👍👍|[코드](boj/gold5/9421.md)
 |9489|[ 사촌  ](https://www.acmicpc.net/problem/9489) |🥇  골드 4 |트리의 부모,사촌 찾기 👍👍👍 |[코드](boj/gold4/9489.md)
 |9663|[ N-Queen  ](https://www.acmicpc.net/problem/9663) |🥇 골드 5 |백트래킹|[코드](boj/gold5/9663.md)
-|9935️✔️✔️️️|[ 문자열 폭발  ](https://www.acmicpc.net/problem/9663) |🥇 골드 4 | stack , reverse , vector 로 풀기  |[코드](boj/gold4/9935.md)
+|9935️✔️✔️️️|[ 문자열 폭발  ](https://www.acmicpc.net/problem/9935) |🥇 골드 4 | stack , reverse , vector 로 풀기  |[코드](boj/gold4/9935.md)
 |10162|[ 전자레인지](https://www.acmicpc.net/problem/10162) |🥉 브론즈 4 |그리디 |[코드](boj/bronze4/10162.md)
 |10546|[ 배부른 마라토너 ](https://www.acmicpc.net/problem/10546) |🥈 실버 4 |unordered_set |[코드](boj/silver4/10546.md)
 |10597|[ 순열장난 ](https://www.acmicpc.net/problem/10597) |🥈 실버 1 | 백트래킹 정석! 👍👍👍👍  |[코드](boj/silver1/10597.md)
@@ -266,7 +266,9 @@
 |Lv.2| [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | stringstream | [코드](programmers/level02/최댓값과최솟값.md) |
 |Lv.2| [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | 정렬 | [코드](programmers/level02/최솟값만들기.md) |
 |Lv.2| [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945) | 피보나치 수 | [코드](programmers/level02/피보나치수.md) |
+|Lv.2| [하노이의 탑](https://programmers.co.kr/learn/courses/30/lessons/12946) | 재귀 | [코드](programmers/level02/하노이탑.md) |
 |Lv.2| [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | 문자열 구현 , toupper & tolower | [코드](programmers/level02/JadenCase.md) |
+|Lv.2| [N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) | 백트래킹 | [코드](programmers/level02/NQueen.md) |
 |Lv.2| [N개의 최소 공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | 수학, 최소공배수 ,유클리드 호제법 | [코드](programmers/level02/최소공배수.md) |
 |Lv.2| [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | stack | [코드](programmers/level02/짝지어제거하기.md) |
 |Lv.2| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | 다익스트라  | [코드](programmers/level02/배달.md) |
