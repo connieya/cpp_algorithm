@@ -48,9 +48,11 @@
 |2072|[ 오목 ](https://www.acmicpc.net/problem/2072) | 🥈 실버 2 | 구현👍👍 |[코드](boj/silver2/2072.md)
 |2110|[공유기 설치](https://www.acmicpc.net/problem/2110) | 🥇 골드 5 | 이분 탐색 |[코드](boj/gold5/2110.md)
 |2146|[다리 만들기](https://www.acmicpc.net/problem/2146) | 🥇 골드 4 |BFS 응용 👍👍|[코드](boj/gold4/2146.md)
+|2151|[거울 설치](https://www.acmicpc.net/problem/2146) | 🥇 골드 3 |BFS 심화|[코드](boj/gold3/2151.md)
 |2174|[로봇 시뮬레이션](https://www.acmicpc.net/problem/2174) | 🥇 골드 5 | 구현 , struct (x,y 좌표 반대)👍 |[코드](boj/gold5/2174.md)
 |2210|[숫자판 점프](https://www.acmicpc.net/problem/2210) | 🥈 실버 2| 브루트포스 , DFS|[코드](boj/silver2/2210.md)
 |2231|[ 분해합 ](https://www.acmicpc.net/problem/2231) |🥉 브론즈 2  |브루트포스 , 구현|[코드](boj/bronze2/2231.md)
+|2234|[ 성곽 ](https://www.acmicpc.net/problem/2231) |🥇 골드 3  |2진수 , 문자열 , BFS , tuple , 구현 👍👍👍👍|[코드](boj/gold3/2234.md)
 |2251✔️|[ 물통 ️](https://www.acmicpc.net/problem/2251) |🥇 골드 5  | |[코드](boj/gold5/2251.md)
 |2290|[ LCD Test ](https://www.acmicpc.net/problem/2290) |🥈 실버 2 | 구현 |[코드](boj/silver2/2290.md)
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) |🥇 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
@@ -274,6 +276,7 @@
 |Lv.2| [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | 다익스트라  | [코드](programmers/level02/배달.md) |
 |Lv.2| [점프와 순간이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | 그리디 ,2진법에서 1의 개수  | [코드](programmers/level02/점프.md) |
 |Lv.2| [영어 끝말잇기 ](https://programmers.co.kr/learn/courses/30/lessons/12981) | 구현  | [코드](programmers/level02/영어끝말잇기.md) |
+|Lv.2| [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) |  수학 | [코드](programmers/level02/예상대진표.md) |
 |Lv.2| [[1차] 뉴스 클러스터링 ](https://programmers.co.kr/learn/courses/30/lessons/17677) | 구현, upper_bound & lower_bound  활용 👍👍 | [코드](programmers/level02/1차뉴스.md) |
 |Lv.2| [[1차] 프렌즈4블록 ](https://programmers.co.kr/learn/courses/30/lessons/17679) | 구현, 퍼즐 문제 | [코드](programmers/level02/프렌즈블록.md) |
 |Lv.2| [[1차] 캐시 ](https://programmers.co.kr/learn/courses/30/lessons/17680) | vector erase ,push_back , LRU 알고리즘 👍👍| [코드](programmers/level02/캐시.md) |
