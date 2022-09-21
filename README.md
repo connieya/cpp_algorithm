@@ -129,6 +129,7 @@
 |11728|[ 배열 합치기  ](https://www.acmicpc.net/problem/11728) |🥈 실버 5 | 투포인터 |[코드](boj/silver5/11728.md)
 |11816|[ 8진수 , 10진수 , 16진수  ](https://www.acmicpc.net/problem/11816) |🥈 브론즈 2 |  수학,구현,문자열 |[코드](boj/bronze2/11816.md)
 |12605|[ 단어 순서 뒤집기 ](https://www.acmicpc.net/problem/12605) |🥉 브론즈 1 | 공백 있는 문자열 입력 받기 & stringstream 사용|[코드](boj/bronze1/12605.md)
+|12906|[  새로운 하노이 탑](https://www.acmicpc.net/problem/12605) |🥇 골드 2 |문자열 리스트(vector) 해시 맵 , BFS , 브루트포스|[코드](boj/gold2/12906.md)
 |13398|[ 연속합2 ](https://www.acmicpc.net/problem/13398) |🥇 골드 5  | DP |[코드](boj/gold5/13398.md)
 |13417|[ 카드 문자열 ](https://www.acmicpc.net/problem/13417) |🥈 실버 3 | deque & |[코드](boj/silver3/13417.md)
 |14226|[ 이모티콘 ](https://www.acmicpc.net/problem/14226) |🥇 골드 5 | BFS |[코드](boj/gold5/14226.md)

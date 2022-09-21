@@ -1,7 +1,7 @@
 ﻿#include "bits/stdc++.h"
 
 using namespace std;
-int cnt[3];
+int hanoi[3];
 
 int main() {
     ios_base::sync_with_stdio(0);
@@ -15,22 +15,37 @@ int main() {
         string str = "";
         if (cnt) {
             cin >> str;
-            for (char ch: str) {
-               cout << ch << ' ';
-               cnt[ch-'A']++;
-            }
-            cout << '\n';
+           for(auto ch : str){
+               hanoi[ch-'A']++;
+           }
         }
         stick[i] = str;
     }
     for (int i = 0; i < 3; ++i) {
-        for (int j = 0; j < cnt[i]; ++j) {
+        for (int j = 0; j < hanoi[i]; ++j) {
             finish[i] += (char)('A' + i);
         }
     }
-    for (int i = 0; i < 3; ++i) {
-        cout << finish[i] << '\n';
+    map<vector<string> , int > depth;
+    queue<vector<string>> q;
+    q.push(stick);
+    depth[stick] = 0;
+    while (!q.empty()){
+        auto now = q.front();
+        q.pop();
+        for (int i = 0; i < 3; ++i) {
+            for (int j = 0; j < 3; ++j) {
+                if( i==j) continue;
+                if(now[i].length() ==0) continue;
+                vector<string>next =now;
+                next[j].push_back(next[i].back());
+                next[i].pop_back();
+                if(depth.count(next) == 0) {
+                    depth[next] = depth[now]+1;
+                    q.push(next);
+                }
+            }
+        }
     }
-
-
+    cout << depth[finish];
 }
