@@ -135,6 +135,7 @@
 |13398|[ 연속합2 ](https://www.acmicpc.net/problem/13398) |🥇 골드 5  | DP |[코드](boj/gold5/13398.md)
 |13417|[ 카드 문자열 ](https://www.acmicpc.net/problem/13417) |🥈 실버 3 | deque & |[코드](boj/silver3/13417.md)
 |14226|[ 이모티콘 ](https://www.acmicpc.net/problem/14226) |🥇 골드 5 | BFS |[코드](boj/gold5/14226.md)
+|14467|[ 소가 길을 건너간 이유 1 ](https://www.acmicpc.net/problem/14467) |🥈 브론즈 1 | 구현, 배열 |[코드](boj/bronze1/14467.md)
 |14503|[ 로봇 청소기 ](https://www.acmicpc.net/problem/14503) |🥇 골드 5 | 구현 |[코드](boj/gold5/14503.md)
 |14627|[ 파닭 파닭 ](https://www.acmicpc.net/problem/14627) |🥈 실버 3 | 이분 탐색|[코드](boj/silver3/14627.md)
 |14676|[ 영우는 사기꾼? ](https://www.acmicpc.net/problem/14676) |🥇 골드 3 |위상 정렬 응용|[코드](boj/gold3/14676.md)
