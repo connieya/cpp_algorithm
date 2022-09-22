@@ -63,6 +63,7 @@
 |2529|[ 부등호 ](https://www.acmicpc.net/problem/2529) |🥈 실버 2 | DFS ,백트래킹 , 문자열 (str.find() ) 👍👍  |[코드](boj/silver2/2529.md)
 |2531|[ 회전 초밥 ](https://www.acmicpc.net/problem/2531) | 🥈 실버 1 | 투 포인터~ |[코드](boj/silver1/2531.md)
 |2573|[ 빙산 ](https://www.acmicpc.net/problem/2573) | 🥇 골드 4 | DFS & BFS 응용 👍👍👍 |[코드](boj/gold4/2573.md)
+|2578|[ 빙고✔️ ](https://www.acmicpc.net/problem/2578) | 🥈 실버 4 | 구현 ! ,배열 활용 |[코드](boj/silver4/2578.md)
 |2602|[ 돌다리 건너기 ](https://www.acmicpc.net/problem/2602) |🥇 골드 4 |  0 과 1 toggle & DP |[코드](boj/gold4/2602.md)
 |2606|[ 바이러스 ](https://www.acmicpc.net/problem/2602) |🥈 실버 3 | DFS/BFS , 유니온 파인드 |[코드](boj/silver3/2606.md)
 |2617|[ 구슬 찾기 ](https://www.acmicpc.net/problem/2617) |🥇 골드 5 | 플로이드 와샬  |[코드](jungle/week3/2617_1.cpp)

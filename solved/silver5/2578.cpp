@@ -2,62 +2,50 @@
 
 using namespace std;
 
-int bingo[6][6];
-int row[6];
-int column[6];
-bool diagonal_l[6];
-bool diagonal_r[6];
+int board[5][5];
+int a[5];
+int b[5];
+int c, d;
 
-void solve(int num){
+bool solve(int num) {
     bool flag = false;
-    for (int i = 1; i <= 5; ++i) {
-        for (int j = 1; j <= 5; ++j) {
-            if (num == bingo[i][j]){
-//                cout << i << ' ' << j << '\n';
-                row[i]++;
-                column[j]++;
-                if (i==j) diagonal_l[i] = true;
-                if (i+j == 6) diagonal_r[j] = true;
+    for (int i = 0; i < 5; ++i) {
+        if (flag) break;
+        for (int j = 0; j < 5; ++j) {
+            if (num == board[i][j]) {
+                a[i]++;
+                b[j]++;
+                if (i == j) c++;
+                if (i + j == 4) d++;
                 flag = true;
                 break;
             }
         }
-        if (flag) break;
     }
-}
 
-int calcBingo() {
     int cnt = 0;
-    bool a = true;
-    bool b = true;
-    for (int i = 1; i <= 5; ++i) {
-        if (!diagonal_l[i]) a = false;
-        if (!diagonal_r[i]) b= false;
+    for (int i = 0; i < 5; ++i) {
+        cnt += (a[i] == 5);
+        cnt += (b[i] == 5);
     }
-    cnt += a;
-    cnt += b;
-    for (int i = 1; i <=5 ; ++i) {
-        cnt += (row[i] == 5) ? 1 : 0;
-        cnt += (column[i] == 5) ? 1 : 0;
-    }
-    return cnt;
+    cnt += (c == 5);
+    cnt += (d == 5);
+    return cnt >= 3;
 }
 
 int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    for (int i = 1; i <= 5; ++i) {
-        for (int j = 1; j <= 5; ++j) {
-            cin >> bingo[i][j];
+    for (int i = 0; i < 5; ++i) {
+        for (int j = 0; j < 5; ++j) {
+            cin >> board[i][j];
         }
     }
     int num;
     for (int i = 1; i <= 25; ++i) {
         cin >> num;
-//        cout << num << '\n';
-        solve(num);
-        if (calcBingo() >=3){
+        if (solve(num)) {
             cout << i;
             exit(0);
         }
