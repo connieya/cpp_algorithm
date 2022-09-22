@@ -93,6 +93,7 @@
 |5212|[ 지구 온난화 ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 구현,시뮬레이션 |[코드](boj/silver2/5212.md)
 |5545|[ 최고의 피자 ](https://www.acmicpc.net/problem/5545) |🥈 실버 3 | 그리디 ,정렬 |[코드](boj/silver3/5545.md)
 |5557|[ 1학년 ](https://www.acmicpc.net/problem/5557) |🥇 골드 5 | dp |[코드](boj/gold5/5557.md)
+|5597|[ 과제 안 내신 분...? ](https://www.acmicpc.net/problem/5597) |🥉 브론즈 5 | 구현, 배열 lookup 테이블 |[코드](boj/bronze5/5597.md)
 |5710|[ 전기 요금 ](https://www.acmicpc.net/problem/5710) |🥇 골드 5 | 수학,이분탐색|[코드](study/2022/week16/5710.cpp)
 |5719|[ 거의 최단 경로](https://www.acmicpc.net/problem/5719) |❇️ 플레티넘 5 | 다익스트라 응용 |[코드](boj/platinum5/5719.md)
 |6087|[ 레이저 통신 ](https://www.acmicpc.net/problem/6087) |🥇 골드 3 | BFS 응용 👍 |[코드](boj/gold3/6087.md)
