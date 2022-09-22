@@ -1,0 +1,72 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int n;
+char board[11][11];
+int info[11][11];
+vector<pair<int, int>> mine;
+int dx[] = {-1, 0, 1, 0, -1, -1, 1, 1};
+int dy[] = {0, 1, 0, -1, -1, 1, 1, -1};
+
+
+void search() {
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            int cnt = 0;
+            if (board[i][j] == '*') continue;
+            for (int k = 0; k < 8; ++k) {
+                int nx = dx[k] + i;
+                int ny = dy[k] + j;
+                if (nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
+                cnt += (board[nx][ny] == '*');
+            }
+            info[i][j] = cnt;
+        }
+    }
+}
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> n;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cin >> board[i][j];
+            if (board[i][j] == '*') {
+                mine.push_back({i, j});
+            }
+        }
+    }
+    search();
+    char c;
+    bool flag = false;
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cin >> c;
+            if (c == 'x') {
+                if (board[i][j] == '*') {
+                    flag = true;
+                } else {
+                    board[i][j] = '0'+info[i][j];
+                }
+            } else {
+                board[i][j] = '.';
+            }
+        }
+    }
+    if(flag){
+        for (int i = 0; i < mine.size(); ++i) {
+            board[mine[i].first][mine[i].second] = '*';
+        }
+    }
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            cout << board[i][j];
+        }
+        cout << '\n';
+    }
+
+}

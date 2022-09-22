@@ -89,6 +89,7 @@
 |3758|[ KCPC ](https://www.acmicpc.net/problem/3758) |🥈 실버 3 | 구조체 사용해서 구현,정렬(구조체 정렬 참고)👍👍 |[코드](boj/silver3/3758.md)
 |3896|[ 소수 사이 수열 ](https://www.acmicpc.net/problem/3896) |🥈 실버 1 |소수 , 구현|[코드](boj/silver1/3896.md)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) |🥈 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
+|4396|[ 지뢰찾기 ](https://www.acmicpc.net/problem/4396) |🥈 실버 4 | 구현, char 형, 정수형 동기화|[코드](boj/silver4/4396.md)
 |5014✔️ |[ 스타트링크 ️ ](https://www.acmicpc.net/problem/5014) |🥇 골드 5 | BFS | [코드](boj/gold5/5014.md)
 |5177|[ 출력 형식이 잘못되었습니다. ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 정규식 |[코드](boj/silver2/5177.md)
 |5212|[ 지구 온난화 ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 구현,시뮬레이션 |[코드](boj/silver2/5212.md)
