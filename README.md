@@ -194,6 +194,7 @@
 |20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) |🥈 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
 |20440|[ 니가 싫어~ .. ](https://www.acmicpc.net/problem/20440) |🥇 골드 4 | prefix_sum  |[코드](boj/gold4/20440.md)
 |20530|[ 양분 ](https://www.acmicpc.net/problem/20530) |🥇 골드 1 | cycle이 있는 정점 구하기 & 분리 집합 ⭐⭐⭐⭐  |[코드](boj/gold1/20530.md)
+|20546|[ 기적의 매매법 ](https://www.acmicpc.net/problem/20546) |🥈 실버  5 | 스택 이용, 구현 |[코드](boj/silver5/20546.md)
 |21278|[ 호석이 두 마리 치킨 ](https://www.acmicpc.net/problem/21278) |🥇 골드 5 | 진짜 좋은 그래프 문제 👍 복습 ✍️ |[코드](boj/gold5/21278.md)
 |21608|[ 상어 초등학교✔️ ](https://www.acmicpc.net/problem/21608) |🥇 골드 5 | 빡 구현 ️ |[코드](boj/gold5/21608.md)
 |21918|[ 전구 ️ ](https://www.acmicpc.net/problem/21918) |🥉 브론즈 2 | 단순 구현 ️ |[코드](boj/bronze2/21918.md)
