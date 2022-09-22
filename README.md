@@ -189,6 +189,7 @@
 |17436|[ 소스의 배수 ](https://www.acmicpc.net/problem/17436) |🥇 골드 3 |포함 배제의 원리 |[코드](boj/gold3/17436.md)
 |17471|[ 게리맨더링 ](https://www.acmicpc.net/problem/17471) |🥇 골드 4 | 비트마스킹 && 완탐 && 그래프이론 👍👍👍👍 |[코드](boj/gold4/17471.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) |🥈 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
+|20053|[ 최소,최대2 ](https://www.acmicpc.net/problem/20053) |🥉 브론즈 3 | 구현 |[코드](boj/bronze3/20053.md)
 |20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) |🥈 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
 |20440|[ 니가 싫어~ .. ](https://www.acmicpc.net/problem/20440) |🥇 골드 4 | prefix_sum  |[코드](boj/gold4/20440.md)
 |20530|[ 양분 ](https://www.acmicpc.net/problem/20530) |🥇 골드 1 | cycle이 있는 정점 구하기 & 분리 집합 ⭐⭐⭐⭐  |[코드](boj/gold1/20530.md)
