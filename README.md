@@ -198,6 +198,7 @@
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) |🥈 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
 |20053|[ 최소,최대2 ](https://www.acmicpc.net/problem/20053) |🥉 브론즈 3 | 구현 |[코드](boj/bronze3/20053.md)
 |20126|[ 교수님의 기말고사 ](https://www.acmicpc.net/problem/20126) |🥈 실버 3 | 정렬 |[코드](study/2022/week18/20126.cpp)
+|20291|[ 파일 정리 ](https://www.acmicpc.net/problem/20126) |🥈 실버 3 | 문자열 find() , unordered_map 사용 X ,  구현 |[코드](boj/silver3/20291.md)
 |20440|[ 니가 싫어~ .. ](https://www.acmicpc.net/problem/20440) |🥇 골드 4 | prefix_sum  |[코드](boj/gold4/20440.md)
 |20530|[ 양분 ](https://www.acmicpc.net/problem/20530) |🥇 골드 1 | cycle이 있는 정점 구하기 & 분리 집합 ⭐⭐⭐⭐  |[코드](boj/gold1/20530.md)
 |20546|[ 기적의 매매법 ](https://www.acmicpc.net/problem/20546) |🥈 실버  5 | 스택 이용, 구현 |[코드](boj/silver5/20546.md)
