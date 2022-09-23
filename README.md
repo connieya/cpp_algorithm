@@ -207,6 +207,7 @@
 |21608|[ 상어 초등학교✔️ ](https://www.acmicpc.net/problem/21608) |🥇 골드 5 | 빡 구현 ️ |[코드](boj/gold5/21608.md)
 |21918|[ 전구 ️ ](https://www.acmicpc.net/problem/21918) |🥉 브론즈 2 | 단순 구현 ️ |[코드](boj/bronze2/21918.md)
 |22254|[ 공정 컨설턴트 호석 ](https://www.acmicpc.net/problem/22254) |🥇 골드 4 |구현이 필요한 이분탐색 문제|[코드](boj/gold4/22254.md)
+|22858|[ 원상 복구(small) ](https://www.acmicpc.net/problem/22858) |🥈 실버 3 |구 현|  [코드](boj/silver3/22858.md)
 
 ## 🎃 LeetCode
 
