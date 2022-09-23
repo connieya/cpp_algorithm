@@ -11,6 +11,7 @@
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) |🥈 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1208|[부분수열의 합 2](https://www.acmicpc.net/problem/1208) |🥇 골드 1 |meet in the middle 알고리즘 , 투포인터|[코드](boj/gold1/1208.md)
 |1240|[노드사이의 거리](https://www.acmicpc.net/problem/1240) |🥇 골드 5 |트리 & DFS|[코드](boj/gold5/1240.md)
+|1244|[스위치 켜고 끄지](https://www.acmicpc.net/problem/1244) |🥈 실버 4 |구현 ,시뮬레이션|[코드](boj/silver4/1244.md)
 |1269|[대칭 차집합](https://www.acmicpc.net/problem/1269) |🥈 실버 3 |이진검색 or set , insert ,erase 👍👍|[코드](boj/silver2/1269.md)
 |1300|[K번째 수](https://www.acmicpc.net/problem/1300) |🥇 골드 2 |매개 변수 탐색 , 이분탐색|[코드](boj/gold2/1300.md)
 |1302|[베스트셀러](https://www.acmicpc.net/problem/1302) |🥈 실버 4 |map|[코드](boj/silver4/1302.md)
