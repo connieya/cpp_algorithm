@@ -4,20 +4,16 @@ using namespace std;
 
 int dp[100001];
 
-int main()
-{
+int main() {
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-    int n,k;
+    int n, k, a, b;
     cin >> n >> k;
     for (int i = 0; i < n; ++i) {
-        int w,v;
-        cin >> w >> v;
-        for (int j = k; j >= w; --j) {
-            if (dp[j-w]+v > dp[j]){
-                dp[j] = dp[j-w]+v;
-            }
+        cin >> a >> b;
+        for (int j = k; j >= a;--j) {
+            dp[j] = max(dp[j], dp[j - a] + b);
         }
     }
     cout << dp[k];
