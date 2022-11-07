@@ -105,6 +105,7 @@
 |6087|[ 레이저 통신 ](https://www.acmicpc.net/problem/6087) |🥇 골드 3 | BFS 응용 👍 |[코드](boj/gold3/6087.md)
 |6324|[ URLs ](https://www.acmicpc.net/problem/6324) |🥈 실버 1 | 문자열 파싱 , 정규표현식 |[코드](boj/silver1/6324.md)
 |6549✔️|[ 히스토그램에서 가장 큰 직사각형 ](https://www.acmicpc.net/problem/6549) |❇️ 플래티넘 5 | 모노톤 스택 |[코드](boj/platinum5/6549.md)
+|7579 ️|[앱 ](https://www.acmicpc.net/problem/7579) |🥇 골드 3 | 냅색 👍👍👍👍  |[코드](boj/gold3/7579.md)
 |7785✔️|[ 회사에 있는 사람 ](https://www.acmicpc.net/problem/6549) |🥈️ 실버 5 | unordered_map , unordered_set  sort 내림차순 |[코드](boj/silver5/7785.md)
 |8595|[ 히든 넘버  ](https://www.acmicpc.net/problem/8595) |🥉 브론즈 1 | 문자열 파싱 문제|[코드](boj/bronze1/8595.md)
 |9009|[ 피보나치  ](https://www.acmicpc.net/problem/9009) |🥈 실버 1 |아이디어가 안 떠오르는 문제|[코드](boj/silver1/9009.md)
@@ -400,6 +401,8 @@
 |번호 | 문제 | 코멘트 |코드|
 |:----|:----|:----|:-----
 |DP 9.|[ 가방 문제(냅색)](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/unit/29258?tab=curriculum) |냅색 | [코드](inflearn/5.dp/가방냅색.md) |
+|DP 10.|[ 동전 교환(냅색)](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/unit/29259?tab=curriculum) |냅색 | [코드](inflearn/5.dp/동전교환.md) |
+|DP 11.|[ 최대 점수 구하기(냅색)](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/unit/29260?tab=curriculum) |냅색 | [코드](inflearn/5.dp/최대점수.md) |
 |4-2|[톰과 제리](https://cote.inflearn.com/contest/5/problem/3-5) |BFS 응용 문제 | [코드](inflearn/ps/1.md) |
 
 
