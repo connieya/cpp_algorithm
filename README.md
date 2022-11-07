@@ -83,6 +83,7 @@
 |2872|[ 우리집에엔 도서관이 있어 ](https://www.acmicpc.net/problem/2872) |🥈 실버 2 |그리디 👍👍|[코드](boj/silver2/2872.md)
 |2887|[ 행성 터널 ](https://www.acmicpc.net/problem/2887) |❇️ 플래티넘 5 |MST|[코드](boj/platinum5/2887.md)
 |2942|[ 퍼거슨과 사과 ](https://www.acmicpc.net/problem/2942) |🥈 실버 2| 최대 공약수 & 약수 출력하기|[코드](boj/silver2/2942.md)
+|3003|[ 킹, 퀸 ,룩 , 비숍 , 나이트 , 폰 ](https://www.acmicpc.net/problem/3003) |🥉  브론즈 5  |사칙연산 ,구현 |[코드](boj/bronze5/3003.md)
 |3015|[ 오아시스 재결합 ](https://www.acmicpc.net/problem/3019) |🥇 골드  1| monotone 스택 | [코드](boj/gold1/3015.md)
 |3019|[ 테트리스 ](https://www.acmicpc.net/problem/3019) |🥈 실버 1| 구현|[코드](boj/silver1/3019.md)
 |3078|[ 좋은친구 ](https://www.acmicpc.net/problem/3078) |🥇 골드 4 | 큐 , 슬라이싱 윈도우|[코드](boj/gold4/3078.md)
