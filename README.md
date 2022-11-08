@@ -60,6 +60,7 @@
 |2436|[ 공약수 ](https://www.acmicpc.net/problem/2436) |🥇 골드 5 | 유클리드 호제법 , 브루트포스  |[코드](boj/gold5/2436.md)
 |2437|[ 저울 ](https://www.acmicpc.net/problem/2437) |🥇 골드 3 | 그리디, 정렬|[코드](boj/gold3/2437.md)
 |2448|[ 별찍기-11 ](https://www.acmicpc.net/problem/2448) |🥇 골드 4 | 재귀 |[코드](solved/gold4/2448.cpp)
+|2476|[ 주사위 게임 ](https://www.acmicpc.net/problem/2476) |🥉 브론즈 3 | 구현 |[코드](boj/bronze3/2476.md)
 |2502|[ 떡 먹는 호랑이 ](https://www.acmicpc.net/problem/2502) |🥈 실버 1 | 브루트포스 , 수학  |[코드](boj/silver1/2502.md)
 |2527|[ 직사각형 ](https://www.acmicpc.net/problem/2527) |🥈 실버 1 | 수학,기하학  |[코드](boj/silver1/2527.md)
 |2529|[ 부등호 ](https://www.acmicpc.net/problem/2529) |🥈 실버 2 | DFS ,백트래킹 , 문자열 (str.find() ) 👍👍  |[코드](boj/silver2/2529.md)
