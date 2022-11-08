@@ -92,6 +92,7 @@
 |3109|[ 빵집 ](https://www.acmicpc.net/problem/3109) |🥇 골드 2 |  빵집 , 그리디 |[코드](boj/gold2/3109.md)
 |3758|[ KCPC ](https://www.acmicpc.net/problem/3758) |🥈 실버 3 | 구조체 사용해서 구현,정렬(구조체 정렬 참고)👍👍 |[코드](boj/silver3/3758.md)
 |3896|[ 소수 사이 수열 ](https://www.acmicpc.net/problem/3896) |🥈 실버 1 |소수 , 구현|[코드](boj/silver1/3896.md)
+|4101|[ 크냐? ](https://www.acmicpc.net/problem/4101) |🥉 브론즈 5 |사칙연산 ,입출력|[코드](solved/bronze5/4101.cpp)
 |4307|[ 개미 ](https://www.acmicpc.net/problem/4307) |🥈 실버 2 | 애드 혹|[코드](boj/silver2/4307.md)
 |4396|[ 지뢰찾기 ](https://www.acmicpc.net/problem/4396) |🥈 실버 4 | 구현, char 형, 정수형 동기화|[코드](boj/silver4/4396.md)
 |5014✔️ |[ 스타트링크 ️ ](https://www.acmicpc.net/problem/5014) |🥇 골드 5 | BFS | [코드](boj/gold5/5014.md)
