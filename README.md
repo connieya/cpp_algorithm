@@ -201,6 +201,7 @@
 |17124|[ 두 개의 배열 ](https://www.acmicpc.net/problem/17124) |🥈 실버 3 | 이분탐색 , lower_bound 👍👍|[코드](boj/silver3/17124.md)
 |17144|[ 미세머지 안녕! ](https://www.acmicpc.net/problem/17144) |🥇 골드 4 | 빡!!! 구현  .. |[코드](boj/gold4/17144.md)
 |17219|[ 비밀번호 찾기 ](https://www.acmicpc.net/problem/17219) |🥈 실버 4 | hash map 사용|[코드](boj/silver4/17219.md)
+|17281|[ ⚾ ](https://www.acmicpc.net/problem/17281) |🥇 골드 4 | 순열 , 브루트포스 |[코드](boj/gold4/17281.md)
 |17406|[ 배열 돌리기 4 ](https://www.acmicpc.net/problem/17406) |🥇 실버 4 | 구현 , 모든 순열|[코드](boj/gold4/17406.md)
 |17413|[ 단어 뒤집기2 ](https://www.acmicpc.net/problem/17413) |🥇 실버 3 | 구현 , reverse  |[코드](boj/silver3/17413.md)
 |17436|[ 소스의 배수 ](https://www.acmicpc.net/problem/17436) |🥇 골드 3 |포함 배제의 원리 |[코드](boj/gold3/17436.md)
