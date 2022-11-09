@@ -5,5 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_C_FLAGS "-fexec-charset=CP949 -g -Wall")
 
 
-add_executable(solved_bronze5_4101 solved/bronze5/4101.cpp)
-add_executable(solved_bronze3_2476 solved/bronze3/2476.cpp)
+add_executable(solved_silver4_2217 solved/silver4/2217.cpp)

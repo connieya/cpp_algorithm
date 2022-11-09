@@ -53,6 +53,7 @@
 |2151|[거울 설치](https://www.acmicpc.net/problem/2146) | 🥇 골드 3 |BFS 심화|[코드](boj/gold3/2151.md)
 |2174|[로봇 시뮬레이션](https://www.acmicpc.net/problem/2174) | 🥇 골드 5 | 구현 , struct (x,y 좌표 반대)👍 |[코드](boj/gold5/2174.md)
 |2210|[숫자판 점프](https://www.acmicpc.net/problem/2210) | 🥈 실버 2| 브루트포스 , DFS|[코드](boj/silver2/2210.md)
+|2217|[로프](https://www.acmicpc.net/problem/2217) | 🥈 실버 4| 그리디. 정렬|[코드](solved/silver4/2217.cpp)
 |2231|[ 분해합 ](https://www.acmicpc.net/problem/2231) |🥉 브론즈 2  |브루트포스 , 구현|[코드](boj/bronze2/2231.md)
 |2234|[ 성곽 ](https://www.acmicpc.net/problem/2231) |🥇 골드 3  |2진수 , 문자열 , BFS , tuple , 구현 👍👍👍👍|[코드](boj/gold3/2234.md)
 |2251✔️|[ 물통 ️](https://www.acmicpc.net/problem/2251) |🥇 골드 5  | |[코드](boj/gold5/2251.md)
