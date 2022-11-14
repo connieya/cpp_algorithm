@@ -257,6 +257,7 @@
 
 |레벨 | 문제 | 코멘트 |코드|
   |:-----|:----|:----|:-----
+|Lv.0| [안전지대](https://programmers.co.kr/learn/courses/30/lessons/12086) | 반복문 | [코드](programmers/level00/안전지대.md) |
 |Lv.1| [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | unordered_set | [코드](programmers/level01/폰켓몬.md) |
 |Lv.1| [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | substr 활용하기 | [코드](programmers/level01/가운데글자.md) |
 |Lv.1| [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 구현 , unique 키워드를 아는가 | [코드](programmers/level01/같은숫자.md) |
