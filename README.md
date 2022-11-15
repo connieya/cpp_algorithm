@@ -347,6 +347,7 @@
 |Lv.2| [주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341) | 문자열 split , map , ceil()  구현 문제 | [코드](programmers/level02/주차요금.md) |
 |Lv.2| [양궁 대회](https://programmers.co.kr/learn/courses/30/lessons/92342) | DFS & 완전탐색 ,중복 조합 | [코드](programmers/level02/양궁대회.md) |
 |Lv.2| [두 큐 합 같게 만들기](https://programmers.co.kr/learn/courses/30/lessons/118667) | 두 개의 큐| [코드](programmers/level02/듀큐합.md) |
+|Lv.2| [롤케이크 자르기](https://programmers.co.kr/learn/courses/30/lessons/132265) | unordered_map 2개 사용| [코드](programmers/level02/롤케이크.md) |
 |Lv.3| [거스름돈 ](https://programmers.co.kr/learn/courses/30/lessons/12907) | 냅색 | [코드](programmers/level03/거스름돈.md) |
 |Lv.3| [야근 지수 ](https://programmers.co.kr/learn/courses/30/lessons/12927) | 그리디 , 정렬 | [코드](programmers/level03/야근지수.md) |
 |Lv.3| [최고의 집합 ](https://programmers.co.kr/learn/courses/30/lessons/12938) | 수학 ,구현 | [코드](programmers/level03/최고의집합.md) |
