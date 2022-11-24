@@ -204,6 +204,7 @@
 |17281|[ ⚾ ](https://www.acmicpc.net/problem/17281) |🥇 골드 4 | 순열 , 브루트포스 |[코드](boj/gold4/17281.md)
 |17406|[ 배열 돌리기 4 ](https://www.acmicpc.net/problem/17406) |🥇 실버 4 | 구현 , 모든 순열|[코드](boj/gold4/17406.md)
 |17413|[ 단어 뒤집기2 ](https://www.acmicpc.net/problem/17413) |🥇 실버 3 | 구현 , reverse  |[코드](boj/silver3/17413.md)
+|17427|[ 약수의 합2 ](https://www.acmicpc.net/problem/17427) |🥇 실버 2 | 수학,정수론  |[코드](boj/silver2/17427.md)
 |17436|[ 소스의 배수 ](https://www.acmicpc.net/problem/17436) |🥇 골드 3 |포함 배제의 원리 |[코드](boj/gold3/17436.md)
 |17471|[ 게리맨더링 ](https://www.acmicpc.net/problem/17471) |🥇 골드 4 | 비트마스킹 && 완탐 && 그래프이론 👍👍👍👍 |[코드](boj/gold4/17471.md)
 |17479|[ 정식당 ](https://www.acmicpc.net/problem/17479) |🥈 실버 3 | map & 구현 |[코드](boj/silver3/17479.md)
