@@ -46,6 +46,7 @@
 |1986|[ 체스 ](https://www.acmicpc.net/problem/1986) |🥈 실버 2 | 구현 |[코드](boj/silver2/1986.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) |🥈 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2003|[ 수들의 합 ](https://www.acmicpc.net/problem/2003) |🥈 실버 4 | 투 포인터 |[코드](boj/silver4/2003.md)
+|2021|[ 최소 환승 경로 ](https://www.acmicpc.net/problem/2021) |🥇 골드 1 | BFS |[코드](boj/gold1/2021.md)
 |2022|[ 사다리 ](https://www.acmicpc.net/problem/2022) |🥈 실버 1 | 이분탐색 , 기하학 |[코드](boj/silver1/2022.md)
 |2072|[ 오목 ](https://www.acmicpc.net/problem/2072) | 🥈 실버 2 | 구현👍👍 |[코드](boj/silver2/2072.md)
 |2110|[공유기 설치](https://www.acmicpc.net/problem/2110) | 🥇 골드 5 | 이분 탐색 |[코드](boj/gold5/2110.md)
