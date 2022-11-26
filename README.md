@@ -101,6 +101,7 @@
 |5014✔️ |[ 스타트링크 ️ ](https://www.acmicpc.net/problem/5014) |🥇 골드 5 | BFS | [코드](boj/gold5/5014.md)
 |5177|[ 출력 형식이 잘못되었습니다. ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 정규식 |[코드](boj/silver2/5177.md)
 |5212|[ 지구 온난화 ](https://www.acmicpc.net/problem/5177) |🥈 실버 2 | 구현,시뮬레이션 |[코드](boj/silver2/5212.md)
+|5214|[ 환승 ](https://www.acmicpc.net/problem/5214) |🥇 골드 2 | BFS 응용 |[코드](boj/gold2/5214.md)
 |5545|[ 최고의 피자 ](https://www.acmicpc.net/problem/5545) |🥈 실버 3 | 그리디 ,정렬 |[코드](boj/silver3/5545.md)
 |5557|[ 1학년 ](https://www.acmicpc.net/problem/5557) |🥇 골드 5 | dp |[코드](boj/gold5/5557.md)
 |5597|[ 과제 안 내신 분...? ](https://www.acmicpc.net/problem/5597) |🥉 브론즈 5 | 구현, 배열 lookup 테이블 |[코드](boj/bronze5/5597.md)
