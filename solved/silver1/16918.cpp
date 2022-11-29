@@ -1,0 +1,57 @@
+﻿#include "bits/stdc++.h"
+
+using namespace std;
+
+int r,c,n;
+char board[201][201];
+
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    cin >> r >> c >> n;
+    queue<pair<int,int>> q;
+    for (int i = 0; i < r; ++i) {
+        for (int j = 0; j < c; ++j) {
+            cin >> board[i][j];
+        }
+    }
+    for (int cnt = 0; cnt < n; ++cnt) {
+        if(cnt%2){
+            for (int i = 0; i < r; ++i) {
+                for (int j = 0; j < c; ++j) {
+                    board[i][j] = 'O';
+                }
+            }
+        }else {
+            while (!q.empty()){
+                int x = q.front().first;
+                int y = q.front().second;
+                board[x][y] = '.';
+                q.pop();
+                for (int i = 0; i < 4; ++i) {
+                    int nx = x + "2101"[i]-'1';
+                    int ny = y + "1012"[i]-'1';
+                    if(nx < 0 || nx >= r || ny < 0 || ny >= c) continue;
+                    board[nx][ny] = '.';
+                }
+            }
+            for (int i = 0; i < r; ++i) {
+                for (int j = 0; j < c; ++j) {
+                    if(board[i][j] == 'O'){
+                        q.push({i,j});
+                    }
+                }
+            }
+        }
+
+    }
+    for (int i = 0; i < r; ++i) {
+        for (int j = 0; j < c; ++j) {
+            cout << board[i][j];
+        }
+        cout << '\n';
+    }
+
+}

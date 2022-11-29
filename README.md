@@ -174,6 +174,7 @@
 |16637|[ 괄호 추가하기 ](https://www.acmicpc.net/problem/16637) |🥇 골드 4 | 비트마스킹 & 브루트포스 or DFS 👍👍 |[코드](boj/gold4/16637.md)
 |16916|[ 부분 문자열 ](https://www.acmicpc.net/problem/16916) |🥉 브론즈 2 | 라빈-카프 , KMP |[코드](boj/bronze2/16916.md)
 |16917|[ 양념 반 후라이드 반 ](https://www.acmicpc.net/problem/16917) |🥉 브론즈 2 | 문제 잘 이해하기 , 브루트포스 , 음수 처리 센스 👍👍 |[코드](boj/bronze2/16917.md)
+|16918|[ 봄버맨 ](https://www.acmicpc.net/problem/16918) |🥈 실버 1 | 구현 , 큐 |[코드](boj/silver1/16918.md)
 |16922✔️|[ 로마 숫자 만들기 ](https://www.acmicpc.net/problem/16922) |🥈 실버 3 |복습 하기 (약한 부분), 브루트 포스, dfs 👍👍 |[코드](boj/silver3/16922.md)
 |16924✔️ |[ 십자가 찾기 ](https://www.acmicpc.net/problem/16924) |🥈 실버 2 | 괜찮은 구현 문제,tuple 사용법 👍👍 |[코드](boj/silver2/16924.md)
 |16926|[ 배열 돌리기 1 ](https://www.acmicpc.net/problem/16926) |🥈 실버 1 |  구현 문제  |[코드](boj/silver1/16926.md)
