@@ -373,6 +373,7 @@
 |Lv.3| [경주로 건설 ](https://programmers.co.kr/learn/courses/30/lessons/67259) | BFS 응용  | [코드](programmers/level03/경주로건설.md) |
 |Lv.3| [합승 택시 요금 ](https://programmers.co.kr/learn/courses/30/lessons/72413) | 플로이드 와샬 or 다익스트라| [코드](programmers/level03/합승택시요금.md) |
 |Lv.3| [광고 삽입 ](https://programmers.co.kr/learn/courses/30/lessons/72414) | prefix sum , 문자열 파싱(ostringstream) 센스 | [코드](programmers/level03/광고삽입.md) |
+|Lv.3| [카드 짝 맞추기 ](https://programmers.co.kr/learn/courses/30/lessons/72415) | BFS , 브루트포스 , 순열 ,DP , 최단거리 , BFS , 구현| [코드](programmers/level03/카드짝맞추기.md) |
 |Lv.3| [다단계 칫솔 판매 ](https://programmers.co.kr/learn/courses/30/lessons/77486) | map , 구현| [코드](programmers/level03/다단계.md) |
 |Lv.3| [110 옮기기 ](https://programmers.co.kr/learn/courses/30/lessons/77886) | Stack , 구현| [코드](programmers/level03/110옮기기.md) |
 |Lv.3| [표 편집 ](https://programmers.co.kr/learn/courses/30/lessons/81303) |(낯선 유형의 문제 ) ,연결리스트,이진 트리 | [코드](programmers/level03/표편집.md) |
