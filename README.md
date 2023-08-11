@@ -13,6 +13,7 @@
 |1062|[가르침](https://www.acmicpc.net/problem/1062) |🥇 골드 4 | 브루트 포스 , 비트마스킹 , 복습 필수 👍👍👍 |[코드](boj/gold4/1062.md)
 |1182|[부분수열의 합](https://www.acmicpc.net/problem/1182) |🥈 실버 2 |백트래킹|[코드](boj/silver2/1182.md)
 |1208|[부분수열의 합 2](https://www.acmicpc.net/problem/1208) |🥇 골드 1 |meet in the middle 알고리즘 , 투포인터|[코드](boj/gold1/1208.md)
+|1213|[팰린드롬 만들기](https://www.acmicpc.net/problem/1213) |🥈 실버 3 |구현 ,문자열 |[코드](boj/silver3/1213.md)
 |1240|[노드사이의 거리](https://www.acmicpc.net/problem/1240) |🥇 골드 5 |트리 & DFS|[코드](boj/gold5/1240.md)
 |1244|[스위치 켜고 끄지](https://www.acmicpc.net/problem/1244) |🥈 실버 4 |구현 ,시뮬레이션|[코드](boj/silver4/1244.md)
 |1269|[대칭 차집합](https://www.acmicpc.net/problem/1269) |🥈 실버 3 |이진검색 or set , insert ,erase 👍👍|[코드](boj/silver2/1269.md)
