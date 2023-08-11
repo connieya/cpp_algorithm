@@ -5,6 +5,7 @@
 | 번호 |  문제 이름 | 난이도  | 코멘트|  코드 |
 |:---|:-------------------:|:-----------:|:-----:|:------|
 |1013|[Contact](https://www.acmicpc.net/problem/1013) |🥇 골드 5 | 정규표현식 && DFA(따로 공부하기) |[코드](boj/gold5/1013.md)
+|1063|[킹](https://www.acmicpc.net/problem/1063) |🥈 실버 3 | 구현 , 시뮬레이션 |[코드](boj/silver3/1063.md)
 |1110|[더하기 사이클](https://www.acmicpc.net/problem/1110) |🥉 브론즈 1 | 수학,구현 |[코드](boj/bronze1/1110.md)
 |1027|[고층 건물](https://www.acmicpc.net/problem/1027) |🥇 골드 4 | 기하학 , 직선의 기울기 |[코드](boj/gold4/1027.md)
 |1041|[주사위](https://www.acmicpc.net/problem/1041) |🥇 골드 5 | 그리디 , 구현 |[코드](boj/gold5/1041.md)
