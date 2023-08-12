@@ -266,6 +266,11 @@
 |레벨 | 문제 | 코멘트 |코드|
   |:-----|:----|:----|:-----
 |Lv.0| [안전지대](https://programmers.co.kr/learn/courses/30/lessons/12086) | 반복문 | [코드](programmers/level00/안전지대.md) |
+|Lv.0| [이진수 더하기](https://programmers.co.kr/learn/courses/30/lessons/120885) | 구현 ,문자열  | [코드](programmers/level00/이진수더하기.md) |
+|Lv.0| [정수 찾기](https://programmers.co.kr/learn/courses/30/lessons/181840) | for문  | [코드](programmers/level00/정수찾기.md) |
+|Lv.0| [1로 만들기](https://programmers.co.kr/learn/courses/30/lessons/181880) |  구현 | [코드](programmers/level00/1로만들기.md) |
+|Lv.0| [문자열 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/181905) | reverse , substr 문법  | [코드](programmers/level00/문자열뒤집기.md) |
+|Lv.0| [수열과 구간 쿼리2](https://programmers.co.kr/learn/courses/30/lessons/181923) | for문 , 비교 ,min  | [코드](programmers/level00/수열과구간2.md) |
 |Lv.1| [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | unordered_set | [코드](programmers/level01/폰켓몬.md) |
 |Lv.1| [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | substr 활용하기 | [코드](programmers/level01/가운데글자.md) |
 |Lv.1| [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 구현 , unique 키워드를 아는가 | [코드](programmers/level01/같은숫자.md) |
