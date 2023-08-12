@@ -46,6 +46,7 @@
 |1916|[ 최소 비용 구하기 ](https://www.acmicpc.net/problem/1916) |🥇 골드 5 | 그냥 다익스트라 코드 ⭐ |[코드](boj/gold5/1916.md)
 |1932|[ 정수 삼각형 ](https://www.acmicpc.net/problem/1932) |🥈 실버 1 | DP |[코드](boj/silver1/1932.md)
 |1963|[ 소수 경로 ](https://www.acmicpc.net/problem/1963) |🥇 골드 4 | 너비 우선 탐색 👍👍 |[코드](boj/gold4/1963.md)
+|1972|[ 놀라운 문자열 ](https://www.acmicpc.net/problem/1972) |🥈 실버 3 | set , find |[코드](boj/silver3/1972.md)
 |1986|[ 체스 ](https://www.acmicpc.net/problem/1986) |🥈 실버 2 | 구현 |[코드](boj/silver2/1986.md)
 |2002|[ 추월 ](https://www.acmicpc.net/problem/2002) |🥈 실버 1 | 문자열 해싱👍 |[코드](boj/silver1/2002.md)
 |2003|[ 수들의 합 ](https://www.acmicpc.net/problem/2003) |🥈 실버 4 | 투 포인터 |[코드](boj/silver4/2003.md)
@@ -270,7 +271,9 @@
 |Lv.0| [정수 찾기](https://programmers.co.kr/learn/courses/30/lessons/181840) | for문  | [코드](programmers/level00/정수찾기.md) |
 |Lv.0| [1로 만들기](https://programmers.co.kr/learn/courses/30/lessons/181880) |  구현 | [코드](programmers/level00/1로만들기.md) |
 |Lv.0| [문자열 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/181905) | reverse , substr 문법  | [코드](programmers/level00/문자열뒤집기.md) |
+|Lv.0| [간단한 논리 연산](https://programmers.co.kr/learn/courses/30/lessons/181917) | 논리 연산  | [코드](programmers/level00/간단한논리연산.md) |
 |Lv.0| [수열과 구간 쿼리2](https://programmers.co.kr/learn/courses/30/lessons/181923) | for문 , 비교 ,min  | [코드](programmers/level00/수열과구간2.md) |
+|Lv.0| [가까운 수 ](https://programmers.co.kr/learn/courses/30/lessons/181923) | sort  | [코드](programmers/level00/가장가까운수.md) |
 |Lv.1| [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | unordered_set | [코드](programmers/level01/폰켓몬.md) |
 |Lv.1| [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903) | substr 활용하기 | [코드](programmers/level01/가운데글자.md) |
 |Lv.1| [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | 구현 , unique 키워드를 아는가 | [코드](programmers/level01/같은숫자.md) |
